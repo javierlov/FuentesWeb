@@ -1,0 +1,30 @@
+hr {clear:left;}
+input[type=checkbox] {vertical-align:-4px;}
+
+.boton {background-color:#e7e8ea; border:1px solid #808080; color:#808080; cursor:pointer; font-family:Arial; font-size:8pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.combo {	background-color:#fff; border:1px solid #808080; color:#808080; font-family:Arial; font-size:9pt;}
+.formInputText {border:1px solid #808080; color:#808080; font-family:Arial; font-size:10pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.formLabel {color:#808080; font-family:Arial; font-size:10pt;}
+.formLabelRojo {color:#f00; display:none; font-family:Arial; font-size:11px; font-weight:bold;}
+.usuariosConPermiso {background-color:#fff; border:1px solid #808080; color:#808080; font-family:Arial; font-size:8pt; font-weight:bold; height:141px; margin-bottom:16px; width:200px;}
+
+#btnAgregar {background-color:#fff; border:1px solid #808080; color:#808080; font-family:Arial; font-size:8pt; font-weight:bold; margin-bottom:8px; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+#btnAgregarTodos {background-color:#fff; border:1px solid #808080; color:#808080; font-family:Arial; font-size:8pt; font-weight:bold; margin-bottom:8px; margin-top:24px; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+#btnQuitar {background-color:#fff; border:1px solid #808080; color:#808080; font-family:Arial; font-size:8pt; font-weight:bold; margin-bottom:8px; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+#btnQuitarTodos {background-color:#fff; border:1px solid #808080; color:#808080; font-family:Arial; font-size:8pt; font-weight:bold; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+#divChecks {text-align:left; width:400px;}
+#divControles {margin-top:16px; width:480px;}
+#divControles2 {float:left; padding:12px;}
+#divErrores {display:none;}
+#divUsuariosConPermiso {float:left;}
+#divUsuariosConPermisoTitulo {color:#808080; font-family:Arial; font-size:10pt;}
+#divUsuariosSinPermiso {float:left;}
+#divUsuariosSinPermisoTitulo {color:#808080; font-family:Arial; font-size:10pt;}
+#ejecutiva {margin-left:12px;}
+#guardadoOk {background:#0f539c; color:#fff; display:none; margin-top:8px; padding:2px; width:200px;}
+#informesGestion {margin-left:26px;}
+#labelNivel {margin-left:24px;}
+#nivel {width:32px;}
+#operativa {margin-left:8px;}
+#spanVolver {color:#00f; cursor:hand; margin-left:80px;}
+#usuariosSinPermiso {background-color:#fff; border:1px solid #808080; color:#808080; font-family:Arial; font-size:8pt; font-weight:bold; height:141px; width:200px;}

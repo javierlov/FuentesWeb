@@ -1,0 +1,148 @@
+html, body {
+	margin: 0;
+}
+
+label {
+	margin-left: 16px;
+	margin-right: 4px;
+}
+
+p {
+	margin-top: 8px;
+}
+
+#ano {
+	width: 278px;
+}
+
+#anoBusqueda {
+	width: 32px;
+}
+
+#btnBuscar {
+	left: -4px;
+	position: relative;
+	top: 32px;
+}
+
+#btnCancelar {
+	left: 21px;
+	position: relative;
+	top: 24px;
+}
+
+#btnDarBaja {
+	left: 78px;
+	position: relative;
+	top: 24px;
+}
+
+#btnGuardar {
+	left: 16px;
+	position: relative;
+	top: 24px;
+}
+
+#btnNuevo {
+	left: -16px;
+	position: relative;
+	top: 32px;
+}
+
+#competencias {
+	width: 230px;
+}
+
+#competenciasBusqueda {
+	left: 4px;
+	position: relative;
+	top: 4px;
+}
+
+#divBuscarUsuarios {
+	position: relative;
+}
+
+#divCargandoDatos {
+	background-color: #e7e7e7;
+	border: #000 1px solid;
+	display: block;
+	font-family: Verdana;
+	font-size: 14px;
+	height: 40px;
+	left: 400px;
+	position: absolute;
+	text-align: center;
+	top: 280px;
+	vertical-align: text-bottom;
+	width: 280px;
+}
+
+#divGrilla {
+	position: relative;
+	top: 40px;
+}
+
+#estado {
+	width: 265px;
+}
+
+#estadoBusqueda {
+	left: 8px;
+	position: relative;
+	top: 4px;
+}
+
+#evaluado {
+	width: 240px;
+}
+
+#evaluador {
+	width: 238px;
+}
+
+#labelCompetencias {
+	left: 4px;
+	position: relative;
+	top: 4px;
+}
+
+#labelEstado {
+	left: 8px;
+	position: relative;
+	top: 4px;
+}
+
+#labelFechaHasta {
+	margin-left: 32px;
+}
+
+#labelNotificacion {
+	left: 4px;
+	position: relative;
+	top: 4px;
+}
+
+#notificacion1 {
+	width: 219px;
+}
+
+#notificacion2 {
+	width: 219px;
+}
+
+#notificacionBusqueda {
+	left: 4px;
+	position: relative;
+	top: 4px;
+}
+
+#supervisor {
+	width: 235px;
+}
+
+.imgTmp {
+	height: 100%;
+	vertical-align: middle;
+	width: 0px;
+}

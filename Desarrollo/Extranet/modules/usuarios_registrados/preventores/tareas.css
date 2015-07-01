@@ -1,0 +1,25 @@
+tabs {
+    position: relative;
+	margin: 40px auto;
+	width: 750px;
+}
+
+.tabs input {
+	position: absolute;
+	z-index: 1000;
+	width: 120px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	cursor: pointer;
+}
+.tabs input#tab-2{
+	left: 120px;
+}
+.tabs input#tab-3{
+	left: 240px;
+}
+.tabs input#tab-4{
+	left: 360px;
+}

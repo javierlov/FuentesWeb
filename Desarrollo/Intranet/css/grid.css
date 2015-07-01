@@ -1,0 +1,29 @@
+a.gridTitle {color:#f00; font-size:14px; font-weight:bold; text-align:center;}
+a.gridTitle:active {color:#fff; text-decoration:none;}
+a.gridTitle:link {color:#fff; text-decoration:none;}
+a.gridTitle:visited {color:#fff; text-decoration:none;}
+a.gridTitle:hover {color:#fff; text-decoration:none;}
+
+.gridBaja {background-color:#f00; color:#fff;}
+.gridBtnEditar {background-color:transparent; background-image:url(/images/grilla/grid_editar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.gridBtnEstadisticas {background-color:transparent; background-image:url(/images/grilla/grid_estadisticas.png); border:none; cursor:pointer; height:16px; width:16px;}
+.gridBtnVer {background-color:transparent; background-image:url(/images/grilla/grid_ver.png); border:none; cursor:pointer; height:17px; width:15px;}
+.gridColAlignCenter {padding-right:4px; text-align:center;}
+.gridColAlignRight {padding-right:4px; text-align:right;}
+.gridColSeparator {background-color:#fff; width:1px;}
+.gridEmpty {background-image:url(/images/grilla/grid_not_found.gif); border:none; height:50px; width:237px;}
+.gridFirstColumn {background-color:#fff;}
+.gridFondoOnMouseOver:hover {background:#0f539c; cursor:default;}
+.gridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-width:1px; border-style:solid; color:white; font-size:12px; height:20px;}
+.gridFooterFont {color:#fefefe; font-size:8pt; text-decoration:none;}
+.gridFooterFontSelected {color:#0f539c; cursor:default; font-size:8pt; text-decoration:none;}
+.gridHeader {background-color:#0f539c; color:#fff; font-size:12px; height:16px; text-align:center; vertical-align:top;}
+.gridOrderAsc {background-image:url(/images/grilla/grid_asc.gif); border:none; height:15px; width:26px;}
+.gridOrderDesc {background-image:url(/images/grilla/grid_desc.gif); border:none; height:15px; width:26px;}
+.gridRow1 {background-color:#666; color:black; cursor:default;}
+.gridRow2 {background-color:#666; color:black; cursor:default;}
+.gridTable {width:96%;}
+.gridText {color:#fff; font-size:10pt; padding-left:2px;}
+
+#divGridSinDatos {background:#f00; color:#fff; font-size:12pt; margin-bottom:16px; margin-top:16px; padding:8px; width:88%;}
+#imgGrillaCargando {height:128px; width:128px;}

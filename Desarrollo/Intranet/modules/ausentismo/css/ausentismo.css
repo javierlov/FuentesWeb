@@ -1,0 +1,17 @@
+#ausentismoLineaHorizontal {border-bottom-style:solid; border-bottom-width:1px; margin-bottom:24px; margin-top:8px; width:99.5%;}
+#ausentismoTitulo {background-color:#807f84; color:#fff; font-size:15px; width:99.5%;}
+#divErroresForm {display:none;}
+#divLineamientos {float:right; margin-right:56px; margin-top:-176px;}
+#foco {height:1px; width:1px;}
+#imgUsuario {vertical-align:-4px}
+#justifique {height:80px; width:376px;}
+#labelEmpleadoAusente {margin-left:4px;}
+#labelEnviarMedico {margin-left:34px;}
+#labelJustifique {margin-left:59px; vertical-align:66px;}
+#labelObservaciones {margin-left:31px; vertical-align:70px;}
+#labelObservacionesDetalle {vertical-align:66px;}
+#observaciones {height:80px; width:376px;}
+#spanBotonesEspeciales {float:right;}
+#spanUsuarioActual {color:#00539b; font-size:14px;}
+#trEnviarMedico {margin-top:8px; visibility:hidden;}
+#trJustifique {margin-top:8px; visibility:hidden;}

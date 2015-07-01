@@ -1,0 +1,37 @@
+label {display:inline-block; text-align:right; width:88px;}
+
+#aArteria {color:#fff;}
+#aArticulos {color:#fff;}
+#aBeneficios {color:#fff;}
+#aComentarios {color:#fff;}
+#tableResultados {border-collapse:collapse; cursor:default;}
+#tableResultados td {text-align:right;}
+#tableResultados td, #tableResultados th {border:1px solid #031121; padding: 3px 7px 2px 7px;}
+#tableResultados th {color:#fff; background-color:#0f539c; font-size:10px; padding-bottom:4px; padding-top:5px; text-align:center;}
+#tableResultados th.conLink:hover {background-color:#96500e;}
+#tableResultados th.sinLink:hover {background-color:#b8ccb4;}
+#tableResultados tr:hover {background-color:#b8ccb4;}
+#tableResultados tr.alt td {background-color:#b7d5f4; color:#000;}
+#tableResultados tr:hover td {background-color:#b8ccb4;}
+
+#anoDesdeAnual {width:36px;}
+#anoDesdeMensual {width:36px;}
+#anoHastaAnual {width:36px;}
+#anoHastaMensual {width:36px;}
+#divAnual {display:none;}
+#divBusquedasRapidas {float:left;}
+#divBusquedasRapidasTitulo {margin-bottom:4px;}
+#divDiaria {display:none;}
+#divDias {display:none;}
+#divHoraria {display:none;}
+#divErroresForm {display:none;}
+#divEstadisticas {float:left; width:480px;}
+#divMensual {display:none;}
+#divResultados {margin-bottom:8px; margin-top:24px;}
+#divResultadosArteria {display:none; margin-bottom:8px; margin-top:24px;}
+#divResultadosArticulos {display:none; margin-bottom:8px; margin-top:24px;}
+#divResultadosBeneficios {display:none; margin-bottom:8px; margin-top:24px;}
+#divResultadosComentarios {display:none; margin-bottom:8px; margin-top:24px;}
+#foco {height:1px; width:1px;}
+#labelDiasItem {text-align:left; width:152px;}
+#labelValorItem {text-align:left; width:152px;}

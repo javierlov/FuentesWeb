@@ -1,0 +1,16 @@
+label {display:inline-block; text-align:right; width:80px;}
+
+.divMantenimientoFormActivo {background-color:#ccc; display:none; float:left; margin-left:16px; padding-left:4px; padding-right:4px;}
+.divMantenimientoItem {cursor:move; float:left; font-weight:normal; margin-left:12px;}
+.divMantenimientoPadre {font-weight:bold;}
+.divMantenimientoPadreTexto{cursor:move; float:left;}
+.divMantenimientoRadio {margin-left:12px; vertical-align:-2px;}
+
+#btnAgregar {margin-right:16px;}
+#color {cursor:pointer;}
+#divErroresForm {display:none;}
+#divMantenimientoItems {left:50%; margin:auto; text-align:left; width:50%;}
+#divMantenimientoPadre {text-align:center; width:100%;}
+#foco {height:1px; width:1px;}
+#orden {width:32px;}
+#nombre {width:80%;}

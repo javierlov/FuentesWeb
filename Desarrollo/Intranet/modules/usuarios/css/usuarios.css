@@ -1,0 +1,20 @@
+#cumpleaños {display:none; width:20%;}
+#divInterno {color:#004a92; font-family:Arial Narrow; font-size:17px; font-weight:bold;}
+#divCampos {color:#575756; font-family:Arial; font-size:13px; margin-left:4px; margin-top:12px; width:97.4%;}
+#divDatos {background-color:#f6f6f6; padding-left:25px; width:94.7%;}
+#divDatosFila2 {margin-top:8px;}
+#divDatosUsuario{color:#575756; float:left; font-family:Arial; font-size:13px; margin-left:20px;}
+#divFotoUsuario{float:left; padding-bottom:8px;}
+#divIconosUsuarios {margin-left:8px;}
+#fila1 {background-color:#dadada;}
+#fila2 {background-color:#f6f6f6;}
+#interno {display:none; width:60%;}
+#labelNombre {margin-left:26px;}
+#labelSector {margin-left:25px;}
+#nombre {width:75.7%;}
+#sector {width:75.7%;}
+#spanCumpleañosOtro {cursor:default;}
+#spanCumpleañosPropio {cursor:pointer;}
+#spanInternoOtro {cursor:default;}
+#spanInternoPropio {cursor:pointer;}
+#spanNombre {color:#004a92; font-family:Arial Narrow; font-size:30px; font-weight:bold; text-transform:uppercase;}

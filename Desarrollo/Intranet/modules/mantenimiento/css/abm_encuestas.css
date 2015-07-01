@@ -1,0 +1,50 @@
+label {display:inline-block; text-align:right; width:288px;}
+
+.imagenOpcion {border:0px solid #808080; font-size:10pt;}
+.opcion {border:1px solid #808080; font-size:10pt; width:48%;}
+.pregunta {border:1px solid #808080; font-size:10pt; width:76%;}
+.preguntaSiguiente {border:1px solid #808080; font-size:10pt; margin-left:8px; width:24px;}
+.selectUsuarios {height:164px;}
+
+#detalle {width:60%;}
+#detalleBusqueda {width:60%;}
+#divErroresForm {display:none;}
+#divUsuariosCombo {margin-left:8px; margin-top:8px;}
+#foco {height:1px; width:1px;}
+#imgAgregarPregunta {cursor:pointer; height:20px; margin-left:8px; vertical-align:text-bottom;}
+#imgCabecera {border:3px solid #fff; height:40px; width:auto}
+#imgCabecera:hover {border:3px solid #0f539c;}
+#labelImagenCabecera {vertical-align:18px;}
+#labelTipoAlmacenamiento {text-align:left; width:96px;}
+#labelTiposUsuario {vertical-align:top;}
+#labelVigenciaHasta {width:120px;}
+#labelVigenciaHastaBusqueda {width:120px;}
+#linea {background-color:#333; border:0; color:#9cb5cb; height:2px; width:96%;}
+#preguntas {margin-top: 32px;}
+#preguntasTitulo {font-size:14pt; margin-left:8px;}
+#separadores {margin-top:4px;}
+#tipoAlmacenamiento {margin-left:3px;}
+#tiposUsuario {vertical-align:top;}
+#titulo {width:60%;}
+#tituloBusqueda {width:60%;}
+#divUsuarios {margin-top:32px; width:96%;}
+#usuariosTitulo {font-size:14pt; margin-left:8px;}
+
+/* INICIO ESTADÍSTICAS */
+.tableObservaciones {background-color:#efe; border-collapse:collapse; border-color:#00539b; border-spacing:2px; border-style:solid; border-width:1px; cursor:default; display:none; margin-bottom:16px; margin-left:4px; margin-top:8px; width:96%;}
+.tableObservaciones tr:hover {background-color:#b8ccb4;}
+#celdaObservaciones {border-top:solid 1px #00539b; color:#0a0a0a; font-size:10pt; padding-right:16px; vertical-align:top;}
+#detalleGrande {font-size:12pt;}
+#grafico {display:none;}
+#imgVerGrafico {cursor:pointer; margin-left:16px;}
+#pregunta {cursor:pointer;}
+#pregunta:hover {color:#0f539c;}
+#tipoGrafico {display:none; margin-bottom:16px;}
+#tipoGraficoBarra {cursor:pointer;}
+#tipoGraficoTorta {cursor:pointer; margin-left:16px; margin-right:16px;}
+#tituloGrande {font-size:18pt; vertical-align:8px;}
+#tituloObservaciones {color:#0a0a0a; border-bottom:solid 1px #00539b;}
+#tituloOpcion {background-color:#fee; border-bottom:solid 1px #00539b; color:#0a0a0a; font-size:10pt;}
+#votantes {color:#c13; margin-left:16px;}
+#votos {color:#f0f; margin-left:16px;}
+/* FIN ESTADÍSTICAS */

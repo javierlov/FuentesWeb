@@ -1,0 +1,505 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>..:: Provincia A.R.T. - Boletín Seguridad Informática ::..</title>
+<style type="text/css">
+<!--
+#imgizq {	margin: 0 5px 5px 0px;
+	border: 0px solid #CCCCCC;
+	padding: 6px;
+	float: left;
+}
+#fuente {	font-size: 10px;
+	margin: 0px 0px 10px 0px;
+}
+#imgder {
+	border: 0 solid #CCCCCC;
+	padding: 6px;
+	float: right;
+	clear: none;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#nota {
+	text-align: center;
+	background-color: #DDDDDD;
+	border-left-width: 5px;
+	border-top-width: 0px;
+	padding: 6px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-left: 0px;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#DDDDDD" link="#0087C4" vlink="#0087C4" alink="#626464">
+<table width="635" height="87" border="0" align="center">
+  <tr></tr>
+  <tr>
+    <th scope="col"><img src="/seguridad_informatica/images/Banner_top.jpg" width="619" height="84" /></th>
+  </tr>
+</table>
+<table width="606" align="center" bordercolor="#DDDDDD">
+  <tr>
+    <td height="63" valign="top"><p><span style="width: 714px; height: 27px"> <a target="_blank" href="http://www.provinciart.com.ar/"> <img src="/seguridad_informatica/images/P-Art.jpg" width="142" height="44" border="0" align="right" usemap="#Map" /></a></span></p>      
+      <p><span style="width: 714px; height: 27px; word-spacing: normal;"><font face="Verdana" size="2" color="#444444"><strong><font color="#626464" face="neo sans">
+	  Boletín de Seguridad Informática</font></strong><font color="#626464" face="neo sans">&nbsp;</font></font><font face="Verdana" size="1" color="#626464"> <br />
+    <font face="neo sans">04 de febrero de 2015</font></font></span></p></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Estudio de seguridad en servicios de almacenamiento: Dropbox y Mega</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/estudio.png" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Aunque parezca reciente, el concepto de una nube de servicios 
+		electrónicos globales empezó a utilizarse en 1963, en un memorándum para 
+		ARPA de Joseph C.R. Licklider, en el que contemplaba las ventajas de una 
+		infraestructura de red que permitiese compartir servicios.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Evidentemente, desde 
+		entonces, las capacidades de transmisión, procesamiento y almacenamiento 
+		de información han crecido muy notablemente, derivando en lo que hoy 
+		conocemos como la nube.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Estos servicios «en la 
+		nube» son cada vez más populares, recibiendo un número creciente de 
+		usuarios. Entre los usos más comunes, se encuentran las aplicaciones de 
+		almacenamiento. Como se muestra en la siguiente gráfica, según datos 
+		recientes de Eurostat, en media, el 21% de los ciudadanos de la Unión 
+		Europea (EU-28) utilizó algún sistema de almacenamiento en la nube 
+		durante 2014 para guardar ficheros, y un 15% los utilizó para compartir. 
+		En algunos países (Dinamarca, Reino Unido, Luxemburgo, Suecia y 
+		Holanda), superándose el 30% y el 20%, respectivamente (en algunos 
+		casos, con creces).</font></p>
+        <p><font color="#626464" size="2" face="neo sans">No obstante, el hecho 
+		de subir cada vez más información a Internet hace también más necesario 
+		aumentar las medidas de seguridad y proteger la privacidad de sus 
+		usuarios.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Por ello, en el 
+		presente estudio se tratan diferentes aspectos comunes en estos 
+		servicios de almacenamiento, con el fin de establecer un marco de 
+		trabajo para su análisis. En concreto: Se introducen los principales 
+		factores que pueden influir en la seguridad y privacidad del sistema: 
+		cifrado, autenticación, deduplicación, compartición de información, 
+		borrado de datos, etc. A partir de estos factores se establece un marco 
+		común de análisis para poder evaluar aplicaciones de almacenamiento en 
+		la nube, teniendo en cuenta las principales acciones que se pueden 
+		llevar a cabo dentro de las mismas.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">A modo de ejemplo, se 
+		analiza la seguridad de las versiones web de Dropbox y Mega, dos de los 
+		principales actores en el mercado actual. El estudio &quot;Seguridad en 
+		aplicaciones de almacenamiento en la nube: Análisis de Dropbox y Mega&quot; 
+		está disponible en <a href="https://www.incibe.es/extfrontinteco/img/File/intecocert/EstudiosInformes/incibe_seguridad_almacenamiento_dropbox_mega.pdf">
+		español</a> e inglés.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="https://www.incibe.es/blogs/post/Seguridad/BlogSeguridad/Articulo_y_comentarios/estudio_seguridad_almacenamiento_nube">
+		  Incibe</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Arrestan a cantante por filtrar canciones de Madonna</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/madonna.jpg" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Un aspirante a cantante que audicionó para una competencia muy popular 
+		de canto en televisión fue puesto bajo arresto domiciliario por 
+		sospechas de haber intervenido la computadora de la estrella pop 
+		internacional Madonna, robando y vendiendo canciones inéditas, dijo su 
+		abogado.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">La policía cibernética 
+		israelí arrestó a Adi Lederman de 38 años después de una investigación 
+		coordinada por el FBI. La policía también acusó a Lederman de robar 
+		canciones de otros artistas internacionales que se negó a nombrar.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">En diciembre se 
+		filtraron canciones del próximo álbum de Madonna, Rebel Heart, que será 
+		lanzado en marzo. Al momento, ella pidió a sus fans no escuchar las 
+		canciones robadas que han salido a la luz, escribió en Instagram: &quot;He 
+		sido ultrajada como humano y como artista.&quot; Más tarde lanzó 6 canciones, 
+		llamándolo un &quot;regalo de navidad adelantado&quot; para sus seguidores.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Madonna reaccionó al 
+		primer arresto de Lederman, escribiendo en su página de Facebook &quot;estoy 
+		profundamente agradecida con el FBI, los investigadores de la policía 
+		israelí y cualquier otra persona que ayudó a llevar a la detención de 
+		este hacker&quot;. Ella llamó al ataque &quot;profundamente devastador&quot;. Madonna 
+		ha afirmado durante mucho tiempo que tiene un vínculo especial con 
+		Israel. La diva ha hecho peregrinaciones personales al país, ella 
+		practica el Cábala, una forma de misticismo judío y en 2012 lanzó su 
+		gira MDNA en Israel.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">La investigación 
+		empezó después de que el representante de Madonna realizó una denuncia, 
+		según un oficial de policía, hablando en condición de anonimato, según 
+		el protocolo. Lederman, residente de Tel Aviv, audicionó para el reality 
+		&quot;Nace una estrella&quot; en 2012. Cuando uno de los jueces le preguntó qué 
+		hacía para vivir, él respondió: &quot;Principalmente desperdiciando mi vida, 
+		parece ser, porque me han dicho que debo estar en el escenario&quot;. Cantó 
+		Don&#8217;t You Worry about a Thing de Stevie Wonder.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Efrat Nahmany-Bar, la 
+		abogada de Lederman, dijo que él niega las acusaciones. Dijo que 
+		Lederman no ha sido acusado y cree que no hay suficientes pruebas para 
+		una acusación. La abogada dijo que Lederman no tiene acceso a las 
+		computadoras descritas bajo los términos de su arresto domiciliario.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://news.yahoo.com/israeli-man-under-house-arrest-leaked-madonna-songs-160929503.html">
+		  Yahoo News</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+ 
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Malware trae miles de dólares a estafadores de Youtube</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/123123youtube.jpg" width="131" height="99" align="absmiddle" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Una campaña de entrega de malware logró que las computadoras de las 
+		víctimas pudieran ver videos disimuladamente en YouTube y, en 
+		consecuencia, incrementar artificialmente su popularidad.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Los estafadores podían 
+		ganar dinero con los anuncios integrados en ellos ya que han estado 
+		atacando a usuarios alrededor del mundo por meses hasta ahora.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">El malware que hace 
+		eso posible se denomina Tubrosa, consiste en dos componentes: Uno 
+		distribuido por phising mediante correos electrónicos de spam, el otro 
+		se descarga y ejecuta por el primer componente.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Obtiene una lista de 
+		alrededor de miles de enlaces de YouTube a partir del servidor C&amp;C 
+		(Command and Control), inicia como un proceso oculto de la computadora 
+		infectada. Con la prioridad de mantener la actividad lo más oculta 
+		posible del usuario, el malware baja el volumen de las bocinas, si el 
+		usuario no utiliza Adobe Flash, el malware lo descargará para que los 
+		videos puedan ser vistos.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Investigadores de 
+		Symantec descubrieron que el programa de colaboración con YouTube, 
+		YouTube partner program, utiliza un proceso de validación verificando 
+		que la cuenta del usuario se encuentre en buen estado. Con el fin de 
+		desviar estas configuraciones de seguridad de Google, el malware 
+		dinámicamente cambia la referencia (REFS.txt) y el useragent (UA.txt) 
+		utilizando dos scripts de PHP. Así, el malware simula una nueva conexión 
+		a los servidores de Google, aparentando que un usuario diferente está 
+		conectandose a los mismos videos&quot;.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Los estafadores 
+		empezaron distribuyendo el malware en Agosto del 2014, y la campaña 
+		continúa hasta hoy. Usuarios de Corea del Sur, India y México son los 
+		más afectados. Mientras Google menciona que hay sistemas que protegen a 
+		los anunciantes, los usuarios de Internet no han sido tan afortunados. 
+		Ellos tienen que apoyarse en una solución de seguridad para detectar el 
+		malware y si no lo hace, el rendimiento de las computadoras se verá 
+		afectado.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Otras víctimas de esta 
+		estafa son los autores de juegos de video, ya que los estafadores han 
+		copiado y han utilizado los beneficios de los anuncios incrustados en 
+		los juegos. Los investigadores de Symantec estimaron que los estafadores 
+		han ganado hasta ahora varios miles de dólares a través de esta campaña 
+		en particular. Es imposible saberlo, pero lo más probable es que estén 
+		ejecutando otras campañas similares en este momento.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://www.net-security.org/malware_news.php?id=2945">
+		  Help Net Security</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="27"><hr /></td>
+  </tr>
+  <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Netflix declara a la aplicación ilegal Popcorn Time un serio competidor</font></font></h4></td>
+  </tr>
+  <tr>
+    <td height="223" align="left" valign="top"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/popcorn.jpg" width="131" height="99" align="absmiddle" /></div>
+      </div>
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  El servicio de transmisión en línea de cine y TV Netflix dice que la 
+	  piratería es uno de sus &quot;mayores competidores&quot;, destacando la aplicación 
+	  Popcorn Time como un serio rival en una carta dirigida a los accionistas.</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">Uno de los principales 
+	  atractivos de Netflix es que, para la mayoría de usuarios, ver una 
+	  película en su servicio es mucho más fácil que el streaming ilegal. Pero 
+	  Popcorn Time permite a los usuarios navegar en un catálogo de películas y 
+	  programas de televisión, seleccionar alguno para más información y luego 
+	  comenzar la transmición después de un corto periodo de buffering 
+	  (almacenamiento en caché), convierte a la piratería en algo tan fácil como 
+	  usar Netflix.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Hablando en particular, 
+	  en una gráfica del servicio Google Trends con información recolectada en 
+	  los Países Bajos, donde se compara la popularidad de búsquedas de Netflix, 
+	  HBO y Popcorn Time. La gráfica indica que la popularidad de Popcorn Time 
+	  aumentó significativamente en los últimos seis meses, con búsquedas de la 
+	  aplicación ahora a la par de Netflix y muy por encima de HBO. Netflix 
+	  describió los datos como preocupantes.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">La aplicación Popcorn 
+	  Time fue desarrollada originalmente por un grupo de Buenos Aires, 
+	  Argentina, quien afirmó que la piratería de películas es un &quot;problema de 
+	  servicio&quot;, creado por la actitud excesivamente restrictiva, fuera de lugar 
+	  de la industria del cine.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Los desarrolladores 
+	  también argumentaron que los proveedores de streaming como Netflix eran 
+	  incapaces de brindar un servicio consistente a través de diferentes 
+	  países. El número de personas que utilizan soluciones con el fin de 
+	  acceder a la versión estadounidense de Netflix (algo que la compañía ahora 
+	  está tratando bloquear) es sin duda prueba de ello.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">En marzo de 2014, la 
+	  aplicación fue retirada por sus desarrolladores originales, quienes ya no 
+	  están involucrados en el proyecto después de la presión de la Asociación 
+	  Cinematográfica de América (MPPA, asociación comercial de Estados Unidos 
+	  que representa a seis grandes estudios Hollywoodenses, Warner Bros, 
+	  Disney, Universal, Columbia, Paramount y 20th Century Fox). Pero después 
+	  darse a conocer la noticia, nuevos inversionistas y grupos se hicieron 
+	  cargo y desarrollaron el producto de forma independiente, sin dejar de 
+	  utilizar el nombre de Popcorn Time.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#DDDDDD">
+    <td height="18"><div align="right">
+        <blockquote>
+          <p align="right"><font color="#626464" size="2" face="neo sans">
+		  Fuente: <a href="http://www.telegraph.co.uk/culture/film/film-news/11362503/Netflix-declares-piracy-app-Popcorn-Time-a-serious-competitor.html">
+		  Telegraph</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td width="600" height="25" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="el70" id="el70"></a><font color="#626464" size="4" face="neo sans">
+	Google publica Chrome 40 y corrige 62 vulnerabilidades</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgizq">
+      <div align="justify"><img src="/seguridad_informatica/images/chrome40.jpg" width="110" height="100" align="absmiddle" /></div>
+    </div>    
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  Google anuncia una nueva versión de su navegador Google Chrome 40. Se 
+	  publica la versión 40.0.2214.91 para las plataformas Windows, Mac y Linux, 
+	  que junto con nuevas funcionalidades y mejoras, además viene a corregir 62 
+	  nuevas vulnerabilidades.</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">Según el aviso de Google 
+	  se ha actualizado la información de diálogo para Chrome app en Windows y 
+	  Linux un nuevo reloj delante/detrás de los mensajes de error.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">La actualización incluye 
+	  la corrección de 62 nuevas vulnerabilidades. Como es habitual, Google solo 
+	  proporciona información sobre los problemas solucionados reportados por 
+	  investigadores externos o las consideradas de particular interés. En esta 
+	  ocasión, aunque se han solucionado 62 vulnerabilidades, solo se facilita 
+	  información de 26 de ellas (17 de gravedad alta y las 9 restantes de 
+	  importancia media).</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Las vulnerabilidades 
+	  descritas están relacionadas con corrupción de memoria en ICU, V8 y en 
+	  Fuentes. También se solucionan vulnerabilidades por uso después de liberar 
+	  memoria en IndexDB, WebAudio, DOM, FFmpeg, Speech y Views. Una 
+	  vulnerabilidad de salto de la política de mismo origen en V8. Por último 
+	  otras vulnerabilidades están relacionadas con valores sin inicializar (en 
+	  ICU y Fuentes) y lecturas fueras de límites (en la interfaz de usuario, 
+	  Skia, PDFium y Fuentes). Los CVE asignados van del CVE-2014-7923 al 
+	  CVE-2014-7948.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">También del trabajo de 
+	  seguridad interno, varias correcciones procedentes de auditoría interna, 
+	  pruebas automáticas y otras iniciativas (CVE-2015-1205). Así como 
+	  múltiples vulnerabilidades en V8 en la rama de 3.30 (actualmente 
+	  3.30.33.15).</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Según la política de la 
+	  compañía las vulnerabilidades anunciadas han supuesto un total de 88.500 
+	  dólares en recompensas a los descubridores de los problemas. Esta 
+	  actualización está disponible a través de Chrome Update automáticamente en 
+	  los equipos así configurados.</font></p>
+   </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+      <blockquote>
+        <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://unaaldia.hispasec.com/2015/01/google-publica-chrome-40-y-corrige-62.html">
+		Hispasec</a></font></p>
+      </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td height="983"><table width="600" height="949" border="0" align="left" bordercolor="#AAAAAA">
+      <tr bgcolor="#FFFFFF">
+        <th width="195" height="61" valign="middle" bgcolor="#626464" scope="col"><h5><font color="#EEEEEE" size="3" face="neo sans">
+		Piden a Google deshabilitar aplicación que permite ubicar policías</font></h5></th>
+        <th width="193" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		Amazon quedó bajo sospecha por distribución de pornografía infantil</font></h5></th>
+        <th width="198" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		&quot;Vocero&quot; de Anonymous sentenciado</font></h5></th>
+        </tr>
+      <tr bgcolor="#EEEEEE">
+        <td height="857" valign="top"><table width="174" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Varios policías de Estados Unidos hacen una campaña para presionar a 
+			Google a fin de que desactive una función en su aplicación de 
+			monitoreo de tráfico Waze que advierte a los conductores cuando hay 
+			policías cerca. Los quejosos alegan que Waze, una de las 
+			aplicaciones de tráfico más populares, podría poner en peligro a los 
+			agentes ante aquellos potenciales asesinos que busquen atacar a 
+			oficiales. Waze, que Google compró por 966 millones de dólares en 
+			2013, combina la navegación GPS con las redes sociales.</font></p>
+	    <p align="left"><font color="#626464" size="2" face="neo sans">Unos 50 
+		millones de usuarios en 200 países recurren al servicio gratuito de 
+		orientación del tráfico en tiempo real y que advierte sobre problemas de 
+		congestión, accidentes, radares o cámaras de tráfico, zonas de 
+		construcción, baches, vehículos atascados o condiciones climáticas 
+		peligrosas. Para Sergio Kopelev, un policía de reserva en el sur de 
+		California, Waze también es una aplicación que potencialmente permite 
+		acechar a quienes hacen cumplir la ley. No hay conexiones conocidas 
+		entre ataques contra la policía y Waze, pero agentes como Kopelev creen 
+		que sólo es cuestión de tiempo. Los agentes descontentos buscan el apoyo 
+		de otros grupos policiales para presionar a Google a fin de que 
+		desactive la función de rastreo de policías.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>          
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			La policía nipona allanó las oficinas de Amazon en Tokio ante las 
+			sospecha de que el portal de ventas distribuye productos 
+			considerados como pornografía infantil, revelaron fuentes de la 
+			investigación. El registro se produjo por una presunta violación de 
+			la ley nipona que prohíbe la exhibición pública de pornografía 
+			infantil, según la fuente citada por la agencia local Kyodo, 
+			mencionada a su vez por la agencia Efe. Amazon Japón es sospechosa 
+			de ayudar a la distribución de material que contiene pornografía 
+			infantil, como libros con fotos de menores de edad, al haber 
+			&quot;permitido que se promocione en su web de manera consciente&quot;.</font></p>
+	<p align="left"><font color="#626464" size="2" face="neo sans">La normativa 
+	en el país asiático del gigante minorista en Internet prohíben la venta de 
+	objetos robados y de productos ilegales o de entretenimiento para adultos, 
+	incluyendo pornografía infantil. La compañía no quiso hacer comentarios 
+	sobre el asunto pero un portavoz le dijo a Kyodo que Amazon colaborará con 
+	la investigación de acuerdo con la ley si los requieren las autoridades. La 
+	policía de la prefectura de Aichi arrestó a 2 hombres en septiembre tras 
+	localizar en el portal de Amazon Japón libros a la venta que contenía 
+	fotografías de menores de edad desnudas. Otro centro de distribución de la 
+	compañía en Odawara, prefectura de Kanagawa, fue registrado en noviembre por 
+	el mismo motivo.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Barrett Lancaster Brown (33), periodista que sirvió como vocero 
+			oficioso para del grupo Anonymous, fue condenado a más de 5 años en 
+			prisión después de declararse culpable de cargos federales. Brown 
+			fue condenado por el juez federal del Distrito Norte de Texas a 63 
+			meses en una prisión federal y a pagar una restitución de U$S 
+			890.250. En abril de 2014, Brown se declaró culpable de 3 delitos 
+			separados que esencialmente resuelven las tres acusaciones penales 
+			pendientes en su contra.</font></p>
+              <p align="left"><font color="#626464" size="2" face="neo sans">De 
+			  conformidad con los acuerdos de culpabilidad, Brown se declaró 
+			  culpable del delito grave de amenazar a un agente especial del FBI 
+			  en un comercio interestatal. También se declaró culpable del 
+			  delito grave de ser cómplice de acceso no autorizado a una 
+			  computadora protegida y del delito menor de interferir con la 
+			  ejecución de una orden de registro y de complicidad con otra 
+			  persona en la interferencia con la ejecución de una orden de 
+			  registro. El FBI persiguió implacablemente a Brown por su relación 
+			  con Jeremy Hammond, quien el año pasado se declaró culpable de 
+			  atacar Stratfor, cuyos correos electrónicos fueron objeto de un 
+			  vínculo notorio. Es importante tener en cuenta que el FBI nunca 
+			  acusó a Brown de hacking pero sí de obstrucción de la justicia, 
+			  amenazas a un agente del FBI y de &quot;tráfico de información robada&quot;.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+
+        <p>&nbsp;</p>
+        </td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+  <tr>
+    <td height="18" bgcolor="#DDDDDD"><div align="center">
+      <p><font color="#005500" size="2" face="neo sans"> <a href="mailto:SegInfo@provart.com.ar">
+	  Comentarios</a> | <a href="mailto:SegInfo@provart.com.ar">Consultas </a>| <a href="Http://www.artprov.com.ar">
+	  Intranet</a> | <a href="Http://www.provinciart.com.ar">Web</a></font></p>
+    </div></td>
+  </tr>
+</table>
+<table width="606" height="78" border="0" align="center">
+  <tr>
+    <td height="12"><hr /></td>
+  </tr>
+  <tr>
+    <td height="47"><img src="/seguridad_informatica/images/Logo_Bottom.jpg" width="170" height="39" border="0" align="left" /><img src="/seguridad_informatica/images/P-Grupo.jpg" width="138" height="45" border="0" align="right" usemap="#Map2" /></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="-2,1,142,43" href="http://www.artprov.com.ar/" target="_blank" />
+</map>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="0,0,140,45" href="http://intranetgb/joomla/index.php" target="_blank" />
+</map></body>
+</html>

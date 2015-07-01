@@ -1,0 +1,125 @@
+.btnCancelar {margin-left:8px;}
+.ciiuDescripcion {font-size:8pt;}
+.fondoNaranja {background-color:#ffb871;}
+.fondoVerde {background-color:#7bd066;}
+.pcpCampoBlanco {text-align:right;}
+.pcpCampoGris {background-color:#ccc; text-align:right;}
+.tdBorde {border:1px solid #000; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.tdTitulo {background-color:#000; color:#fff; font-size:8pt; font-weight:700; height:16px; margin-left:-12px; padding:3px; padding-left:12px; padding-right:4px;}
+.tdTituloActividad {background-color:#0f539c; color:#fff; font-size:8pt; padding:2px;}
+
+#actividadReal {width:90%;}
+#alicuotaCompetenciaSumaFija {width:104px;}
+#alicuotaCompetenciaVariable {width:104px;}
+#alicuotaFinalF931 {background-color:#7bd066; border-bottom:1px solid #000; border-left:1px solid #7bd066; border-right:1px solid #7bd066; border-top:1px solid #7bd066; font-weight:700; width:80px;}
+#alicuotasCuotaInicial {width:144px;}
+#alicuotasFfep {text-align:center; width:40px;}
+#alicuotasFijo {width:40px;}
+#alicuotasMasaSalarial {width:112px;}
+#alicuotaVariableRC {width:80px;}
+#aumentoValor {width:80px;}
+#avisoPCP {color:red; display:none; font-style:italic; font-size:14px; padding-left:30px;}
+#btnCalcularAumento {margin-left:16px; vertical-align:middle;}
+#btnCalcularDescuento {margin-left:16px; vertical-align:middle;}
+#calculoSumaFija {width:104px;}
+#calculoVariable {width:104px;}
+#cantidadEstablecimientos {width:40px;}
+#ciiu1 {width:104px;}
+#ciiu2 {width:104px;}
+#ciiu3 {width:104px;}
+#ciiu1Buscar {cursor:pointer;}
+#ciiu2Buscar {cursor:pointer;}
+#ciiu3Buscar {cursor:pointer;}
+#codigoVendedor {width:104px;}
+#contacto {width:440px;}
+#costoAnualAumento {width:80px;}
+#costoAnualDescuento {width:80px;}
+#costoAnualF931 {background-color:#ffb871; border-bottom:1px solid #000; border-left:1px solid #ffb871; border-right:1px solid #ffb871; border-top:1px solid #ffb871; width:80px;}
+#costoAnualTarifario {width:80px;}
+#costoFinalAumento {width:80px;}
+#costoFinalDescuento {width:80px;}
+#costoFinalF931 {background-color:#ffb871; border-bottom:1px solid #000; border-left:1px solid #ffb871; border-right:1px solid #ffb871; border-top:1px solid #ffb871; width:80px;}
+#costoFinalTarifario {width:80px;}
+#costoMensualAumento {width:80px;}
+#costoMensualDescuento {width:80px;}
+#costoMensualF931 {background-color:#ffb871; border-bottom:1px solid #000; border-left:1px solid #ffb871; border-right:1px solid #ffb871; border-top:1px solid #ffb871; width:80px;}
+#costoMensualTarifario {width:80px;}
+#cuit {width:80px;}
+#cuotaInicialResultanteRC {width:80px;}
+#descuentoValor {width:80px;}
+#divGridEspera {background-color:#0f539c; cursor:wait; display:none; filter:alpha(opacity = 20); height:2400px; left:0; opacity:.1; position:absolute; top:0; width:740px;}
+#divGridEsperaTexto {background-color:#fff; border:1px solid #808080; color:#000; cursor:wait; display:none; font-family:Trebuchet MS; left:228px; padding:5px; position:absolute; top:144px;}
+#divPCP {display:none; margin-bottom:24px;}
+#divPCPLeyenda {font-size:8.8pt; margin-top:4px;}
+#divPCPTabla {font-size:8pt; margin-top:8px;}
+#divRecalcularRC {height:0px; left:264px; position:relative; top:-68px; width:400px;}
+#divResponsabilidadCivil {margin-left:4px; margin-top:8px; width:728px;}
+#divResponsabilidadCivilDatos {margin-bottom:6px; margin-top:8px;}
+#divResponsabilidadCivilTitulo {background-color:#00539b; height:36px; padding-left:12px;}
+#divValoresRC {left:264px; position:relative; width:432px;}
+#divValoresRCAlicuotaVariable {background-color:#fff; border-bottom:1px solid #676767; border-left:1px solid #676767; border-top:1px solid #676767; float:left; padding-bottom:4px; padding-top:4px; width:142px;}
+#divValoresRCCuotaInicial {background-color:#fff; border-bottom:1px solid #676767; border-right:1px solid #676767; border-top:1px solid #676767; float:left; padding-bottom:4px; padding-top:4px; width:143px;}
+#divValoresRCMasaSalarial {background-color:#fff; border-bottom:1px solid #676767; border-left:1px solid #676767; border-right:1px solid #676767; border-top:1px solid #676767; float:left; padding-bottom:4px; padding-top:4px; width:143px;}
+#divValoresRCTituloAlicuotaVariable {background-color:#fff; border-left:1px solid #676767; float:left; padding-bottom:2px; padding-top:2px; width:142px;}
+#divValoresRCTituloCuotaInicial {background-color:#fff; border-right:1px solid #676767; float:left; padding-bottom:2px; padding-top:2px; width:143px;}
+#divValoresRCTituloMasaSalarial {background-color:#fff; border-left:1px solid #676767; border-right:1px solid #676767; float:left; padding-bottom:2px; padding-top:2px; width:143px;}
+#divValoresRCTitulo {background-color:#00539b; color:#fff; font-weight:700; padding-bottom:8px; padding-top:8px;}
+#divValoresRCTituloTabla {color:#676767;}
+#divValoresRCValoresTabla {position:relative;}
+#edadPromedio {width:40px;}
+#email {width:440px;}
+#formulario931CostoFijo {width:100px;}
+#formulario931CostoVariable {width:104px;}
+#holding {background-color:#ccc; width:440px;}
+#holdingBuscar {cursor:pointer; vertical-align:-10px;}
+#iframeEstablecimientos {height:240px; width:706px;}
+#imgCuitLoading {margin-left:8px; vertical-align:sub; visibility:hidden;}
+#imgGuardando {display:none; vertical-align:-4px;}
+#imgImprimiendo {display:none; vertical-align:-4px;}
+#imgResponsabilidadCivilTitulo {float:right; height:34; width:85px;}
+#labelRecalcularRC {margin-bottom:16px;}
+#labelSumaAseguradaRC {vertical-align:3px;}
+#labelSuscribePolizaRC {margin-left:16px;}
+#masaSalarialRC {width:80px;}
+#masaSalarial {width:104px;}
+#masaSalarial1 {width:104px;}
+#masaSalarial2 {width:104px;}
+#masaSalarial3 {width:104px;}
+#masaSalarialSinSac {width:104px;}
+#observaciones {height:88px; width:696px;}
+#periodo {margin-left:-6px; width:80px;}
+#polizaRC {margin-right:24px; width:80px;}
+#porcVarAumento {width:80px;}
+#porcVarDescuento {width:80px;}
+#porcVarF931 {background-color:#ffb871; border-bottom:1px solid #000; border-left:1px solid #ffb871; border-right:1px solid #ffb871; border-top:1px solid #ffb871; width:80px;}
+#porcVarTarifario {width:80px;}
+#prestacionesEspeciales {margin-left:-3px;}
+#razonSocial {width:440px;}
+#resultadoMensualPorTrabajador {width:104px;}
+#soloPagoTotalMensual {width:104px;}
+#spanActualizarOk {background-color:#82ddff; display:none; margin-top:4px; padding:2px; width:200px;}
+#spanResponsabilidadCivilTitulo {color:#fff; font-size:8pt; font-weight:700; vertical-align:-16px;}
+#spanTopesAlicuotaFinal {font-weight:bold;}
+#sumaAseguradaRC {margin-left:16px;}
+#sumaFijaF931 {font-weight:700; width:80px;}
+#suscribePolizaRC {margin:0px; vertical-align:middle;}
+#tableAumento2 {font-size:8pt; margin-top:8px;}
+#tableCampanaF931 {display:none;}
+#tableDescuento2 {font-size:8pt; margin-top:8px;}
+#tablePCPTabla {border:1px solid #000; border-collapse:collapse; width:680px;}
+#tablePCPTabla td, #tablePCPTabla th {border:1px solid #031121; padding: 3px 7px 2px 7px;}
+#tableStatusBcra {margin-top:16px;}
+#tableStatusSrt {margin-top:16px;}
+#tableValoresCotizados {border:1px solid #c0c0c0; border-collapse:collapse; cursor:default; font-size:9pt;}
+#tdAumentoAplicado {background-color:#000; border:1px solid #c0c0c0; color:#fff; font-size:9pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+#tdDescuentoAplicado {background-color:#000; border:1px solid #c0c0c0; color:#fff; font-size:9pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+#tdSoloPCP {background-color:#d9b6b8; border:1px solid #000; display:none; padding:4px; vertical-align:-23px;}
+#telefono {width:440px;}
+#totalTrabajadores {margin-left:54px; width:104px;}
+#totalTrabajadores1 {width:104px;}
+#totalTrabajadores2 {width:104px;}
+#totalTrabajadores3 {width:104px;}
+#trabajadoresCantidad {width:56px;}
+#trabajadoresMesAno {text-align:center; width:48px;}
+#trActividad2 {display:none;}
+#trActividad3 {display:none;}

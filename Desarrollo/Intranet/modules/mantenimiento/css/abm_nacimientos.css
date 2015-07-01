@@ -1,0 +1,12 @@
+label {display:inline-block; text-align:right; width:100px;}
+
+#divErroresForm {display:none;}
+#foco {height:1px; width:1px;}
+#img {border:3px solid #fff; height:80px; margin-left:2px;}
+#img:hover {border:3px solid #0f539c;}
+#labelImagen {vertical-align:top;}
+#labelTexto {vertical-align:top;}
+#labelVigenciaHasta {margin-left:16px;}
+#labelVigenciaHastaBusqueda {margin-left:16px;}
+#texto {height:76px; margin-left:4px; width:60%;}
+#textoBusqueda {width:60%;}

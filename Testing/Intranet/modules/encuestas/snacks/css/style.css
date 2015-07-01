@@ -1,0 +1,80 @@
+
+BODY{ 
+	scrollbar-face-color: #aaaaaa;  
+	scrollbar-highlight-color: #aaaaaa;  
+	scrollbar-shadow-color: #aaaaaa;  
+	scrollbar-3dlight-color: #eeeeee; 
+	scrollbar-arrow-color: #eeeeee;  
+	scrollbar-track-color: #e3e3e3;  
+	scrollbar-darkshadow-color: ffffff; 
+	background-color:#ADBBAC; 
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 10px;
+	} 
+
+.EncabezadoEncuesta{
+	border-left: 1px solid #FFFFFF; 
+	border-right-style:solid; 
+	border-right-width:1px; 
+	border-top-style:solid; 
+	border-top-width:1px; 
+	border-bottom-style:solid; 
+	border-bottom-width:1px;
+	background-color: #FFFFFF; 
+	}
+
+
+.EncabezadoPregunta{ 
+	font-family: Verdana; 
+	font-size: 8pt;
+	font-weight: 700;
+	border-left: 1px solid #FFFFFF; 
+	padding-left: 4px; padding-right: 4px; 
+	padding-top: 1px; padding-bottom: 1px; 
+	border-right-style:solid; 
+	border-right-width:1px; 
+	border-top-style:solid; 
+	border-top-width:1px; 
+	border-bottom-style:solid; 
+	border-bottom-width:1px;
+	background-color: #C0C0C0; 
+	}
+	
+.Respuestas{
+	font-family: Verdana; 
+	font-size: 8pt;
+	color:#000000;
+	background-color: #FFFFFF;
+	}
+	
+.InputText{
+	font-family: Verdana; 
+	font-size: 8pt; 
+	color: #808080; 
+	border: 1px solid #808080; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+	}
+	
+.InputSubmit{	
+	font-family: Verdana; 
+	font-size: 8pt; 
+	color: #808080; 
+	font-weight: bold; 
+	border: 1px solid #808080; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+	}
+	
+.Pie{
+	font-family: Verdana; 
+	font-size: 8pt;
+	color:#808080;
+	}

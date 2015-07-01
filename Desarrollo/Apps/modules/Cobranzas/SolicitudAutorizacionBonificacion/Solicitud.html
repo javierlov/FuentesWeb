@@ -1,0 +1,35 @@
+<html>
+	<head><link rel="stylesheet" href="{#SERVER#}styles/style.css" type="text/css" /></head>
+	<body>
+		<table width="100%">
+			<tr>
+				<td>
+					<table width="100%">
+						<tr><td><h1><img src="{#SERVER#}images/logo_provart.jpg"><br>{#TITLE#}</h1></td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr><td><b>Contrato</b></td><td><b>{#CONTRATO#}</b></td></tr>
+						<tr><td><b>Nombre</b></td><td><b>{#NOMBRE#}</b></td></tr>
+						<tr><td><b>CUIT</b></td><td><b>{#CUIT#}</b></td></tr>
+						<tr><td>Periodo Desde</td><td>{#PDESDE#}</b></td></tr>
+						<tr><td>Periodo Hasta</td><td>{#PHASTA#}</td></tr>
+						<tr><td>Tipo</td><td>{#TIPO#}</td></tr>
+						<tr><td>Aplica a</td><td>{#APLICA#}</td></tr>
+						<tr><td>Importe Fijo Cuota</td><td>${#CUOTA#}</td></tr>
+						<tr><td>Importe Fijo Fondo</td><td>${#FONDO#}</td></tr>
+						<tr><td>Observaciones</td><td>{#OBSERVACIONES#}</td></tr>
+						<tr>
+							<td align="center" background="{#SERVER#}images/fnd.jpg" class="Submit" colspan="2">
+								<a href="{#SERVER#}{#URL#}?TRANSACCION={#TRANSACCION#}&USUVAL=&USERNAME={#USERNAME#}">Haga clic aquí para contestar el pedido</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

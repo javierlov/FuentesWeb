@@ -1,0 +1,20 @@
+h2 {color:#fff; margin-top:8px;}
+h4 {color:#fff;}
+hr {margin-top:24px;}
+input[type=button] {cursor:pointer; margin-left:4px; margin-right:4px; width:80px;}
+select {height:240px; width:240px;}
+
+.labelCampos {color:#fff; font-size:10pt;}
+
+#divBotones {float:left; height:auto; margin-top:64px; text-align:center; width:20%;}
+#divBotonesBottom {margin-top:16px;}
+#divBotonesCopiar {float:left; height:auto; margin-top:20px; text-align:center; width:20%;}
+#divForm {left:50%; margin:auto; margin-top:24px; text-align:left; width:50%;}
+#divMsgOk {color:#fff; display:none; font-size:14px; font-weight:bold; margin-top:24px;}
+#divMsgOk2 {color:#fff; display:none; font-size:14px; font-weight:bold; margin-top:24px;}
+#divMsgProcesando {color:#f00; display:none; font-weight:bold; margin-top:24px;}
+#divUsuariosConPermiso {float:left; text-align:center; width:40%;}
+#divUsuariosSinPermiso {float:left; text-align:center; width:40%;}
+#usuarioOrigen {height:24px;}
+#usuariosConPermiso {width:240px;}
+#usuariosSinPermiso {width:240px;}

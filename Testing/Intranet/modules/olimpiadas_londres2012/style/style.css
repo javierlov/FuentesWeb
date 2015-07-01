@@ -1,0 +1,17 @@
+﻿body { 
+scrollbar-face-color: #aaaaaa;  
+scrollbar-highlight-color: #aaaaaa;  
+scrollbar-shadow-color: #aaaaaa;  
+scrollbar-3dlight-color: #eeeeee; 
+scrollbar-arrow-color: #eeeeee;  
+scrollbar-track-color: #e3e3e3;  
+scrollbar-darkshadow-color: ffffff; 
+font-family: Neo Sans;
+} 
+
+a {color: #646567; text-decoration: none;}
+a:hover {color: #00A3E4;}
+a:active {color: #00A3E4;}
+	
+.Txt {font-size: 13px; font-family: neo sans; text-align: left; color: #626464; padding-left:10px; padding-right:10px}
+.fontCeleste{color: #14A2DE;}

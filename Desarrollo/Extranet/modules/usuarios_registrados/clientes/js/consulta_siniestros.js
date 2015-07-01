@@ -1,0 +1,1 @@
+function exportarGrilla() {	document.iframeProcesando.location.href = '/modules/usuarios_registrados/clientes/consulta_de_siniestros/exportar_grilla_a_excel.php';}

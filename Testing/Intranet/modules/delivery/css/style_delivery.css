@@ -1,0 +1,60 @@
+﻿#divGeneral {
+	width: 100%;
+}
+
+#marquesina {
+	background-color: #00539B;
+	color: #fff;
+	cursor: hand;
+	font-family: Neo Sans;
+	font-size: 11pt;
+	font-weight: bold;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	text-align: center;
+}
+
+#imgPlatosDelDia {
+	display: block;
+	margin: auto;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+#tableDelivery {
+	border-collapse: collapse;
+	top: 0;
+	width: 100%;
+}
+
+#tdDelivery {
+	background: #00539B;
+	padding-left: 4px;
+}
+
+#tdItems {
+	border-bottom: 1px solid #fff;
+	font-size: 9pt;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-decoration: none;
+}
+
+#titulo {
+	background: #807F84;
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	height: 20px;
+	text-align: center;
+}
+
+#trDelivery {
+	background: #807F84;
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 11pt;
+	font-weight: 700;
+}

@@ -1,0 +1,66 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+
+	ErrorDocument 404 /index.php?pageid=7&404=t
+
+	RewriteEngine On
+	RewriteRule ^acceso-exclusivo-usuarios-registrados/?$ /index.php?pageid=5
+	RewriteRule ^articulos/([0-9]*)-([a-zA-Z0-9-]*).html$ /index.php?pageid=6&id=$1
+	RewriteRule ^mapa-sitio/?$ /index.php?pageid=7
+	RewriteRule ^acerca-provincia-art/?$ /index.php?pageid=8
+	RewriteRule ^postulantes/?$ /index.php?pageid=9
+	RewriteRule ^trabaja-provincia-art/?$ /index.php?pageid=9
+	RewriteRule ^prevencion/?$ /index.php?pageid=10
+	RewriteRule ^servicio/?$ /index.php?pageid=11
+	RewriteRule ^prestaciones-medicas-dinerarias/?$ /index.php?pageid=12
+	RewriteRule ^descarga-formularios/?$ /index.php?pageid=13
+	RewriteRule ^preguntas-frecuentes/?$ /index.php?pageid=14
+	RewriteRule ^consejos/?$ /index.php?pageid=15
+	RewriteRule ^central-servicios-linea/?$ /index.php?pageid=16
+	RewriteRule ^registrese/?$ /index.php?pageid=17
+	RewriteRule ^tramites-linea/?$ /index.php?pageid=18
+	RewriteRule ^rol-social-provincia-art/?$ /index.php?pageid=19
+	RewriteRule ^fundacion-provincia-art/?$ /index.php?pageid=20
+	RewriteRule ^integrando-realidades/?$ /index.php?pageid=21
+	RewriteRule ^sucursales/?$ /index.php?pageid=22	
+	RewriteRule ^contacto/?$ /index.php?pageid=23
+	RewriteRule ^autoridades/?$ /index.php?pageid=34
+	RewriteRule ^proteccion-datos-personales/?$ /index.php?pageid=35
+	RewriteRule ^politica-privacidad/?$ /index.php?pageid=36
+	RewriteRule ^terminos-condiciones/?$ /index.php?pageid=37
+	RewriteRule ^requisitos-afiliarse/?$ /index.php?pageid=39
+	RewriteRule ^novedades/?$ /index.php?pageid=40
+	RewriteRule ^novedades/([0-9]*)$ /index.php?pageid=40&pg=$1
+	RewriteRule ^contrasena-olvidada/?$ /index.php?pageid=65
+	RewriteRule ^registrese-2/?$ /index.php?pageid=76
+	RewriteRule ^noticias-anteriores/?$ /index.php?pageid=81
+	RewriteRule ^noticias-anteriores/([0-9]*)$ /index.php?pageid=81&pg=$1
+	RewriteRule ^bna/?$ /modules/bna/index.php
+	RewriteRule ^javascript/?$ /modules/varios/javascript/index.html
+	RewriteRule ^programa-incentivos-2012-2013/?$ /modules/programa_incentivos_2012_2013/index.php
+	RewriteRule ^jornada-actualizacion-2013/?$ /modules/varios/claves_para_el_desarrollo_de_los_sectores_productivos/index.html
+	RewriteRule ^certificado-retencion/?$ /modules/varios/tesoreria/reporte_certificado_retencion.php
+	RewriteRule ^orden-pago/?$ /modules/varios/tesoreria/reporte_orden_pago.php
+	RewriteRule ^videos/institucional/?$ /modules/varios/video_institucional/index.php
+	RewriteRule ^Estudio-Juridico/?$ /index.php?pageid=43	
+	RewriteRule ^Cheques-Disponibles/?$ /index.php?pageid=95
+	RewriteRule ^Seleccion-Aplicacion/?$ /index.php?pageid=94
+	RewriteRule ^Juicios-Parte-Demandada/?$ /index.php?pageid=97
+	RewriteRule ^Concursos-Quiebras/?$ /index.php?pageid=95
+	RewriteRule ^Juicios-Parte-Actora/?$ /index.php?pageid=95			
+	RewriteRule ^ObtenerChequeDetalle/?$ /index.php?pageid=96
+	RewriteRule ^ObtenerListaJuiciosEnTramite/?$ /index.php?pageid=98		
+	RewriteRule ^AdminWebForm/?$ /index.php?pageid=99		
+	RewriteRule ^MasDatosJuicioWebForm/?$ /index.php?pageid=100	
+	RewriteRule ^EventosWebForm/?$ /index.php?pageid=101	
+	RewriteRule ^InstanciasWebForm/?$ /index.php?pageid=102	
+	RewriteRule ^InstanciasABMWebForm/?$ /index.php?pageid=103	
+	RewriteRule ^PeritajesWebForm/?$ /index.php?pageid=104	
+	RewriteRule ^PeritajesABMWebForm/?$ /index.php?pageid=105	
+	RewriteRule ^EventosABMWebForm/?$ /index.php?pageid=106	
+	RewriteRule ^SentenciaWebForm/?$ /index.php?pageid=107	
+	RewriteRule ^PeritoABMWebForm/?$ /index.php?pageid=108	
+	RewriteRule ^PDFCertificadoRetencionReport/?$ http://legales.provinciart.com.ar:8080/CertificadoRetencionReport.aspx
+	RewriteRule ^PDFOrdenPagoReport/?$ http://legales.provinciart.com.ar:8080/OrdenPagoReport.aspx
+	
+</IfModule>

@@ -1,0 +1,24 @@
+.divPCPTabla {font-size:8pt; margin-top:8px;}
+.pcpCampoBlanco {text-align:right;}
+.pcpCampoGris {background-color:#ccc; text-align:right;}
+
+#breveDescripcionTareas {height:80px; margin-top:16px; text-transform:uppercase; width:560px;}
+#exteriorAlturaCual {width:80%;}
+#indumentariaCual {width:80%;}
+#insecticidaCual {width:80%;}
+#interiorAlturaCual {width:80%;}
+#labelBreveDescripcionTareas {vertical-align:72px;}
+#labelElectrico {margin-left:16px;}
+#labelExtintor {margin-left:16px;}
+#labelIncendio {margin-left:16px;}
+#labelOtroRiesgoQuimico {margin-left:2px; vertical-align:72px;}
+#localidad {display:none;}
+#localidadCombo {background-color:#ccc; width:314px;}
+#otroRiesgoQuimico {height:80px; margin-top:16px; text-transform:uppercase; width:672px;}
+#proteccionPersonalCual {width:80%;}
+#raticidaCual {width:80%;}
+#tablePCPTabla {border:1px solid #000; border-collapse:collapse; margin-top:8px; width:680px;}
+#tablePCPTabla td {border:1px solid #031121; font-weight:bold; padding: 3px 7px 2px 7px;}
+#tablePCPTabla th {background-color:#000; border:1px solid #031121; color:#fff; font-weight:bold; padding: 3px 7px 2px 7px;}
+#tarjetaCredito {display:none; vertical-align:4px; width:208px;}
+#tarjetaCreditoFalso {vertical-align:4px; width:208px;}

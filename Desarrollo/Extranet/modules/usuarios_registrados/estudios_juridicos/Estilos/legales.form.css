@@ -1,0 +1,27 @@
+ .FormTituloPrincipal {
+	font-family: Verdana; 
+	font-size: 8pt;
+	color='#FFFFFF';		
+	}
+	
+.FormCeldaTituloFondo{
+	background-color: #808080; 
+	align: left;
+	.colspan:4;	
+	
+}	
+
+.FormTablaDatos{
+	border-spacing:0; 
+	padding:0; 
+	width:98%; 
+	text-align:center;	
+	border:0; 
+	background-color:white;
+}
+
+.FormTDcelda{
+	border-spacing:30; 
+	background-color:#808080;
+	text-align:left;
+}

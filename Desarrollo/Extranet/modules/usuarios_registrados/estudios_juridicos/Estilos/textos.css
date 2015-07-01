@@ -1,0 +1,489 @@
+BODY
+{
+    BACKGROUND-COLOR: #ffffff;
+    SCROLLBAR-FACE-COLOR: #e9e9e9;
+    SCROLLBAR-HIGHLIGHT-COLOR: #c5c5c5;
+    SCROLLBAR-SHADOW-COLOR: #7a7a7a;
+    SCROLLBAR-3DLIGHT-COLOR: #669966;
+    SCROLLBAR-ARROW-COLOR: #427b42;
+    SCROLLBAR-TRACK-COLOR: #f5f5f5;
+    SCROLLBAR-DARKSHADOW-COLOR: #000000;
+    leftmargin: "0";
+    topmargin: "0";
+    marginwidth: "0";
+    marginheight: "0"
+}
+.boton
+{
+    /*BACKGROUND-COLOR: white;
+    BORDER-BOTTOM: #408060 thin groove;
+    BORDER-LEFT: #408060 thin groove;
+    BORDER-RIGHT: #408060 thin groove;
+    BORDER-TOP: #408060 thin groove;
+    COLOR: #2c4480;*/
+	BACKGROUND-COLOR: #C7C7C7;
+    COLOR: #2c4480;
+    CURSOR: hand;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px;
+    FONT-STYLE: normal;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.input
+{
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal
+}
+.Copi
+{
+    COLOR: #2c4480;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 12px
+}
+.links
+{
+    COLOR: #000097;
+    FONT-FAMILY: verdana,tahoma,arial;
+    FONT-SIZE: 9px;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.links:hover
+{
+    COLOR: gray
+}
+.text
+{
+    BEHAVIOR: url(../Behaviors/invalidChar.htc);
+	COLOR: #676767;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    LINE-HEIGHT: 14px
+}
+.links_small
+{
+    COLOR: silver;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px;
+    FONT-STYLE: normal;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.links_small:hover
+{
+    BACKGROUND-COLOR: white;
+    COLOR: #336699;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px
+}
+.title
+{
+    COLOR: #336699;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 19px
+}
+.title_2
+{
+    COLOR: #336699;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 16px
+}
+.tagInput
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #408060 thin groove;
+    BORDER-LEFT: #408060 thin groove;
+    BORDER-RIGHT: #408060 thin groove;
+    BORDER-TOP: #408060 thin groove;
+    COLOR: #2c4480;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    LINE-HEIGHT: 14px;
+    SCROLLBAR-FACE-COLOR: #e9e9e9;
+    SCROLLBAR-HIGHLIGHT-COLOR: #c5c5c5;
+    SCROLLBAR-SHADOW-COLOR: #7a7a7a;
+    SCROLLBAR-3DLIGHT-COLOR: #669966;
+    SCROLLBAR-ARROW-COLOR: #427b42;
+    SCROLLBAR-TRACK-COLOR: #b9b9b9;
+    SCROLLBAR-DARKSHADOW-COLOR: #000000
+}
+.MenuBar
+{
+    BORDER-BOTTOM: #676767 thin groove;
+    BORDER-TOP: #676767 thin groove
+}
+.linksBar
+{
+    COLOR: #2c4480;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10px;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.linksBar:hover
+{
+    COLOR: #408060;
+    FONT-SIZE: 10px;
+    TEXT-DECORATION: underline overline
+}
+.image
+{
+    BORDER-BOTTOM: #676767 thin groove;
+    BORDER-LEFT: #676767 thin groove;
+    BORDER-RIGHT: #676767 thin groove;
+    BORDER-TOP: #676767 thin groove
+}
+.casosTitulo
+{
+    COLOR: #000000;
+    FONT-FAMILY: Tahoma, arial, helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    LINE-HEIGHT: 11px
+}
+.hTitle
+{
+    BORDER-BOTTOM: #000000 thin groove;
+    BORDER-LEFT: #000000 thin groove;
+    BORDER-RIGHT: #000000 thin groove;
+    BORDER-TOP: #000000 thin groove
+}
+.links_nove
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px;
+    FONT-STYLE: normal;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.links_nove:hover
+{
+    COLOR: #676767;
+    FONT-SIZE: 11px;
+    TEXT-DECORATION: none
+}
+.contenido
+{
+    COLOR: #757575;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 12px;
+    FONT-STYLE: normal;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.linkTabs
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10px;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.linkTabs:hover
+{
+    COLOR: #4d4d4d;
+    FONT-SIZE: 10px;
+    TEXT-DECORATION: underline overline
+}
+.tableHeader
+{
+    BACKGROUND-COLOR: #000080;
+    BORDER-BOTTOM: green 0.1cm ridge;
+    BORDER-LEFT: green 0.1cm ridge;
+    BORDER-RIGHT: green 0.1cm ridge;
+    BORDER-TOP: green 0.1cm ridge;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10px;
+    MARGIN: 0.01cm
+}
+.tableHeader TH
+{
+    BORDER-BOTTOM: white 0.01cm inset;
+    BORDER-RIGHT: white 0.01cm inset
+}
+.innerTable
+{
+    BACKGROUND-COLOR: lightgrey;
+    BORDER-BOTTOM: indigo double;
+    BORDER-LEFT: indigo double;
+    BORDER-RIGHT: indigo double;
+    BORDER-TOP: indigo double;
+    COLOR: #2c4480;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px
+}
+.innerTable TD
+{
+    BORDER-BOTTOM: white 0.01cm inset;
+    BORDER-RIGHT: white 0.01cm inset
+}
+.borderTable
+{
+    BORDER-LEFT: #3f3f3f thin groove;
+    BORDER-RIGHT: #3f3f3f thin groove
+}
+.borderHeader
+{
+    BORDER-TOP: #3f3f3f thin groove
+}
+.borderHeaderRight
+{
+    BORDER-RIGHT: #3f3f3f thin groove;
+    BORDER-TOP: #3f3f3f thin groove
+}
+.borderHeaderLeft
+{
+    BORDER-LEFT: #3f3f3f thin groove;
+    BORDER-TOP: #3f3f3f thin groove
+}
+.borderBottom
+{
+    BORDER-BOTTOM: #3f3f3f thin groove;
+    BORDER-LEFT: #3f3f3f thin groove;
+    BORDER-RIGHT: #3f3f3f thin groove
+}
+.tdMenu
+{
+    BORDER-BOTTOM: gray 0.01cm inset;
+    BORDER-LEFT: gray 0.01cm inset;
+    BORDER-RIGHT: gray 0.01cm inset;
+    BORDER-TOP: gray 0.01cm inset
+}
+.tdMenuOn
+{
+    BORDER-BOTTOM: white 0.01cm inset;
+    BORDER-LEFT: white 0.01cm inset;
+    BORDER-RIGHT: white 0.01cm inset;
+    BORDER-TOP: white 0.01cm inset
+}
+.trMenu
+{
+    BACKGROUND-COLOR: #336699;
+    COLOR: white;
+    FONT-FAMILY: Arial
+}
+.tableMenu
+{
+}
+.tdMenuTransparente
+{
+    BORDER-BOTTOM: gray 0.01cm inset;
+    BORDER-LEFT: gray 0.01cm inset;
+    BORDER-RIGHT: gray 0.01cm inset;
+    BORDER-TOP: gray 0.01cm inset;
+    FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=100)
+}
+.borderTableColor
+{
+    BORDER-BOTTOM: silver thin groove;
+    BORDER-LEFT: white;
+    BORDER-RIGHT: white;
+    BORDER-TOP: silver thin groove
+}
+.borderTd
+{
+    BORDER-BOTTOM: black 0.01cm inset;
+    BORDER-LEFT: black 0.01cm inset;
+    BORDER-RIGHT: black 0.01cm inset;
+    BORDER-TOP: black 0.01cm inset
+}
+FIELDSET
+{
+    BORDER-BOTTOM: #408060 thin inset;
+    BORDER-LEFT: #408060 thin inset;
+    BORDER-RIGHT: #408060 thin inset;
+    BORDER-TOP: #408060 thin inset;
+}
+FIELDSET LEGEND
+{
+    COLOR: #336699;
+    FONT-FAMILY: Arial, Tahoma;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold
+}
+.links_white
+{
+    COLOR: white;
+    FONT-FAMILY: verdana,tahoma,arial;
+    FONT-SIZE: 9px;
+    FONT-STYLE: normal;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.links_white:hover
+{
+    COLOR: gray
+}
+.textneg
+{
+    COLOR: black;
+    FONT-FAMILY: 'Arial CE';
+    FONT-SIZE: 11px
+}
+.TextoCert
+{
+    COLOR: #336699;
+    FONT-FAMILY: 'Courier New';
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-VARIANT: normal
+}
+.Botonera
+{
+    COLOR: indigo;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px;
+    TEXT-DECORATION: none
+}
+.formtxt
+{
+    BACKGROUND-COLOR: darkseagreen;
+    BORDER-BOTTOM: solid;
+    BORDER-LEFT: solid;
+    BORDER-RIGHT: solid;
+    BORDER-TOP: solid;
+    COLOR: indigo;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px
+}
+.textHome
+{
+    COLOR: indigo;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 12px
+}
+.titlePrint
+{
+    COLOR: #000080;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 14px
+}
+.table
+{
+    BACKGROUND-COLOR: #ebebeb
+}
+.tr
+{
+    BORDER-LEFT: #afafaf;
+    BORDER-RIGHT: #afafaf
+}
+.boderCell
+{
+    BACKGROUND-COLOR: #afafaf
+}
+.FondoListaReg
+{
+    BACKGROUND-COLOR: white;
+    BORDER-BOTTOM: white thick groove;
+    BORDER-LEFT: white thick groove;
+    BORDER-RIGHT: white thick groove;
+    BORDER-TOP: white thick groove;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10px
+}
+.innerToolTip
+{
+    BACKGROUND-COLOR: lightgrey;
+    BORDER-BOTTOM: indigo double;
+    BORDER-LEFT: indigo double;
+    BORDER-RIGHT: indigo double;
+    BORDER-TOP: indigo double;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px
+}
+.textSmall
+{
+    COLOR: #676767;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    LINE-HEIGHT: 14px
+}
+.control
+{
+    BACKGROUND-COLOR: white;
+    BORDER-BOTTOM: #d4d0c8 thin outset;
+    BORDER-LEFT: #d4d0c8 thin outset;
+    BORDER-RIGHT: #d4d0c8 thin outset;
+    BORDER-TOP: #d4d0c8 thin outset;
+    COLOR: #2c4480;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px
+}
+.rollOver
+{
+    BEHAVIOR: url(../Behaviors/image.htc);
+    CURSOR: hand;
+	border-Width=0;
+}
+.tablaComisiones
+{
+}
+.tablaComisiones TH
+{
+    BORDER-BOTTOM: #408060 thin groove
+}
+.tablaComisiones THEAD
+{
+    COLOR: #2c4480;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 12px
+}
+.tablaComisiones TBODY
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10px;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none
+}
+.datobli
+{
+    COLOR: #000097;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+.control_td
+{
+	BACKGROUND-COLOR:#D4D0C8;
+    BORDER-BOTTOM: #D4D0C8 thin outset;
+
+}
+
+.trPartes
+{
+    BACKGROUND-COLOR: #336699;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+
+}

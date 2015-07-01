@@ -1,0 +1,178 @@
+﻿html, body {
+	margin: 0;
+}
+
+label {
+	margin-right: 8px;
+}
+
+#celdaObservaciones {
+	border-top: solid 1px #00539B;
+	color: #0a0a0a;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	padding-right: 16px;
+	position: relative;
+	top: 0;
+	vertical-align: top;
+}
+
+#detalle {
+	width: 520px;
+}
+
+#detalleGrande {
+	font-size: 12pt;
+}
+
+#fechaAlta {
+	width: 88px;
+}
+
+#grafico {
+	display: none;
+}
+
+#imagenCabecera {
+	cursor: pointer;
+	margin-left: 16px;
+	vertical-align: text-bottom;
+}
+
+#labelTiposUsuario {
+	margin-left: 80px;
+	vertical-align: top;
+}
+
+#linea {
+	background-color: #333;
+	border: 0;
+	color: #9CB5CB;
+	height: 2px;
+	width: 96%;
+}
+
+#pregunta {
+	cursor: pointer;
+}
+
+#pregunta:hover {
+	color: #00A3E4;
+	text-decoration: underline;
+}
+
+#preguntas {
+	margin-top: 32px;
+}
+	
+#preguntasTitulo {
+	font-family: Neo Sans;
+	font-size: 14pt;
+	margin-right: 8px;
+}
+	
+#separadores {
+	margin-left: 24px;
+	margin-top: 4px;
+}
+
+#tableObservaciones {
+	background-color: #efe;
+	border-collapse: collapse;
+	border-color: #00539B;
+	border-spacing: 2px;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 4px;
+	margin-top: 8px;
+}
+
+#tipoGrafico {
+	display: none;
+	margin-bottom: 16px;
+}
+
+#tiposUsuario {
+	vertical-align: top;
+}
+
+#titulo {
+	width: 528px;
+}
+
+#tituloGrande {
+	font-size: 18pt;
+}
+
+#tituloObservaciones {
+	color: #0a0a0a;
+	font-family: Neo Sans;
+	font-size: 10pt;
+}
+
+#tituloOpcion {
+	background-color: #fee;
+	border-bottom: solid 1px #00539B;
+	color: #0a0a0a;
+	font-family: Neo Sans;
+	font-size: 10pt;
+}
+
+#usuarios {
+	margin-top: 32px;
+}
+
+#usuarios[] {
+	margin-left: 232px;
+}
+
+#usuariosTitulo {
+	font-family: Neo Sans;
+	font-size: 14pt;
+	margin-right: 8px;
+}
+
+#votantes {
+	color: #c13;
+}
+
+#votos {
+	color: #f0f;
+}
+
+.Combo {
+	margin-left: 28px;
+}
+
+.ImagenOpcion {
+	border: 0px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	width: 0;
+}
+
+.Opcion {
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	width: 240px;
+}
+
+.Pregunta {
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	width: 608px;
+}
+
+.PreguntaSiguiente {
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	margin-left: 0px;
+	width: 24px;
+}

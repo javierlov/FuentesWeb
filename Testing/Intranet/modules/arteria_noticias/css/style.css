@@ -1,0 +1,129 @@
+﻿body {
+	font-family: Neo Sans;
+	scrollbar-3dlight-color: #eee;
+	scrollbar-arrow-color: #eee;
+	scrollbar-darkshadow-color: #fff;
+	scrollbar-face-color: #aaa;
+	scrollbar-highlight-color: #aaa;
+	scrollbar-track-color: #E3E3E3;
+	scrollbar-shadow-color: #aaa;
+	margin-top: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+a:link {
+	color: #00539B;
+}
+
+a:visited {
+	color: #00539B;
+} 
+
+a:hover {
+	color: #000000;
+}
+
+a:active {
+	color: #000000;
+}
+
+.Encabezado {
+	width: 723px;
+	height: 269px;
+	background: url('../images/header.jpg') no-repeat;
+}
+
+.CuerpoArticulo {
+	color: #838287;
+	font-size: 10pt;
+}
+
+.LeerMas {
+	color: #00539B;
+	font-size: 9pt;
+	text-decoration: underline;
+}
+
+.TituloPrincipal {
+	font-weight: bold;
+	font-size: 18pt;
+	color: #00539B;
+	padding-left: 10px;
+}
+
+.TituloBlanco {
+	font-weight: bold;
+	font-size: 18pt;
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+
+.TituloBordo, .TituloVioleta, .TituloAzul {
+	height: 53;
+	font-weight: bold;
+	font-size: 14pt;
+	color: #98012E;
+}
+
+.TituloNoticiasSecundarias {
+	font-size: 14pt;
+	font-weight: bold;
+	height: 53;
+}
+
+.TituloVioleta {
+	color: #9561A9;
+}
+
+.TituloAzul {
+	color: #007AC0;
+}
+
+.TituloBannerNotas {
+	color: #838287;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.BannerNotas {
+	color: #838287;
+	font-size: 8pt;
+}
+
+.PieFecha {
+	padding-left: 10px;
+	font-size: 7.5pt;
+	color: #7c7c7e;
+	width: 280;
+}
+
+.PieMenu {
+	font-size: 7pt;
+	color: #7C7C7E;
+	width: 355;
+}
+
+.FndPieMenu {
+	background-color: #E0E1E3;
+}
+
+a.LinkPie:link {
+	color: #7C7C7E;
+	text-decoration: underline;
+}
+
+a.LinkPie:visited {
+	color: #7C7C7E;
+	text-decoration: underline;
+} 
+
+a.LinkPie:hover {
+	color: #00539B;
+	text-decoration: underline;
+} 
+
+a.LinkPie:active {
+	color: #00539B;
+	text-decoration: underline;
+}

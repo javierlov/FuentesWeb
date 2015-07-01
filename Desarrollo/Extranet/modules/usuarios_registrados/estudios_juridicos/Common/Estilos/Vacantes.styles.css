@@ -1,0 +1,48 @@
+/* global styles */
+/*mis estilos*/
+
+.celda {
+    font-size: 20px;
+	font-family: Tahoma;
+	text-align: left;
+	color: #000;
+    .background-color: #e8eef1;
+	background-color: #ebf8a4;
+	.background-color: red;
+}
+
+.controles {
+    font-size: 12px;
+	font-family: Arial;
+	text-align: left;
+	color: #202020;
+    .background-color: #e8eef1;
+	background-color: #ebf8a4;
+	.background-color: red;
+}
+
+.principal {    	
+	font-size: 25px;
+	font-family: verdana;
+	color: blue;
+    background-color: #e8eef1;
+	.background-color: #ebf8a4;
+	.background-color: red;
+}
+
+.pieform {
+    font-size: 18px;
+	font-family: Courrier;
+	text-align: right;
+	color: #000;
+    .background-color: #e8eef1;
+	background-color: #ebf8a4;
+	.background-color: red;
+}
+/**************************/
+body {
+    padding-bottom: 1em;
+    color: #444;
+    font: .8em sans-serif;
+    background: repeat-y 80px 0 #f3f3f3;
+}

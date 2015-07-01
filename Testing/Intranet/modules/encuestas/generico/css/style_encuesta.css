@@ -1,0 +1,48 @@
+#imagenTitulo {
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+#mensajeFinal {
+	margin-top: 64px;
+	text-align: center;
+}
+
+#pButton {
+	margin-left: 28px;
+	margin-top: 24px;
+}
+
+#pOpcion {
+	margin-left: 24px;
+}
+
+#pregunta {
+	background-color: #807F84;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	color: #FFFFFF;
+	margin-bottom: 16px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	text-align: center;
+}
+
+.imgOpciones {
+	vertical-align: middle;
+}
+
+.Respuestas {
+	background-color: #fff;
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 8pt;
+}
+
+.Pie {
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 8pt;
+}

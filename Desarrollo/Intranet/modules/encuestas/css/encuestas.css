@@ -1,0 +1,14 @@
+.imgOpciones {vertical-align:middle;}
+.inputObservacion {width:60%;}
+.pie {font-size:10pt;}
+.pPermiteObservacion {margin-bottom:4px; margin-left:40px; margin-top:4px;}
+.respuestas {background-color:#fff; color:#000; font-size:8pt;}
+.spanEncuestasCantidadVotos {color:#f00; margin-left:8px;}
+.textareaObservacion {margin-top:8px; width:60%;}
+
+#imagenTitulo {margin-bottom:8px; margin-top:8px; text-align:center;}
+#imgCabecera {height:auto; max-width:98%;}
+#mensajeFinal {margin-top:64px; text-align:center;}
+#pButton {margin-left:28px; margin-top:24px;}
+#pOpcion {margin-left:24px;}
+#pregunta {background-color:#0f539c; font-size:10pt; color:#fff; margin-bottom:8px; margin-top:16px; padding-bottom:2px; padding-left:4px; padding-right:4px; padding-top:2px; text-align:center; width:98%;}

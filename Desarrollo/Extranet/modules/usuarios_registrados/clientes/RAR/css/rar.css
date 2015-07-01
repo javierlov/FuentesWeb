@@ -1,0 +1,55 @@
+﻿.btnSiguiente {background-image:url(/images/botones_formularios/boton_siguiente.jpg); border:none; cursor:pointer; height:15px; width:78px;}
+.btnSI {background-image:url(/images/botones_formularios/boton_SI.jpg); border:none; cursor:pointer; height:15px; width:22px;}
+.btnNO {background-image:url(/images/botones_formularios/boton_NO.jpg); border:none; cursor:pointer; height:15px; width:22px;}
+
+
+.msj-info {width:480px; float:right; color:red; font-style: italic;padding-top:4px; }
+.txt-msj-Aviso{width:auto; color:gray; font: Italic bold 12px Arial; padding:4px; text-align:left;}
+.txt-msj-Aviso-Titulo{width:auto; color:#000; font: Italic bold 12px Arial; padding:4px; text-align:left;}
+
+/*bloquea*/
+.txt-disabled{ background-color:#666; color:white;}
+.txt-disabled:hover *[codigo^="cambiocolor"]{background-color:#0f539c; cursor:default;}
+
+/*permite*/
+.txt-enabled{ background-color:#fff; cursor:default; padding:0px; color:#000; font-family:Neo Sans; font-size:10px;	}
+				
+.XLSColAlignRight {border:0px; padding:0px; text-align:right;}				
+.XLSColAlignLeft {border:0px; padding:0px; text-align:left;}				
+.XLSText {color:#fff; font-family:Neo Sans; font-size:8pt; padding:2px;}
+.XLSfloatLeft {float:left;}
+.XLSfloatRight {float:Right;}
+
+/*dialogo titulo*/
+.dialogTitulo{ width:100%; text-align:left; border:1px; background-color:#dddddd; font-size:14; color:#362b36; padding: 4px 2px; }
+.gridTit200{width:200px;}
+.gridTitWhite{color:white; font-style:normal; font-weight: normal;}
+
+.EsopColumnRight {border:0px; text-align: right;  padding-right:4px;  padding-top:4px; width:100%; font: Italic bold 12px Arial; }				
+.EsopColumnLeft {border:0px; text-align: left; padding-left:20px; padding-top:4px; font: normal 12px Arial;  }				
+
+/*codigos de actividad distintos*/
+.txtCodActividadDefault{ background-color:#4169E1; }
+
+.rarLink{ color: #c00 }  
+.rarLink:link    { color: #c00 }  /* unvisited links */
+.rarLink:visited { color: #0c0 }  /* visited links   */
+.rarLink:hover   { color: #00c }  /* user hovers     */
+.rarLink:active  { color: #ccc }  /* active links    */
+
+/* extras */
+.btnConfirmar2 {background-image:url(/images/botones_formularios/boton_confirmar.jpg); border:0px; cursor:pointer; height:15px; width:91px;}
+.btnCancelar2 {background-image:url(/images/botones_formularios/boton_cancelar.jpg); border:0px; cursor:pointer; height:15px; width:69px;}
+.btnDetalleRiesgo {background-color:#666; background-image:url(/images/lupa.jpg);  background-size: 100%; border:none; cursor:pointer; height:16px; width:16px;}
+.btnImportExcel {background-image:url(/images/botones_formularios/boton_importar_excel.jpg); border:none; cursor:pointer; height:15px; width:114px;}
+.btnXLSdescarga {background-image:url(/images/excel.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnSave {background-image:url(/images/btn_Save.jpg); border:0; cursor:pointer; height:16px; width:16px;}
+
+.boxEjemploCIIU {
+	background:#3F4C6B;
+	color:#fff; 	
+	padding: 5px;
+	height: 10px;
+	width: 10px;
+	#margin: 5px  auto 5px auto;
+}

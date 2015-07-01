@@ -1,0 +1,352 @@
+body {
+	font: 12px Arial, Helvetica, sans-serif;
+	background: #FFFFFF ; /*url(images/main-bg.gif)*/
+	padding: 0;
+	margin: 0;
+/*
+  scrollbar-face-color: #aaaaaa;
+  scrollbar-highlight-color: #aaaaaa;
+  scrollbar-shadow-color: #aaaaaa;
+  scrollbar-3dlight-color: #eeeeee;
+  scrollbar-arrow-color: #eeeeee;
+  scrollbar-track-color: #e3e3e3;
+  scrollbar-darkshadow-color: ffffff;
+*/
+}
+img {
+	border: none;
+}
+
+/* dock - top */
+.dock {
+	position: relative;
+	height: 50px;
+	text-align: center;
+	left: -10px;	
+}
+.dock-container {
+	position: absolute;
+	height: 50px;
+	background: url(../images/background.gif);
+	padding-left: 20px;
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold;
+}
+.dock-item img {
+	border: none;
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.dock-item span {
+	display: none; 
+	padding-left: 20px;
+}
+
+
+/* Grid Style */
+
+.GridColSeparator {
+	background-color: #B1B1B1;
+	width: 1px;
+}
+
+.GridFooter {
+	background-color: #808080;
+	border-color: #B1B1B1;
+	border-width: 0px;
+	border-style: solid;
+	color: white;
+	font-size: 12px;
+	height: 20px;
+}
+
+.GridFooterFont {
+	color: #FEFEFE;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridFooterFontSelected {
+	color: #173273;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridHeader {
+	background-color: #808080;
+	color: #FFFFFF;
+	font-size: 8px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.GridRow1 {
+	background-color: #CCCCCC;
+	color: black;
+	cursor: default;
+}
+
+.GridRow2 {
+	background-color: #DDDDDD;
+	color: black;
+	cursor: default;
+}
+
+.GridTable {
+	border: 0px solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	width: 770px;
+}
+
+.GridText {
+	color: #000000;
+	font-size: 8pt;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.GridTitle {
+	color: #FEFEFE;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.GridEmpty
+{
+  border: none;
+  background-image: url(/Images/grid_not_found.gif);
+  height: 50px;
+  width: 237px;
+}
+
+.btnTicket
+{
+  border: none;
+  background-image: url(/Images/lupa.jpg);
+  cursor: pointer;
+  height: 17px;
+  width: 15px;
+}
+
+.btnAutorizar
+{
+  border: none;
+  background-image: url(../Images/accept24.png);
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+
+.btnAddRemove{
+  position:absolute;
+  clear:both;
+  font: 11px;
+  height:22px;
+	line-height:22px;
+	background:#666666 url(../images/background.gif);
+	text-align:center;
+	color:#FFFFFF;
+  margin-top:2px;
+  margin-left:0px;
+  width:80px;
+}
+
+.btnAction{
+  clear:both;
+  font: 11px;
+	height:31px;
+  line-height:31px;
+	background:#666666 url(../images/background.gif);
+	text-align:center;
+  color:#FFFFFF;
+  margin-top:0px;
+  margin-left:0px;
+  width:120px;
+}
+
+.attach0{
+  position:absolute;
+  padding-left:-34px;
+  width:58px;
+}
+.attach1{
+  position:absolute;
+  padding-left:140px;
+  width:222px;
+  height:24px;
+}
+.attach2{
+  position:absolute;
+  padding-top:-4px;
+  padding-left:388px;
+  width:10px;
+}
+
+/* Estilos para los mails del sistema */
+
+td.mail_input{
+  font: 11px;
+  border:solid 1px #BBBBBB;
+}
+
+td.mail_label{
+  float:left;
+  font: 11px;
+	font-weight: bold;
+}
+
+button.btnFecha
+{
+  border: none;
+  background-image: url(/Images/boton_fecha.jpg);
+  cursor: hand;
+  height: 21px;
+  width: 32px;
+}
+
+button.btnMail{
+  clear:both;
+  font: 11px;
+	height:31px;
+  line-height:31px;
+  cursor: pointer;
+	background:#666666 url(../images/background.gif);
+	text-align:center;
+  color:#FFFFFF;
+  width:290px;
+}
+
+H2.h2_mail
+{
+	BACKGROUND-COLOR: #AAAAAA; /*#0033A6;*/
+	BORDER-BOTTOM: #7A7E80 6px solid;
+	COLOR: #000000;
+	FONT-SIZE: 120%;
+	FONT-WEIGHT: normal;
+}
+
+H2.h2_body
+{
+	BORDER-BOTTOM: #7A7E80 0px solid;
+	COLOR: #000000;
+	FONT-SIZE: 80%;
+	FONT-WEIGHT: normal;
+}
+
+/* Estilo de los formularios */
+
+p, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.formGeneric{
+	margin:0 auto;
+	padding:10px;
+}
+	/* ----------- stylized ----------- */
+	#stylized{
+		border:solid 2px #CCCCCC; /*aacfe4 #b7ddf2;*/
+		background: #DDDDDD;
+    /*#E7D7B4; ebf4fb*/
+	}
+	#stylized h1 {
+    font: 14px Tahoma;
+		font-weight:bold;
+		margin-bottom:8px;
+	}
+	#stylized p{
+    font: 12px Tahoma;
+		color:#666666;
+		margin-bottom:20px;
+		border-bottom:solid 1px #BBBBBB;
+		padding-bottom:10px;
+	}
+	#stylized label{
+		display:block;
+    font: 11px Tahoma;
+		font-weight:bold;
+		text-align:right;
+		width:140px;
+		float:left;
+	}
+  #stylized .error_label{
+		display:block;
+    font: 11px Tahoma;
+		font-weight:bold;
+		text-align:right;
+		width:340px;
+		float:left;
+	}
+	#stylized .msg_label{
+		color:#DB9164;
+    display:block;
+    font: 14px Tahoma;
+		font-weight:bold;
+    text-align:right;
+		width:340px;
+		float:left;
+	}
+  #stylized .small{
+		color:#666666;
+		display:block;
+    font: 11px Tahoma;
+		font-weight:normal;
+		text-align:right;
+		width:140px;
+	}
+	#stylized input{
+		float:left;
+    font: 11px Tahoma;
+		padding:4px 2px;
+		border:solid 1px #BBBBBB;/*#DB9164; aacfe4*/
+		width:234px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized select{
+		color:#000000;
+		float:left;
+    font: 11px Tahoma;
+		padding:4px 2px;
+		border:solid 1px; /* #BBBBBB; #DB9164; aacfe4*/
+		width:240px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized dato{
+		color:#000000;
+		float:left;
+    font: 11px Tahoma;
+		padding:4px 2px;
+		border:solid 1px; /* #BBBBBB; #DB9164; aacfe4*/
+		width:240px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized textarea{
+		float:left;
+    font: 11px Tahoma;
+		padding:4px 2px;
+		border:solid 1px #BBBBBB;/*#DB9164; aacfe4*/
+		width:233px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized fileName{
+		float:left;
+    font: 11px Tahoma;
+		padding:4px 2px;
+		border:solid 1px #BBBBBB;/*#DB9164; aacfe4*/
+		margin:2px 0 20px 10px;
+    margin-top:-22px;
+    margin-left:150px;
+    width:236px;
+  }

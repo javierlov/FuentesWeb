@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="es-ar">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>.:: Fundación Provincia ART ::.</title>
+<link rel="stylesheet" href="../../css/fundacionART.css" type="text/css" />
+<script language="JavaScript" src="/js/validation.js"></script>
+</head>
+
+<body>
+<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td><img src="../../images/ContactenosTop.jpg"></td>
+	</tr>
+	<tr>
+		<td>
+		<p>&nbsp;</p>
+		<form action="/modules/contactenos/procesar_contacto.php" id="formContactenos" method="post" name="formContactenos" onSubmit="return ValidarForm(formContactenos)">
+			<table border="0" cellpadding="3" cellspacing="0" width="100%" class="TableContactos">
+				<tr>
+					<td class="ItemTableContactos">Nombre:</td>
+					<td><input class="InputText" id="nombre" name="nombre" title="Nombre" type="text" validar="true"></td>
+					<td rowspan="3"><p style="margin-top: 0; margin-bottom: 0" align="center"><img border="0" src="../../images/LogoFundacionART.jpg" width="124" height="55"></p></td>
+				</tr>
+				<tr>
+					<td class="ItemTableContactos">Apellido:</td>
+					<td><input class="InputText" id="apellido" name="apellido" title="Apellido" type="text" validar="true"></td>
+				</tr>
+				<tr>
+					<td class="ItemTableContactos">E-mail:</td>
+					<td><input class="InputText" id="email" name="email" title="e-Mail" type="text" validar="true" validarEmail="true"></td>
+				</tr>
+				<tr>
+					<td class="ItemTableContactos">Asunto:</td>
+					<td><input class="InputText" id="asunto" name="asunto" title="Asunto" type="text" validar="true"></td>
+					<td rowspan="3" valign="top">
+						Carlos Pellegrini 91 | Piso 4<br>
+						(C1009ABA) | Buenos Aires<br>
+						Tel: 3753-5537 |  Fax: 4338-4711<br>
+						<a href="mailto:info@fundacionprovart.com.ar">info@fundacionprovart.com.ar</a><br>
+						<a target="_top" href="http://www.fundacionprovart.com.ar">www.fundacionprovart.com.ar</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="ItemTableContactos">Comentarios:</td>
+					<td><textarea class="InputText" cols="20" id="comentarios" name="comentarios" rows="4" validar="true"></textarea></td>
+				</tr>
+				<tr>
+					<td class="ItemTableContactos">&nbsp;</td>
+					<td><input class="Submit" name="enviar" type="submit" value="Enviar"></td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+		</form>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

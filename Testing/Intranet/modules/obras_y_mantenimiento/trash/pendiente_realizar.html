@@ -1,0 +1,49 @@
+<html>
+<head><link rel="stylesheet" href="http://intraweb.artprov.com.ar/styles/style_sistemas.css" type="text/css"></head>
+<body>
+  <table width="100%">
+    <tr>
+      <td>
+        <table width="100%">
+          <tr>
+            <td>
+              <h2 class="h2_mail"><br>{#TITLE#}</h2><br />
+              <h2 class="h2_body">
+                Se le ha asignado un ticket.
+                Es responsable de la resolución del mismo es usted.
+              </h2>
+            </td>
+            <td>
+              <img src="http://intraweb.artprov.com.ar/Images/MyComputer.gif">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <form method="post" action="{#SERVER#}{#URL#}">
+            <input type="hidden" size="0" name="ID" value="{#ID#}">
+            <input type="hidden" size="0" name="USERNAME" value="{#USERNAME#}">
+
+            <tr><td class="mail_label">Número de solicitud </td><td class="mail_input">{#ID#}            </td></tr>
+            <tr><td class="mail_label">Motivo              </td><td class="mail_input">{#MOTIVO#}        </td></tr>
+            <tr><td class="mail_label">Detalle             </td><td class="mail_input">{#DETALLE#}       </td></tr>
+            <tr><td class="mail_label">Notas               </td><td class="mail_input">{#NOTAS#}         </td></tr>
+            <tr><td class="mail_label">Observaciones       </td><td class="mail_input">{#OBSERVACIONES#} </td></tr>
+            <tr>
+              <td colspan="2" align="center">
+                <br />
+                <button class="btnMail" type="submit">Haga click aquí para acceder al detalle del pedido</button>
+              </td>
+            </tr>
+          </form>
+        <table>
+        <br />
+        <img src="http://intraweb.artprov.com.ar/Images/pie_de_pagina.jpg">
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

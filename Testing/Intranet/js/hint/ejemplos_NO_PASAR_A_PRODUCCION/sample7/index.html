@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Tigra Hints Sample #7 - Reusing Hint Element</title>
+
+	<!-- link Tigra Hints script file -->
+	<script language="JavaScript" src="tigra_hints.js"></script>
+
+</head>
+<body>
+<!-- at the beginning of the document's body configure and initialize the hint object -->
+
+<script language="JavaScript">
+
+var HINTS_CFG = {
+	'wise'       : true, // don't go off screen, don't overlap the object in the document
+	'margin'     : 10, // minimum allowed distance between the hint and the window edge (negative values accepted)
+	'gap'        : -10, // minimum allowed distance between the hint and the origin (negative values accepted)
+	'align'      : 'brtl', // align of the hint and the origin (by first letters origin's top|middle|bottom left|center|right to hint's top|middle|bottom left|center|right)
+	'show_delay' : 100, // a delay between initiating event (mouseover for example) and hint appearing
+	'hide_delay' : 0 // a delay between closing event (mouseout for example) and hint disappearing
+};
+var myHint = new THints (null, HINTS_CFG);
+
+// custom JavaScript function that updates the text of the hint before displaying it
+function myShow(s_text, e_origin) {
+	var e_hint = getElement('reusableHint');
+	e_hint.innerHTML = s_text;
+	myHint.show('reusableHint', e_origin);
+}
+
+</script>
+
+<!-- HTML code for the hint, make sure the hint has unique ID, it is positioned absolutely and initially invisible.
+	The same hint element will be reused for all cells of the table. This approach simplifies and optimizes the
+	implementation of the dynamically generated pages. -->
+
+<div id="reusableHint" style="position:absolute;z-index:1;visibility:hidden;padding:10px;background-color:#e0e0e0;border:1px solid gray;"></div>
+<!-- End of the HTML code for the hint -->
+
+<!-- this table represents large array of the HTML elements with the hint attached -->
+<table cellpadding="3" cellspacing="0" border="1" style="cursor:pointer">
+<tr>
+	<td onmouseover="myShow('cell 1.1 hint', this)" onmouseout="myHint.hide()">cell 1.1</td>
+	<td onmouseover="myShow('cell 1.2 hint', this)" onmouseout="myHint.hide()">cell 1.2</td>
+	<td onmouseover="myShow('cell 1.3 hint', this)" onmouseout="myHint.hide()">cell 1.3</td>
+	<td onmouseover="myShow('cell 1.4 hint', this)" onmouseout="myHint.hide()">cell 1.4</td>
+	<td onmouseover="myShow('cell 1.5 hint', this)" onmouseout="myHint.hide()">cell 1.5</td>
+</tr>
+<tr>
+	<td onmouseover="myShow('cell 2.1 hint', this)" onmouseout="myHint.hide()">cell 2.1</td>
+	<td onmouseover="myShow('cell 2.2 hint', this)" onmouseout="myHint.hide()">cell 2.2</td>
+	<td onmouseover="myShow('cell 2.3 hint', this)" onmouseout="myHint.hide()">cell 2.3</td>
+	<td onmouseover="myShow('cell 2.4 hint', this)" onmouseout="myHint.hide()">cell 2.4</td>
+	<td onmouseover="myShow('cell 2.5 hint', this)" onmouseout="myHint.hide()">cell 2.5</td>
+</tr>
+<tr>
+	<td onmouseover="myShow('cell 3.1 hint', this)" onmouseout="myHint.hide()">cell 3.1</td>
+	<td onmouseover="myShow('cell 3.2 hint', this)" onmouseout="myHint.hide()">cell 3.2</td>
+	<td onmouseover="myShow('cell 3.3 hint', this)" onmouseout="myHint.hide()">cell 3.3</td>
+	<td onmouseover="myShow('cell 3.4 hint', this)" onmouseout="myHint.hide()">cell 3.4</td>
+	<td onmouseover="myShow('cell 3.5 hint', this)" onmouseout="myHint.hide()">cell 3.5</td>
+</tr>
+<tr>
+	<td onmouseover="myShow('cell 4.1 hint', this)" onmouseout="myHint.hide()">cell 4.1</td>
+	<td onmouseover="myShow('cell 4.2 hint', this)" onmouseout="myHint.hide()">cell 4.2</td>
+	<td onmouseover="myShow('cell 4.3 hint', this)" onmouseout="myHint.hide()">cell 4.3</td>
+	<td onmouseover="myShow('cell 4.4 hint', this)" onmouseout="myHint.hide()">cell 4.4</td>
+	<td onmouseover="myShow('cell 4.5 hint', this)" onmouseout="myHint.hide()">cell 4.5</td>
+</tr>
+</table>
+
+</body>
+</html>

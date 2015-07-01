@@ -1,0 +1,17 @@
+﻿.fondoOnMouseOver:hover {background:#014c8d;}
+.gridBaja {color:#b00; text-decoration:line-through;}
+.gridColSeparator {background-color:#fff; width:1px;}
+.gridEmpty {background-image:url(/images/grid_not_found.gif); border:none; height:50px; width:237px;}
+.gridFirstColumn {background-color:#fff;}
+.gridFondoOnMouseOver:hover {background:#014c8d;}
+.gridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-style:solid; border-width:1px; color:white; font-family:Neo Sans; font-size:12px; height:20px;}
+.gridFooterFont {color:#fefefe; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.gridFooterFontSelected {color:#014c8d; cursor:default; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.gridHeader {background-color:#cca; color:#ff0; font-family:Neo Sans; font-size:12px; height:16px; text-align:center; vertical-align:top;}
+.gridOrderAsc {background-image:url(/images/grid_asc.gif); border:none; height:15px; width:26px;}
+.gridOrderDesc {background-image:url(/images/grid_desc.gif); border:none; height:15px; width:26px;}
+.gridRow1 {background-color:#807f84; color:black; cursor:default;}
+.gridRow2 {background-color:#807f84; color:black; cursor:default;}
+.gridTable {border:0px solid; border-collapse:collapse; border-spacing:0px; padding:0px; width:770px;}
+.gridText {color:#fff; font-family:Neo Sans; font-size:9pt; padding-left:2px;}
+.gridTitle {color:#fff; font-family:Neo Sans; font-size:12px; text-align:center; text-decoration:none;}

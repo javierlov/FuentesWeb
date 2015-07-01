@@ -1,0 +1,7 @@
+En estas carpetas se definen los estilos exclusivos que tiene cada uno de los 3 módulos de solicitud de tickets existentes.
+
+Por ahora son:
+
+1 - Sistemas
+2 - Obras y Mantenimiento
+3 - Grupo Banco Provincia

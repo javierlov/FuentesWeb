@@ -1,0 +1,6 @@
+blockquote p:last-child:before {content:open-quote;}
+blockquote p:last-child:after{content: close-quote;}
+
+.fondoBlank {background-color:#fff; margin:8px; text-align:left;}
+
+#divCuerpoArticulo {width:97.6%;}

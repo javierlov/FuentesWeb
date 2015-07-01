@@ -1,0 +1,53 @@
+﻿body,html {
+	scrollbar-face-color: #aaaaaa;  
+	scrollbar-highlight-color: #aaaaaa;  
+	scrollbar-shadow-color: #aaaaaa;  
+	scrollbar-3dlight-color: #eeeeee; 
+	scrollbar-arrow-color: #eeeeee;  
+	scrollbar-track-color: #e3e3e3;  
+	scrollbar-darkshadow-color: ffffff; 
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+}
+
+.header1, .header2 { 
+	background-color: #01A2E6;
+	border-style: solid; 
+	border-width: 1px; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px
+	bordercolor: #C0C0C0;
+	font-weight: bold;
+	font-family: Neo Sans;
+	font-size: 9pt;
+	color: #FFFFFF;
+} 
+
+.header2 {
+	text-align: center;
+}
+
+.data1, .data2 { 
+	border-style: solid; 
+	border-width: 1px; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px;
+	bordercolor: #C0C0C0;
+	font-family: Neo Sans;
+	font-size: 9pt;
+	color: #807F84;
+} 
+
+.data2 {
+	text-align: center;
+}
+
+.invisible {
+	display: none;
+}

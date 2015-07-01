@@ -1,0 +1,31 @@
+body, html {font-family:Trebuchet MS; scrollbar-3dlight-color:#eee; scrollbar-arrow-color:#eee; scrollbar-darkshadow-color:#fff; scrollbar-face-color:#aaa; scrollbar-highlight-color:#aaa;
+					scrollbar-shadow-color:#aaa; scrollbar-track-color:#e3e3e3;}
+input[type=button] {vertical-align:-4px;}
+input[type=text] {border:1px solid #808080; color:#808080; font-family:Trebuchet MS; font-size:8pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px; width:200px;}
+table td {font-size:8pt;}
+
+.BotonFecha {background-image:url(/images/boton_fecha.jpg); border:none; cursor:pointer; height:21px; width:32px;}
+.BotonInformacion {background-image:url(/images/lupa.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.btnPdf {background-image:url(/images/pdf_download.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.colCenter {text-align:center;}
+.combo {color:#808080; font-family:Trebuchet MS; font-size:8pt; border:1px solid #808080; padding-left:4px; padding-right:4px; padding-top:1px; padding-bottom:1px; width:200px;}
+.fecha {max-width:80px;}
+.gridBaja {color:#b00; text-decoration:line-through;}
+.gridColSeparator {background-color:#fff; width:1px;}
+.gridEmpty {border:none; background-image:url(/images/grid_not_found.gif); height:50px; width:237px;}
+.gridFirstColumn {background-color:#fff;}
+.gridFondoOnMouseOver:hover {background:#00a4e4;}
+.gridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-width:1px; border-style:solid; color:white; font-family:Trebuchet MS; font-size:10pt; height:20px;}
+.gridFooterFont {color:#fefefe; font-family:Trebuchet MS; font-size:8pt; font-weight:bold; text-decoration:none;}
+.gridFooterFontSelected {color:#000; font-weight:bold; cursor:default; font-family:Trebuchet MS; font-size:8pt; text-decoration:none;}
+.gridHeader {background-color:#6ab445; color:#fff; font-family:Trebuchet MS; font-size:8pt; height:16px; text-align:center; vertical-align:top;}
+.gridOrderAsc {border:none; background-image:url(/images/grid_asc.gif); height:15px; width:26px;}
+.gridOrderDesc {border:none; background-image:url(/images/grid_desc.gif); height:15px; width:26px;}
+.gridRow1 {background-color:#807f84; color:black; cursor:default;}
+.gridRow2 {background-color:#807f84; color:black; cursor:default;}
+.gridTable {border:0px solid; border-collapse:collapse; border-spacing:0px; padding:0px; width:710px;}
+.gridText {color:#fff; font-family:Trebuchet MS; font-size:8pt; padding-left:2px; text-align:center;}
+.gridTitle {color:#fefefe; font-family:Trebuchet MS; font-size:10pt; font-weight:bold; text-align:center; text-decoration:none;}
+
+#activarHasta {margin-left:8px;}
+#divPrincipal {height:176px; width:700px;}

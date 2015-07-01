@@ -1,0 +1,22 @@
+label {display:inline-block; text-align:right; width:100px;}
+
+.botonPasaje {cursor:pointer; margin-left:4px; margin-right:4px; width:80px;}
+.divGrupo {left:50%; margin:auto; padding-top:8px; text-align:left; width:100%;}
+.divGruposTitulo {font-weight:bold; text-align:center;}
+.divUsuariosConGrupo {float:left; font-weight:bold; margin-bottom:16px; margin-top:16px; text-align:left; width:40%;}
+.divUsuariosSinGrupo {float:left; margin-bottom:16px; margin-top:16px; text-align:right; width:40%;}
+.imgEliminar {cursor:pointer; float:right; position:relative; top:-20px;}
+.labelCampos {color:#000; font-size:10pt; text-align:center; width:280px;}
+.link {width:80%;}
+.selectMultiple {height:240px; width:280px;}
+
+#divBotonesUsuarios {float:left; height:auto; margin-top:80px; text-align:center; width:18%;}
+#divErroresForm {display:none;}
+#divGrupos {background-color:rgba(140, 162, 236, .4); display:none; margin-top:16px; width:98%;}
+#foco {height:1px; width:1px;}
+#img {border:3px solid #fff; height:40px;}
+#img:hover {border:3px solid #0f539c;}
+#imgAgregarGrupo {bottom:16px; cursor:pointer; float:right; height:40px; position:relative; width:40px;}
+#labelImagen {vertical-align:18px;}
+#labelVigenciaHasta {margin-left:16px;}
+#posicion {width:40px;}

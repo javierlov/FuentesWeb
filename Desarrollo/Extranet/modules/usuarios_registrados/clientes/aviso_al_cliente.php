@@ -1,0 +1,10 @@
+<div class="ContenidoSeccion" style="margin-bottom:12px; margin-top:20px;">
+	<p align="center" style="color:#f00; font-size:15pt; font-weight:bold; margin-bottom:20px;">AVISO IMPORTANTE</p>
+	Resolución SRT Nº 365/2009<br />
+	<b>Comunicaciones a través del Sistema de Ventanilla Electrónica</b>  
+	<div style="margin-top:6px;">A partir del 1º de marzo, todas las comunicaciones referentes a <b>Intimación de Pago, Rescisión de Contrato o Anulación de Rescisión de Contrato</b> -que hasta esa fecha se realizan a través del envío de  Cartas Documentos- se efectuarán a través del Sistema de Ventanilla Electrónica, conforme lo dispuesto por la Resolución SRT Nº 365/2009.</div>
+	<div style="margin-top:6px;">Cabe destacar que la mencionada Resolución en su artículo 2° establece que <i>“Las notificaciones que, con carácter fehaciente deban cursarse entre sí, las Aseguradoras de Riesgos del Trabajo ( A.R.T.), los Empleadores, las Administraciones del Trabajo Locales ( A.T.L.) y la S.R.T. podrán realizarse en forma electrónica, conforme la forma y modalidades que ésta última reglamente.”</i></div>
+	<div style="margin-top:6px;">A tal fin, es importante que usted ingrese diariamente a la Ventanilla a través del sitio web de la Superintendencia de Riesgos del Trabajo (<a class="linkSubrayado" target="_blank" href="http://www.srt.gov.ar">www.srt.gov.ar</a>) identificándose mediante la clave fiscal otorgada por AFIP, con el objeto de tomar conocimiento de las comunicaciones y seguir los pasos allí indicados.</div>
+	<div style="margin-top:6px;">Ante cualquier duda o consulta, relacionada con la deuda informada, usted podrá comunicarse,  de lunes a viernes en el horario de 10 a 17.30 horas, con su Gestor de Referencia del Área de Cobranzas.</div>
+	<p style="margin-top:50px;"><a href="/bienvenida-cliente"><img border="0" src="/modules/usuarios_registrados/images/continuar.jpg"></a></p>
+</div>

@@ -1,0 +1,29 @@
+<html>
+<head>{#HEADER#}</head>
+<body>
+<form method=post action={#SERVER#}{#URL#}>
+<table class=HeaderTabla cellspacing=0>
+  <tr><td>{#TITLE#}</td><td class=HeaderTablaImg background={#SERVER_APPS#}/images/tickets/{#ST#}/pc.jpg></td></tr>
+</table>
+<table class=Tabla cellspacing=0>
+	<tr><td colspan=2></td></tr>
+	<tr><td class=TDUsuSol colspan=2><b>{#USERNAME#}</b> ha cargado un nuevo pedido para que Ud. lo resuelva.</td></tr>
+	<tr><td class=TD1 colspan=2></td></tr>
+	<input type=hidden size=0 name=ID value={#ID#}>
+	<input type=hidden size=0 name=USERNAME value={#USERNAME#}>
+	<tr><td class=ItemTitle>Nro. solicitud <span id=viñeta>&gt;</span></td><td class=ItemConten>{#NRO_TICKET#}</td></tr>
+	<tr><td class=ItemTitle>Motivo <span id=viñeta>&gt;</span></td><td class=ItemConten>{#MOTIVO#}</td></tr>
+	<tr><td class=ItemTitle>Detalle <span id=viñeta>&gt;</span></td><td class=ItemConten>{#DETALLE#}</td></tr>
+	<tr><td class=ItemTitle>Sistema <span id=viñeta>&gt;</span></td><td class=ItemConten>{#EJECUTABLE#}</td></tr>
+	<tr><td class=ItemTitle>Notas <span id=viñeta>&gt;</span></td><td class=ItemConten>{#NOTAS#}</td></tr>
+	<tr><td class=ItemTitle>Observaciones <span id=viñeta>&gt;</span></td><td class=ItemConten>{#OBSERVACIONES#}</td></tr>
+	<tr><td class=ItemTitle>Comentarios del usuario <span id=viñeta>&gt;</span></td><td class=ItemConten>{#COMENTARIOS#}</td></tr>
+	<tr><td colspan=2>&nbsp;</td></tr>
+	<tr><td></td><td><table cellpadding=0 cellspacing=0><tr><td class=Submit background={#SERVER_APPS#}/images/fnd.jpg><a href={#SERVER#}{#URL#}>Haga click aquí para acceder al detalle del pedido</a></td></tr></table></td></tr>
+	<tr><td colspan=2>&nbsp;</td></tr>
+	<tr><td class=TD2 colspan=2></td></tr>
+	<tr><td class=TD3 colspan=2></td></tr>
+</table>
+</form>
+</body>
+</html>

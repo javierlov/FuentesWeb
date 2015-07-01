@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>..:: Provincia A.R.T. - Boletín Seguridad Informática ::..</title>
+<style type="text/css">
+<!--
+#imgizq {	margin: 0 5px 5px 0px;
+	border: 0px solid #CCCCCC;
+	padding: 6px;
+	float: left;
+}
+#fuente {	font-size: 10px;
+	margin: 0px 0px 10px 0px;
+}
+#imgder {
+	border: 0 solid #CCCCCC;
+	padding: 6px;
+	float: right;
+	clear: none;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#nota {
+	text-align: center;
+	background-color: #DDDDDD;
+	border-left-width: 5px;
+	border-top-width: 0px;
+	padding: 6px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-left: 0px;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#DDDDDD" link="#0087C4" vlink="#0087C4" alink="#626464">
+<table width="635" height="87" border="0" align="center">
+  <tr></tr>
+  <tr>
+    <th scope="col"><img src="/seguridad_informatica/images/Banner_top.jpg" width="619" height="84" /></th>
+  </tr>
+</table>
+<table width="606" align="center" bordercolor="#DDDDDD">
+  <tr>
+    <td height="63" valign="top"><p><span style="width: 714px; height: 27px"> <a target="_blank" href="http://www.provinciart.com.ar/"> <img src="/seguridad_informatica/images/P-Art.jpg" width="142" height="44" border="0" align="right" usemap="#Map" /></a></span></p>      
+      <p><span style="width: 714px; height: 27px; word-spacing: normal;"><font face="Verdana" size="2" color="#444444"><strong><font color="#626464" face="neo sans">
+	  Boletín de Seguridad Informática</font></strong><font color="#626464" face="neo sans">&nbsp;</font></font><font face="Verdana" size="1" color="#626464"> <br />
+    <font face="neo sans">29 de octubre de 2014</font></font></span></p></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Vulnerabilidad web facilita ingeniería social</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/rfd.jpg" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		La vulnerabilidad permite la creación de enlaces a sitios que hacen 
+		descargas de archivos maliciosos cuando se les hace clic. Aún los 
+		usuarios que tienen cuidado al descargar archivos de sitios web de su 
+		confianza pueden ser engañados debido a una nueva vulnerabilidad web: 
+		Consiste en la descarga de archivos maliciosos que no están realmente 
+		alojados en los sitios que aparentan.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">El ataque ha sido 
+		nombrado como reflected file download (RFD) y es algo similar en 
+		concepto a cross-site scripting (XSS), donde los usuarios son engañados 
+		para hacer clic en enlaces que obligan a sus navegadores a ejecutar 
+		código malicioso contenido en los propios enlaces.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">En el caso de la RFD, 
+		el navegador de la víctima no ejecuta ningún código, pero ofrece un 
+		archivo para su descarga con una extensión ejecutable como bat o cmd que 
+		contiene comandos de shell o archivos de script como JS (Java Scri?t), 
+		VBS (Visual Basic Script), WSH (Windows Script Host). El contenido del 
+		archivo pasa a través de la URL generada cuando el usuario hace clic en 
+		el enlace, haciendo que el navegador interprete esto como la descarga de 
+		un archivo.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Una ventaja para 
+		ataques de ingeniería social ya que, a pesar de que el archivo no está 
+		alojado físicamente en el sitio, parece originarse del mismo. Los 
+		usuarios tendrían todavía que aprobar la descarga y ejecución del mismo 
+		por sí mismos, pero no sería difícil para el atacante convencer a los 
+		usuarios de hacerlo.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Por ejemplo, un correo 
+		electrónico falso de un banco pidiendo a los usuarios descargar e 
+		instalar un nuevo producto de seguridad que protege sus sesiones de 
+		banca en línea podría ser muy convincente si el enlace de descarga hace 
+		volver al sitio web del banco; eso es exactamente lo que las 
+		vulnerabilidades RFD permiten.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">De acuerdo con el 
+		investigador de seguridad de Trustwave, Oren Hafif, quien descubrió el 
+		problema, un sitio web es vulnerable a este ataque si se cumplen tres 
+		condiciones. La gran mayoría de los sitios que usan JSON (JavaScript 
+		Object Notation) o JSONP (JSON with padding), dos tecnologías web muy 
+		populares, cumplen con esos criterios. Los sitios que no usan JSON 
+		también pueden ser vulnerables, dijo.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Hafif ha ideado 
+		diversas variaciones del ataque y las presentó en una conferencia de 
+		seguridad de Black Hat en Europa. Encontró el defecto en algunos 
+		servicios de Google, en Bing de Microsoft y en muchos otros de los 100 
+		sitios web principales de Alexa, pero se negó a nombrarlos, porque el 
+		proceso de notificación está todavía en proceso.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">El investigador 
+		también encontró una manera de saltarse la advertencia que Windows 
+		muestra al intentar ejecutar un archivo ejecutable descargado de 
+		Internet, por lo que el ataque pude ser aún más poderoso. Los detalles 
+		de cómo se lograrón saltar ese tipo de validaciones ya se compartieron 
+		con el equipo de seguridad de Microsoft, el cuál está trabajando en una 
+		solución.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Los archivos generados 
+		a través RFD no tienen que ser complejos y pueden actuar como un malware 
+		de tipo dropper, ya que pueden aprovecharse de PowerShell de Windows (un 
+		entorno shell de línea de comandos y scripts instalado por defecto en 
+		Windows 7 y superiores) para descargar e instalar malware adicional 
+		desde un servidor remoto. En esencia, si un archivo de este tipo se 
+		ejecuta por el usuario, el atacante puede obtener el control total sobre 
+		el sistema, dijo el investigador.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://news.techworld.com/security/3581439/new-web-vulnerability-enables-powerful-social-engineering-attacks/">
+		  Techworld</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	El cibercrimen supone un gasto de U$S 12,7 millones a las empresas</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/cybercrime.png" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		HP y el Instituto Ponemon han presentado Estudio del Coste de 
+		Cibercrimen 2014 (infografía), en el que se pone de manifiesto, que los 
+		ciberdelitos han supuesto un promedio de 12,7millones de dólares para 
+		las organizaciones, aumentando un 96 % respecto al primer informe que 
+		ambas instituciones elaboraron hace 5 años.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">De los 17 sectores 
+		incluidos en el estudio, todos han afirmado haber sido víctimas de la 
+		ciberdelincuencia, con el volumen anual más alto por cada organización 
+		estadounidense en las industrias de Energía, Servicios Públicos y 
+		Defensa. Del estudio se desprende que la ciberdelincuencia es común e 
+		intrusiva. Las organizaciones han experimentado durante este año un 
+		aumento del 176 % en el número de ciberataques con un promedio de éxito 
+		de 138 ataques a la semana en comparación a los 50 ataques a la semana 
+		de 2010.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">El promedio de tiempo 
+		para resolver un ataque cibernético es de 45 días, mientras que el coste 
+		medio incurrido durante este período asciende a 1.593.627 dólares, lo 
+		que representa un aumento del 40% frente al coste medio estimado de 
+		1.035.769 dólares del año pasado para un período de 32 días.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Sobre una base anual, 
+		las cuentas por robo de información suponen el 40 % de los costes 
+		externos totales (un 2 % menos que hace cinco años), mientras que los 
+		costes asociados a la interrupción del negocio o las cuentas de pérdida 
+		de productividad son el 38% de los costes externos (7 % más que hace 
+		cinco años). Por su parte, el despliegue de soluciones de inteligencia 
+		de seguridad ha mitigado el impacto de los ciberdelitos con un promedio 
+		de ahorro este año de 5,3 millones de dólares, lo que ha supuesto un 32% 
+		más respecto al ahorro del año pasado.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://muyseguridad.net/2014/10/22/cibercrimen-gasto">
+		  Muy Seguridad</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+ 
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Subdominios abandonados son riesgo de seguridad</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/subdominios.jpg" width="131" height="99" align="absmiddle" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Los atacantes podrían secuestrar subdominios creados por las empresas 
+		para servicios externos que ya no usan, aseguran investigadores. Muchas 
+		empresas establecen subdominios para su uso con servicios externos, pero 
+		olvidan desactivarlos cuando dejan de usar esos servicios, creando un 
+		vacío explotable por los atacantes.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Debido a que muchos 
+		proveedores de servicios no validan correctamente la propiedad de los 
+		subdominios de sus servidores, los atacantes pueden configurar nuevas 
+		cuentas y subdominios olvidados reclamándolos como suyos.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">La eliminación o 
+		actualización de las entradas de DNS para subdominios suena como un 
+		procedimiento común, pero de acuerdo a los investigadores de Detectify, 
+		proveedor en Estocolmo de servicios de escaneo de seguridad web, este 
+		tipo de escaneos están bastante generalizados entre las empresas.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">&quot;Hemos identificado al 
+		menos 17 proveedores de servicio que no verifican la propiedad del 
+		subdominio correctamente, permitiendo que esta vulnerabilidad sea 
+		aprovechada: Heroku, Github, Bitbucket, Squarespace, Shopify, 
+		Escritorio, Trabajo en equipo, Unbounce, Helpjuice, HelpScout, Pingdom, 
+		Tictail, Campaign Monitor, CargoCollective, StatusPage.io y Tumblr&quot;, 
+		aseguraron investigadores de Detectify. &quot;También hemos identificado al 
+		menos 200 organizaciones actualmente afectadas&quot;.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">El riesgo para los 
+		administradores de sitios web depende de los permisos a terceros. Si el 
+		servicio permite a los usuarios crear páginas web o redirecciones, los 
+		atacantes podrían aprovechar la situación para lanzar ataques de 
+		phishing creíbles, creando copias del sitio web principal.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">En un escenario de 
+		ataque descrito por Detectify, una empresa puede crear un subdominio 
+		para su uso con un servicio de venta de entradas para apoyo externo, 
+		pero más tarde se cerrará su cuenta y olvida eliminar el subdominio. Los 
+		atacantes podrían entonces crear una nueva cuenta con el mismo servicio 
+		y reclamar subdominio de la empresa, que ya cuenta con la configuración 
+		necesaria de DNS, lo que les permite establecer un sitio web falso y 
+		reclamarlo como propio.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Algunos de los 
+		subdominios expuestos a este tipo de secuestro encontrados por Detectify 
+		pertenecían a diferentes tipos de organizaciones, incluyendo agencias 
+		gubernamentales, proveedores de servicios de salud, compañías de seguros 
+		y bancos.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://news.techworld.com/security/3582351/abandoned-subdomains-pose-security-risk-for-businesses/">
+		  Techworld</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="27"><hr /></td>
+  </tr>
+  <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	El FBI pide apoyo legislativo para instalar puerta trasera en Android e iOS</font></font></h4></td>
+  </tr>
+  <tr>
+    <td height="223" align="left" valign="top"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/4343fbi.jpg" width="131" height="99" /></div>
+      </div>
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  El organismo policial solicita al Congreso estadounidense facultades que 
+	  le permitan disminuir la seguridad móvil mediante la instalación de 
+	  puertas traseras en Android e iOS. El objetivo es combatir la delincuencia 
+	  y el terrorismo.</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">Los teléfonos móviles 
+	  cifrados se han convertido en un problema para la policía federal 
+	  estadounidense, debido a que dificultan sobremanera su trabajo.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Desde el 2011, Android 
+	  ha incorporado la posibilidad de cifrar los datos a nivel de dispositivo. 
+	  Sin embargo, la función sólo fue activada como estándar en junio de este 
+	  año con Android 5,0 &#8220;Lollipop&#8221;. Paralelamente, Apple incorporó 
+	  funcionalidad de seguridad equivalente en iPhone y iPad mediante el nuevo 
+	  sistema operativo iOS 8.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Estas herramientas de 
+	  seguridad impiden que desconocidos puedan leer los contenidos del teléfono 
+	  en caso que el usuario lo extravíe. Sin embargo, coloca a Apple y al 
+	  Google en una situación en que es imposible acceder a los contenidos del 
+	  aparato, incluso contando con una orden judicial.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Recientemente, el 
+	  director del FBI, James Comey, se refirió al tema en un programa de 
+	  televisión, donde incluso declaró que &#8220;Apple y Google colocan a sus 
+	  usuarios por encima de la ley&#8221;. Comey señaló que la nueva funcionalidad de 
+	  cifrado dificulta el trabajo de su organismo para combatir la delincuencia 
+	  y el terrorismo. El director del FBI agregó que las conversaciones con 
+	  Apple y Google no han conducido a los resultados esperados.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Ante esta situación, 
+	  Comey ha acudido al Congreso estadounidense en búsqueda de ayuda. 
+	  Específicamente, ha propuesto que una ley creada hace 20 años, denominada 
+	  Communications Assistance for Law Enforcement Act (CALEA) sea enmendada, 
+	  con el fin de incluir también a los dispositivos móviles modernos. La 
+	  información ha sido proporcionada por el sitio The Hill, según el cual 
+	  esta ley, aprobada en 1994, obliga a las compañías telefónicas a 
+	  proporcionar la ayuda requerida por las autoridades, con el fin de 
+	  practicar escuchas telefónicas. Sin embargo, la ley se refiere a las 
+	  tecnologías existentes hace 20 años, y no a los dispositivos modernos con 
+	  capacidad de cifrado interno, no susceptible a escuchas.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Según el sitio The 
+	  Verge, Comey ha solicitado a los legisladores revisar y enmendar la citada 
+	  ley, con el fin de que permita a los organismos policiales instalar 
+	  puertas traseras en los smartphones modernos, y así eludir sus sistemas de 
+	  cifrado. En rigor, la idea propuesta por el director del FBI implicaría 
+	  instalar la puerta trasera en la fábrica.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Según The Hill, es poco 
+	  probable que el Congreso acceda a la petición del jefe del FBI. La 
+	  publicación cita a varios legisladores, demócratas y republicanos, que 
+	  dudan que la propuesta logre obtener el apoyo legislativo necesario para 
+	  enmendar la ley.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#DDDDDD">
+    <td height="18"><div align="right">
+        <blockquote>
+          <p align="right"><font color="#626464" size="2" face="neo sans">
+		  Fuente: <a href="http://diarioti.com/el-fbi-pide-apoyo-legislativo-para-instalar-puerta-trasera-en-android-e-ios/83936">
+		  DiarioTI</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td width="600" height="25" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="el70" id="el70"></a><font color="#626464" size="4" face="neo sans">
+	Malware capta datos de terminales punto de venta vía DNS</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+      <div align="justify"><img src="/seguridad_informatica/images/ptovta.jpg" width="110" height="100" align="absmiddle" /></div>
+    </div>    
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  Según G DATA, ya han sido más de 1.000 empresas en Estados Unidos las 
+	  infectadas por un malware capaz de leer los datos de los terminales punto 
+	  de venta o TPVs. Solo entre abril y septiembre de este año, la cadena 
+	  norteamericana The Home Depot sufrió el robo de datos de más de 56 
+	  millones de tarjetas de crédito y débito de sus clientes.</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">Se ha descubierto y 
+	  analizado una nueva variante de este malware, alias FrameworkPOS, cuya 
+	  característica más singular es que es capaz de capturar los datos de las 
+	  tarjetas bancarias a través de peticiones DNS (domain name system). La 
+	  amenaza se puede propagar a través de PC o servidores conectados en red o 
+	  de forma externa mediante dispositivos USB.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Los expertos en 
+	  seguridad de G DATA recomiendan a aquellas empresas que usen sistemas TPVs 
+	  y que sospechen haber sido afectadas que utilicen DNS pasivas para 
+	  observar el tráfico de datos. Correctamente configuradas estas DNS pasivas 
+	  emiten una advertencia en caso de comportamientos sospechosos o 
+	  inhabituales. Igualmente importante es que el tráfico de datos desde el 
+	  terminal de pagos debe estar claramente identificado, simplemente para 
+	  evitar que los datos se reenvíen a servidores ajenos.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">&quot;El análisis que 
+	  ofrecemos es perfecto porque permite comprobar cómo trabajan hoy en día 
+	  los cibercriminales&quot;, afirma Ralf Benzmüller, responsable del laboratorio 
+	  de la multinacional alemana. &quot;La variante descubierta ha sido 
+	  significativamente rediseñada para enviar los datos robados mediante 
+	  peticiones DNS. Aconsejamos a las compañías, especialmente si usan sus 
+	  TPVs de forma casi exclusiva para transacciones con tarjetas, que utilicen 
+	  DNS pasivas. Sus informes podrán ser muy útiles para análisis ulteriores 
+	  en caso de ataque&quot;, concluye Benzmüller.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Un sistema punto de 
+	  venta en una superficie comercial está formado habitualmente por una caja 
+	  registradora y un lector de tarjetas de débito o crédito. El dispositivo 
+	  TPV registra las ventas, pero esa puede ser solo una de sus funciones. 
+	  Generalmente conectados a un PC, se pueden usar para llevar un control de 
+	  stocks e inventarios, generar reportes o realizar compras internas.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">DNS, en tanto, 
+	  corresponde a las iniciales de Domain Name System (Sistema de nombres de 
+	  dominio) que podría definirse como el libro de direcciones de Internet y 
+	  traduce los nombres inteligibles en la dirección IP del servidor donde 
+	  está alojado el dominio al que queremos acceder. La DNS pasiva es un 
+	  sistema que permite almacenar peticiones DNS en una base de datos y 
+	  permite asociar dominios a direcciones IP o viceversa.</font></p>
+   </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+      <blockquote>
+        <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://diarioti.com/malware-capta-datos-de-terminales-punto-de-venta-via-dns/83949">
+		G DATA</a></font></p>
+      </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td height="983"><table width="600" height="949" border="0" align="left" bordercolor="#AAAAAA">
+      <tr bgcolor="#FFFFFF">
+        <th width="195" height="61" valign="middle" bgcolor="#626464" scope="col"><h5><font color="#EEEEEE" size="3" face="neo sans">
+		Windows 0-day explota vulnerabilidad en documentos de Office</font></h5></th>
+        <th width="193" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		China intercepta comunicaciones de iCloud y Hotmail mediante 
+		certificados autofirmados</font></h5></th>
+        <th width="198" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		¿Qué se deja de lado por el uso excesivo de WhatsApp?</font></h5></th>
+        </tr>
+      <tr bgcolor="#EEEEEE">
+        <td height="857" valign="top"><table width="174" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Microsoft está advirtiendo a los usuarios sobre una nueva 
+			vulnerabilidad 0-Day de Windows (CVE-2014-6352) que está siendo 
+			explotada activamente mediante archivos de PowerPoint especialmente 
+			diseñados y que contienen un objeto OLE (Object Linking y Embedding) 
+			malicioso. OLE se utiliza para mostrar las partes de un archivo 
+			dentro de otro archivo, por ejemplo para mostrar un gráfico en una 
+			hoja de cálculo Excel dentro de una presentación de PowerPoint. Esta 
+			vulnerabilidad es peligrosa porque afecta a las últimas versiones de 
+			Windows totalmente parcheadas, si bien se necesita la interacción 
+			del usuario para aprovechar la vulnerabilidad.</font></p>
+	    <p align="left"><font color="#626464" size="2" face="neo sans">El 
+		escenario más común de ataque es mediante correo electrónico. Un 
+		atacante podría aprovechar la vulnerabilidad enviando un archivo 
+		especialmente diseñado para que el usuario lo abra. En un escenario de 
+		ataque basado en la web, el atacante tendría que alojar el archivo en un 
+		sitio web. Mientras tanto en un informe separado, McAfee ha dicho que 
+		este ataque es parte de Sandworm llevado adelante por delincuentes rusos 
+		para espionaje en la crisis ucraniana. La operación Sandworm fue 
+		descubierto por iSIGHT Partners y se le había asignado el CVE-2014-4114 
+		pero aparentemente Microsoft falló al desarrollar el parche original y 
+		esto permitió revelar este otro 0-Day. Una explotación exitosa 
+		conduciría al atacante a obtener los permisos y derechos del usuario 
+		actual. La vulnerabilidad afecta a todas las versiones de Windows 
+		excepto Windows Server 2003, y actualmente no hay ningún parche para él. 
+		Microsoft todavía está investigando el asunto para decidir si publicarán 
+		un parche out-of-band o esperarán al próximo segundo martes de 
+		noviembre.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>          
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Ya se ha hablado muchas veces del Gran Firewall que usa el gobierno 
+			de la República Popular China para analizar e interceptar las 
+			comunicaciones. Cualquier mecanismo de evasión en el pasado ha sido 
+			bloqueado, como por ejemplo, comunicaciones vía sistemas VPN o 
+			HTTPs. De hecho, no sentaron demasiado bien cosas como el uso de 
+			HTTPs para todas las conexiones a las tiendas de apps, aunque por 
+			desgracia la implementación de Apple no sea perfecta y cargue 
+			contenido vía HTTP abriendo la puerta a los ataques de SSL Strip.</font></p>
+	<p align="left"><font color="#626464" size="2" face="neo sans">Ahora, desde 
+	Ars Technica se puede ver que el gobierno está utilizando certificados 
+	firmados por ellos mismos para el dominio de Apple iCloud, lo que les 
+	permitiría acceder a los usuarios y contraseñas de cualquier usuario que se 
+	conecte a ellos aceptando la alerta de la conexión. Una vez que tengan el 
+	control de las credenciales, todos los servicios asociados, como por ejemplo 
+	backups, servicios de localización o almacenamiento de documentos quedarán 
+	bajo supervisión del gobierno. GreatFire.org, un grupo que monitorea la 
+	censura del firewall del gobierno chino, informa que China está utilizando 
+	el sistema como parte de un ataque MitM a los usuarios del servicio de Apple 
+	iCloud dentro del país. Los ataques se producen a medida que Apple comienza 
+	el lanzamiento oficial del iPhone 6 y 6 Plus en la parte continental de 
+	China.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			No es extraño ir a un bar y ver que una pareja no solo no se está 
+			mirando, sino que también están con su vista clavada en el celular 
+			durante mucho tiempo. El celular se chequea una media de 150 veces 
+			al día según estudios que se hicieron en todo el mundo y cada vez se 
+			empieza a hablar más sobre qué es lo que se deja de lado por las 
+			nuevas tecnologías como WhatsApp o las otras aplicaciones más 
+			utilizadas de smartphones o tablets como Facebook o Twitter. &quot;Está 
+			claro que los hábitos están cambiando. Hemos pasado de una situación 
+			en donde consultar el móvil era anecdótico a una en la que no. No 
+			estoy segura cuáles de éstas conductas las asimilamos como normales 
+			y cuáles serán tildadas de abuso en el futuro&quot;, comentó Mertxe 
+			Pasamontes, psicóloga y couch especialista en Internet, según 
+			informa ABC.</font></p>
+              <p align="left"><font color="#626464" size="2" face="neo sans">
+			  Expertos aseguran que todavía hay que esperar y ver qué pasará en 
+			  el futuro para poder determinar si, por ejemplo, mirar el celular 
+			  mientras se cena con un amigo será lo normal o seguirá siendo 
+			  tomado como una falta de respeto. &quot;Los dispositivos móviles se han 
+			  introducido con fuerza en los últimos años y tienen muchos 
+			  aspectos positivos. Mientras que no se dejen de lado el resto de 
+			  actividades propias de una vida normal, su uso es positivo. En el 
+			  caso de las personas jóvenes es importante que no dejen de llevar 
+			  su vida normal (ir al cine, salir con sus amigos, practicar 
+			  deporte, atender sus compromisos académicos)&quot;, aseguró Enrique 
+			  Echeburúa, catedrático de Psicología de la Universidad del País 
+			  Vasco, a ABC.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+
+        <p>&nbsp;</p>
+        </td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+  <tr>
+    <td height="18" bgcolor="#DDDDDD"><div align="center">
+      <p><font color="#005500" size="2" face="neo sans"> <a href="mailto:SegInfo@provart.com.ar">
+	  Comentarios</a> | <a href="mailto:SegInfo@provart.com.ar">Consultas </a>| <a href="Http://www.artprov.com.ar">
+	  Intranet</a> | <a href="Http://www.provinciart.com.ar">Web</a></font></p>
+    </div></td>
+  </tr>
+</table>
+<table width="606" height="78" border="0" align="center">
+  <tr>
+    <td height="12"><hr /></td>
+  </tr>
+  <tr>
+    <td height="47"><img src="/seguridad_informatica/images/Logo_Bottom.jpg" width="170" height="39" border="0" align="left" /><img src="/seguridad_informatica/images/P-Grupo.jpg" width="138" height="45" border="0" align="right" usemap="#Map2" /></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="-2,1,142,43" href="http://www.artprov.com.ar/" target="_blank" />
+</map>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="0,0,140,45" href="http://intranetgb/joomla/index.php" target="_blank" />
+</map></body>
+</html>

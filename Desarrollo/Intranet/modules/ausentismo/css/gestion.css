@@ -1,0 +1,5 @@
+.bordeCeldaGris {border-color:#c0c0c0; border-style:solid; border-width:1px; cursor:default; padding-left:4px; padding-right:4px;}
+
+#divErroresForm {display:none;}
+#foco {height:1px; width:1px;}
+#spanMensaje {display:none;}

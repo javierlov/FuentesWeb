@@ -1,0 +1,24 @@
+﻿body, html {font-family: Verdana; scrollbar-face-color: #aaaaaa; scrollbar-highlight-color: #aaaaaa; scrollbar-shadow-color: #aaaaaa; scrollbar-3dlight-color: #eeeeee; scrollbar-arrow-color: #eeeeee; scrollbar-track-color: #e3e3e3; scrollbar-darkshadow-color: ffffff;}
+
+/* Estilos para pie del home */
+.LineaGrisPiePortada {height: 27px; background-color: #CCCCCC;}
+.MenuPiePortada {font-size: 8pt; color: #888888; text-align: center;}
+.PiePortada {font-size: 7.5pt; color: #666666; text-align: center;}
+/* FIN */
+
+#encabezadoHomePage {left: 24px; position: absolute; top: 12px;}
+
+
+/* Estilo para iframe */
+.FrameConten {width: 495px; height: 400px; text-align: left;}
+/* FIN */
+
+
+/* Estilo para Celda Sepador del encabezado con el contenido del sitio */
+.CSencabezado {height: 5px;}
+/* FIN */
+
+
+/* Otros */
+.BannerPortada {width: 154px;}
+/* FIN */

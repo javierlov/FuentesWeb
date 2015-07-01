@@ -1,0 +1,30 @@
+.btnAceptar {
+	border: none;
+	background-image: url(/modules/evaluacion_puesto/images/aceptar.png);
+	cursor: pointer;
+	height: 17px;
+	left: 2px;
+	position: relative;
+	top: 2px;
+	width: 15px;
+}
+
+.btnSeleccionar
+{
+	border: none;
+	background-image: url(/images/lupa.jpg);
+	cursor: pointer;
+	height: 17px;
+	left: 2px;
+	position: relative;
+	top: 2px;
+	width: 15px;
+}
+
+.gridSeleccionCombo {
+	border: 0px solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	width: 480px;
+}

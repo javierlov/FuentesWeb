@@ -1,0 +1,20 @@
+.btnDescargar {background-image:url(/images/pdficon_small.gif); border:none; cursor:pointer; height:17px; width:15px;}
+.colAlignRight {padding-right:4px; text-align:right;}
+.colFecha {text-align:center; white-space:nowrap;}
+.GridBaja {color:#b00; text-decoration:line-through;}
+.GridColSeparator {background-color:#c0c0c0; width:1px;}
+.GridEmpty {border:none; background-image:url(/images/grid_not_found.gif); height:50px; width:237px;}
+.GridFirstColumn {background-color:#fff;}
+.GridFondoOnMouseOver:hover {background:#2c87eb;}
+.GridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-width:1px; border-style:solid; color:white; font-family:Verdana; font-size:12px; height:20px;}
+.GridFooterFont {color:#fefefe; font-family:Verdana; font-size:8pt; text-decoration:none;}
+.GridFooterFontSelected {color:#00a4e4; cursor:default; font-family:Verdana; font-size:8pt; text-decoration:none;}
+.GridHeader {background-color:#0f539c; border-color:#c0c0c0; border-style:solid; border-width:1px; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.GridOrderAsc {border:none; background-image:url(/images/grid_asc.gif); height:15px; width:26px;}
+.GridOrderDesc {border:none; background-image:url(/images/grid_desc.gif); height:15px; width:26px;}
+.GridRow1 {background-color:#fff; cursor:default;}
+.GridRow2 {background-color:#fff; cursor:default;}
+.GridTable {border:1px solid #c0c0c0; border-collapse:collapse; border-spacing:0px; padding:0px; width:680px;}
+.GridTableCiiu {border:1px solid #c0c0c0; border-collapse:collapse; border-spacing:0px; padding:0px; width:552px;}
+.GridText {color:#000; font-family:Verdana; font-size:8pt; padding-left:2px;}
+.GridTitle {border-color:#c0c0c0; color:#fff; font-family:Verdana; font-size:8pt; font-weight:700; text-align:center; text-decoration:none;}

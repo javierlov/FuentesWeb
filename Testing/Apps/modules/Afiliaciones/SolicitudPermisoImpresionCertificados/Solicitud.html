@@ -1,0 +1,38 @@
+<html>
+	<head><link rel="stylesheet" href="{#SERVER#}styles/mails.css" type="text/css" /></head>
+	<body>
+		<table class="Width600 GrisOscuro" cellpadding="0">
+			<tr>
+				<td width="5%"><img src="{#SERVER#}images/01.jpg"></td>
+				<td class="Title01" width="90%">{#TITLE#}</td>
+				<td width="5%"><img src="{#SERVER#}images/02.jpg"></td>
+			</tr>
+		</table>
+		<table class="Width600 GrisClaro">
+			<tr><td><table class="Width560 GrisOscuro" cellpadding="2" cellspacing="0"><tr><td class="CS40 GrisClaro" colspan="2"></td></tr>
+			<tr><td class="ItTit"><b>Contrato</b> {#Ñ#}</td><td class="ItDet"><b>{#CONTRATO#}</b></td></tr>
+			<tr><td class="ItTit"><b>CUIT</b> {#Ñ#}</td><td class="ItDet"><b>{#CUIT#}</b></td></tr>
+			<tr><td class="ItTit"><b>Razón Social</b> {#Ñ#}</td><td class="ItDet"><b>{#RAZONSOCIAL#}</b></td></tr>
+			<tr><td class="ItTit">Tipo de Certificado {#Ñ#}</td><td class="ItDet">{#TIPOCERTIFICADO#}</td></tr>
+			<tr><td class="ItTit">Deuda {#Ñ#}</td><td class="ItDet">{#DEUDA#}</td></tr>
+			<tr><td class="ItTit">Fecha de Solicitud {#Ñ#}</td><td class="ItDet">{#FECHASOLICITUD#}</td></tr>
+			<tr><td class="ItTit">Usuario de Solicitud {#Ñ#}</td><td class="ItDet">{#USUARIOSOLICITUD#}</td></tr>
+			<tr><td class="ItTit">Observaciones {#Ñ#}</td><td class="ItDet">{#OBSERVACIONES#}</td></tr></td></tr>
+			<tr><td class="CS40 GrisClaro" colspan="2"></td></tr>
+			<tr>
+				<td class="CS40 GrisClaro"></td>
+				<td align="center" class="CS40 GrisClaro">
+					<a href="{#SERVER#}{#URL#}?TRANSACCION={#TRANSACCION#}&USUVAL=&USERNAME={#USERNAME#}">Haga clic aquí para contestar el pedido</a>
+				</td>
+			</tr>
+			<tr><td class="CS40 GrisClaro" colspan="2"></td></tr></table></td></tr>
+		</table>
+		<table class="Width600 Celeste">
+			<tr>
+				<td width="5%"><img src="{#SERVER#}images/03.jpg"></td>
+				<td width="90%"></td>
+				<td width="5%"><img src="{#SERVER#}images/04.jpg"></td>
+			</tr>
+		</table>
+	</body>
+</html>

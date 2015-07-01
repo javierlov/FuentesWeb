@@ -1,0 +1,73 @@
+﻿@font-face {
+	font-family:"KlavikaBoldImport";
+	font-style:normal;
+	font-weight:normal;
+	src:url('/fonts/KlavikaBoldBold/KlavikaBoldBold.eot');
+	src:url('/fonts/KlavikaBoldBold/KlavikaBoldBold.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/KlavikaBoldBold/KlavikaBoldBold.woff2') format('woff2'),
+			url('/fonts/KlavikaBoldBold/KlavikaBoldBold.woff') format('woff'),
+			url('/fonts/KlavikaBoldBold/KlavikaBoldBold.ttf') format('truetype'),
+			url('/fonts/KlavikaBoldBold/KlavikaBoldBold.svg#KlavikaBoldImport') format('svg');
+}
+@font-face {
+	font-family:"KlavikaLightItalicImport";
+	font-style:normal;
+	font-weight:normal;
+	src:url('/fonts/KlavikaLight-Italic/KlavikaLight-Italic.eot');
+	src:url('/fonts/KlavikaLight-Italic/KlavikaLight-Italic.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/KlavikaLight-Italic/KlavikaLight-Italic.woff2') format('woff2'),
+			url('/fonts/KlavikaLight-Italic/KlavikaLight-Italic.woff') format('woff'),
+			url('/fonts/KlavikaLight-Italic/KlavikaLight-Italic.ttf') format('truetype'),
+			url('/fonts/KlavikaLight-Italic/KlavikaLight-Italic.svg#KlavikaLightItalicImport') format('svg');
+}
+
+* {margin:0; padding:0;}
+html, body {background-color:#3c3c3c; font-family:Arial; font-size:14px; height:100%; text-align:center;}
+a:active {color:#0f539c; text-decoration:none;}
+a:link {color:#0f539c; text-decoration:none;}
+a:visited {color:#0f539c; text-decoration:none;}
+a:hover {color:#0f539c; text-decoration:underline;}
+img {border-width:0;}
+
+#divBusquedas {margin-top:16px;}
+#divContainer {background-color:#fff; border-bottom:5px solid #343434; margin:0 auto 0 auto; width:1200px;}
+#divContenido {float:left; height:100%; margin-left:1.47%; width:79.09%;}
+#divContenidoIn {background-color:#fff; float:left; height:100%; margin-bottom:16px; margin-right:0.68%; width:65.30%;}
+#divFondoSeccion {background-image:url(/images/encabezado_secciones/default.jpg); background-repeat:no-repeat; background-size:100% 80%; cursor:default; height:84px; padding-left:4px; width:97.6%;}
+#divFooter {margin-bottom:8px; margin-top:16px; position:relative; width:100%; z-index:5;}
+#divHeader {background-color:#343434; height:100%; text-align:left; z-index:1;}
+#divIngresos {margin-top:16px;}
+#divMain {margin-top:10px; text-align:left; width:100%;}
+#divMenu {background-color:#ececec; float:left; font-family:Arial Narrow; height:100%; width:19.44%;}
+#divNada {clear:left;}		/* Usado para cortar el flujo del float.. */
+#divNoticia {border-bottom:1px solid #d9d9d9; padding-bottom:20px; padding-top:20px;}
+#divPasesSector {margin-top:16px;}
+#divSecciones {background-color:#fff; float:left; height:100%; margin-bottom:4px; width:34.02%;}
+#divTaller {margin-bottom:20px; margin-top:20px;}
+#divTituloSeccion {color:#fff; font-family:KlavikaBoldImport; font-size:24px; padding-left:25px; padding-top:24px;}
+
+/* INICIO MENU */
+a.menuLinkTexto {color:#575756; font-size:12px; line-height:12px;}
+a.menuLinkTexto:hover {color:#f00;}
+ul.menu {list-style:none; margin:0; padding:0 0 10px 0;}
+ul.menu li {color:#000; cursor:default;}
+ul.menu li ul {list-style:none; margin:0; padding:15px 0 5px 30px;}
+ul.menu li ul li {border:none;}
+.divColor {float:left; margin-right:8px; margin-top:2px; padding-left:15px; padding-top:12px;}
+.divFacebook {margin-bottom:16px; margin-top:16px; text-align:center;}
+.divItemMenu {color:#3c3c3b; float:left; font-size:15px; font-weight:bold;}
+.divTwitter {margin-top:32px; text-align:center;}
+.imgFacebook {height:auto; max-width:100%;}
+.imgLinkImg {margin-left:13px; margin-top:0px;}
+.imgTwitter {height:auto; max-width:100%;}
+.tdMenuImg {width:32px;}
+/* FIN MENU */
+
+/* INICIO VISOR DE IMAGENES */
+#divVisorImagenes {display:none;}
+#divVisorImagenesFlechaAnterior {cursor:hand; left:0px; position:absolute; top:0px; z-index:99;}
+#divVisorImagenesFlechas {left:0px; position:absolute; top:0px;}
+#divVisorImagenesFlechaSiguiente {cursor:hand; left:0px; position:absolute; top:0px; z-index:99;}
+#divVisorImagenesFondo {background-color:#00539b; filter:alpha(opacity=77); height:100%; left:0px; opacity:.77; position:fixed; top:0px; width:100%; z-index:97;}
+#divVisorImagenesImagen {display:table-cell; height:100%; left:0px; position:fixed; top:0px; width:100%; z-index:98;}
+/* FIN VISOR DE IMAGENES */

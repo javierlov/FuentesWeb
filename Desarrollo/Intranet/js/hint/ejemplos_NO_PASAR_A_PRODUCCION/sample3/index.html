@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Tigra Hints Sample #3 - Multiple Sets of Hints</title>
+
+	<!-- link Tigra Hints script file only once -->
+	<script language="JavaScript" src="tigra_hints.js"></script>
+	<style>
+		.hintsClass1 {
+			font-family: tahoma, verdana, arial;
+			font-size: 12px;
+			background-color: #f0f0f0;
+			color: #000000;
+			border: 1px solid #808080;
+			padding: 5px;
+		}
+		.hintsClass2 {
+			background-color: white;
+			border: 1px solid #808080;
+			padding: 5px 5px 30px 5px;
+		}
+		.hintSource {
+			color: green;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+<!-- at the beginning of the document's body configure and initialize the hint object -->
+<script language="JavaScript">
+
+// configuration variables for the hint objects, these setting will be shared among all hints created by each object
+var HINTS_CFG1 = {
+	'wise'       : true, // don't go off screen, don't overlap the object in the document
+	'margin'     : 10, // minimum allowed distance between the hint and the window edge (negative values accepted)
+	'gap'        : 0, // minimum allowed distance between the hint and the origin (negative values accepted)
+	'align'      : 'tcbc', // align of the hint and the origin (by first letters origin's top|middle|bottom left|center|right to hint's top|middle|bottom left|center|right)
+	'css'        : 'hintsClass1', // a style class name for all hints, applied to DIV element (see style section in the header of the document)
+	'show_delay' : 200, // a delay between initiating event (mouseover for example) and hint appearing
+	'hide_delay' : 500, // a delay between closing event (mouseout for example) and hint disappearing
+	'follow'     : false, // hint follows the mouse as it moves
+	'z-index'    : 100, // a z-index for all hint layers
+	'IEfix'      : false, // fix IE problem with windowed controls visible through hints (activate if select boxes are visible through the hints)
+	'IEtrans'    : ['blendTrans(DURATION=.3)', 'blendTrans(DURATION=.3)'], // [show transition, hide transition] - transition effects, only work in IE5+
+	'opacity'    : 100 // opacity of the hint in %%
+};
+var HINTS_CFG2 = {
+	'wise'       : true,
+	'margin'     : 10,
+	'gap'        : 20,
+	'align'      : 'bctc',
+	'css'        : 'hintsClass2',
+	'show_delay' : 200,
+	'hide_delay' : 500,
+	'follow'     : false,
+	'z-index'    : 100,
+	'IEfix'      : false,
+	'IEtrans'    : ['revealTrans(TRANSITION=3,DURATION=.5)', 'revealTrans(TRANSITION=2,DURATION=.5)'],
+	'opacity'    : 80
+};
+// text/HTML of the hints
+// fist array uses numeric indexes, second uses text IDs
+var HINTS_ITEMS1 = [
+	'short definition',
+	'tooltip for item2 with some <b>HTML</b>',
+	'tooltip for item3<br>This one is multiline',
+	'tooltip for item4',
+	'another sample tooltip with the <a href="http://www.softcomplex.com">link</a>'
+];
+var HINTS_ITEMS2 = {
+	'tt1': '<img src="img/k001.jpg" border="1" />',
+	'tt2': '<img src="img/k070.jpg" border="1" />',
+	'tt3': '<img src="img/k020.jpg" border="1" />'
+};
+
+var myHint1 = new THints (HINTS_ITEMS1, HINTS_CFG1);
+var myHint2 = new THints (HINTS_ITEMS2, HINTS_CFG2);
+</script>
+
+<p style="margin-top:50px;">We believe in the <span class="hintSource" onmouseover="myHint1.show(0, this)" onmouseout="myHint1.hide()">Internet</span> community and we dedicate ourselves to providing the best value to <span class="hintSource" onmouseover="myHint1.show(1, this)" onmouseout="myHint1.hide()">people</span>. We don't work for the profit; our commercial <span class="hintSource" onmouseover="myHint1.show(2, this)" onmouseout="myHint1.hide()">products</span> are the source of funding for <span class="hintSource" onmouseover="myHint1.show(3, this)" onmouseout="myHint1.hide()">development</span> and promotion of our free <span class="hintSource" onmouseover="myHint1.show(4, this)" onmouseout="myHint1.hide()">software</span>. More we get, more we give back.</p>
+
+<table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="black">
+	<tr><td background="img/film.gif" height="14"><img src="img/pixel.gif" width="10" height="14" /></td></tr>
+	<tr><td>
+		<img src="img/k001.jpg" width="100" onMouseOver="myHint2.show('tt1', this)" onMouseOut="myHint2.hide()" /> &nbsp;
+		<img src="img/k070.jpg" width="100" onMouseOver="myHint2.show('tt2', this)" onMouseOut="myHint2.hide()" /> &nbsp;
+		<img src="img/k020.jpg" width="100" onMouseOver="myHint2.show('tt3', this)" onMouseOut="myHint2.hide()" />
+	</td></tr>
+	<tr><td background="img/film.gif" height="14"><img src="img/pixel.gif" width="1" height="14" /></td></tr>
+</table>
+<p><b>Sample text to demonstrate the hints' transparency:</b> Softcomplex is US based privately owned corporation offering high quality software products and services since 2002. We're known worldwide for our popular JavaScript components as well as other web related software products.
+You've come to the right place if you need professionally implemented programming solutions for your business or hobby.
+Thousands of satisfied customers from stay-at-home moms to huge multinational companies have already benefited from our products and solutions. Hundreds are joining this community every day.</p>
+
+</body>
+</html>

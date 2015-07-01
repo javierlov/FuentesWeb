@@ -1,0 +1,10 @@
+label {display:inline-block; text-align:right; width:136px;}
+
+#divCampos {position:relative;}
+#divErroresForm {display:none;}
+#foco {height:1px; width:1px;}
+#labelFechaHastaBusqueda {margin-left:16px;}
+#labelVigenciaHastaBusqueda {margin-left:16px;}
+#link {width:72%;}
+#texto {width:72%;}
+#textoBusqueda {width:60%;}

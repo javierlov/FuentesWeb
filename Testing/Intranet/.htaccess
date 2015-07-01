@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+
+	ErrorDocument 404 /index.php?pageid=7&404=t
+
+	RewriteEngine On
+	RewriteRule ^encuesta-satisfaccion-cliente/?$ /index.php?pageid=62
+</IfModule>

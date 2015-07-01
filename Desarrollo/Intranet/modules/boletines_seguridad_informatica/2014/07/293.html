@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>..:: Provincia A.R.T. - Boletín Seguridad Informática ::..</title>
+<style type="text/css">
+<!--
+#imgizq {	margin: 0 5px 5px 0px;
+	border: 0px solid #CCCCCC;
+	padding: 6px;
+	float: left;
+}
+#fuente {	font-size: 10px;
+	margin: 0px 0px 10px 0px;
+}
+#imgder {
+	border: 0 solid #CCCCCC;
+	padding: 6px;
+	float: right;
+	clear: none;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#nota {
+	text-align: center;
+	background-color: #DDDDDD;
+	border-left-width: 5px;
+	border-top-width: 0px;
+	padding: 6px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-left: 0px;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#DDDDDD" link="#0087C4" vlink="#0087C4" alink="#626464">
+<table width="635" height="87" border="0" align="center">
+  <tr></tr>
+  <tr>
+    <th scope="col"><img src="/seguridad_informatica/images/Banner_top.jpg" width="619" height="84" /></th>
+  </tr>
+</table>
+<table width="606" align="center" bordercolor="#DDDDDD">
+  <tr>
+    <td height="63" valign="top"><p><span style="width: 714px; height: 27px"> <a target="_blank" href="http://www.provinciart.com.ar/"> <img src="/seguridad_informatica/images/P-Art.jpg" width="142" height="44" border="0" align="right" usemap="#Map" /></a></span></p>      
+      <p><span style="width: 714px; height: 27px; word-spacing: normal;"><font face="Verdana" size="2" color="#444444"><strong><font color="#626464" face="neo sans">
+	  Boletín de Seguridad Informática</font></strong><font color="#626464" face="neo sans">&nbsp;</font></font><font face="Verdana" size="1" color="#626464"> <br />
+    <font face="neo sans">23 de julio de 2014</font></font></span></p></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Phishing a Bancos: CrediCoop, Galicia, Macro, Santander (Argentina) y Banco 
+	de Chile</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/3phishing.jpg" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Se ha detectado una gran cantidad de actividad delictiva relacionada con 
+		cuatro bancos argentinos y dos chilenos. Todos los bancos mencionados 
+		tienen en común el uso de la tarjeta de coordenadas como &quot;segundo factor 
+		de autenticación&quot;, lo cual como ya es conocido, es poco confiable y 
+		fácil de burlar ya que los usuarios no prestan atención a este tipo de 
+		medidas de seguridad.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Un delincuente ha 
+		estado trabajando activamente para crear los sitios falsos de los bancos 
+		mencionados en un servidor especialmente montado para tal fin y alojados 
+		en X10hosting LLC.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">A continuación se dará 
+		un vistazo a cada uno de los sitios y la forma en que han sido 
+		desarrollados. Inicialmente, todos los sitios se encuentran alojados en 
+		el mismo servidor (IP 198.91.XXX.XXX) y en el mismo directorio 
+		&quot;~galicia&quot;.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Para dificultar las 
+		tareas de rastreo de herramientas automatizadas, los directorios reciben 
+		nombres extraños y largos como 
+		&quot;SANTANDERCLSDFHTYTGFDCFVGBHYUJIJKOJUHYGTF&quot; o 
+		&quot;CHILEHYGFWERTYUIKKKKKKKKKJHGFDSXC&quot;. Al comenzar a analizar cada caso se 
+		puede ver que los sitios han sido muy bien duplicados, con detalles que 
+		apuntan a engañar la mayor cantidad de usuarios posible (excepto la 
+		dirección IP que seguirá siendo visible en la barra de direcciones).</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Banco Santander Río 
+		(Argentina y Chile): Inicialmente el usuario ingresa a la página 
+		principal del banco (home-banking). Cuando presiona &quot;Ingresar&quot;, se le 
+		solicitan sus datos de acceso (RUT en el caso de Chile y DNI en el caso 
+		de Argentina). Luego, se solicitan los datos de los 81 campos de la 
+		tarjeta de coordenadas de forma desordenada, para dar una mayor 
+		sensación de seguridad.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Banco Macro 
+		(Argentina): En este caso se ingresa al sitio principal de homebanking y 
+		posteriormente se solicita el ingreso de los datos de acceso del 
+		usuario. Una vez robados estos datos, se solicita la tarjeta de 
+		coordenadas del banco, también de manera desordenada.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Banco Galicia 
+		(Argentina): En este caso se ingresa al sitio principal de homebanking, 
+		posteriormente se solicita el ingreso de los datos de acceso del 
+		usuario. En este caso se puede observar que el sitio real fue descargado 
+		el 05/07/2014 para luego comenzar a subirlo a distintos servidores 
+		fraudulentos. Luego, como sucede en los casos anteriores, se solicita la 
+		tarjeta de coordenadas.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Banco Credicoop 
+		(Argentina): Nuevamente, se ingresa al sitio principal de homebanking y 
+		se solicitan los datos del adherente.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">En el caso del Banco 
+		de Chile, lo que sucede es exactamente lo mismo que lo analizado hasta 
+		ahora en las demás entidades.</font></p>
+        <p><font color="#626464" size="2" face="neo sans"><b>Robo de datos</b>. 
+		Con respecto a la forma en que se roban los datos, siempre se utiliza un 
+		archivo PHP al que se le envía un parámetro sobre el tipo de información 
+		a recolectar. Por ejemplo, el parámetro &quot;STP=sendcard&quot; indica que se 
+		deben solicitar los datos de la tarjeta de coordenadas.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Se pudo obervar que el 
+		delincuente ha puesto mucho énfasis en maximizar sus ingresos y para 
+		ello ha multiplicado la cantidad de bancos que ataca y todos ellos 
+		tienen en común que utilizan las tarjeta de coordenadas como &quot;segundo 
+		factor de autenticación&quot;. La facilidad con que los usuarios son 
+		engañados a través de esta metodología sólo indica que los bancos deben 
+		comenzar a migrar hacia metodologías más seguras de autenticación, como 
+		por ejemplo, los tokens y tomar la responsabilidad de proteger a sus 
+		usuarios. Nota: luego de la denuncia correspondiente, todos los sitios 
+		fraudulentos han sido eliminados.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://blog.segu-info.com.ar/2014/07/phishing-bancos-credicoop-galicia-macro.html">
+		  Segu-Info</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Colombia lanzó un inédito plan de seguridad contra ciberataques</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/ciberataques.jpg" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Ante el avance de los delitos informáticos, que en 2013 afectaron a 6 
+		millones de colombianos, el gobierno de Juan Manuel Santos creó un 
+		sistema de prevención. El robo de identidad es el delito más común. 
+		Colombia perdió al menos 470 millones de dólares sólo por crímenes 
+		realizados a través de internet a lo largo del año pasado, según informó 
+		la empresa Norton.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Algunos de los delitos 
+		más frecuentes fueron el robo de identidad y la sustracción de 
+		contraseñas e información sensible de cuentas bancarias. Se estima que 
+		cuatro de cada diez usuarios de smartphones fueron víctimas, según 
+		informa El Tiempo. Las páginas de internet también sufrieron delitos 
+		cibernéticos. En 2013 se produjeron 1.551 ataques que modificaron la 
+		presentación y el contenido de diferentes sitios. En los primeros seis 
+		meses de 2014, ya se denunciaron 801: 507 contra webs comerciales, 186 
+		contra educativas y 108 contra las de entidades civiles.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Pero la víctima más 
+		célebre fue el propio presidente, Juan Manuel Santos, a quien le 
+		hackearon su correo electrónico personal. Por eso fue él mismo quien se 
+		puso a la cabeza del nuevo plan de ciberdefensa. A través de una serie 
+		de decretos, el mandatario creó la Agencia Nacional de Seguridad 
+		Cibernética, cuya estructura estará bajo la órbita del Poder Ejecutivo, 
+		y una Comisión Digital, que dependerá de la primera. La idea es que el 
+		plan atraviese todos los organismos y poderes del Estado y los haga 
+		trabajar de manera coordinada para enfrentar el problema.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Algunos organismos 
+		preexistentes se reubicarán a fin de unificar las políticas en la 
+		materia. Por ejemplo, el Grupo de Respuesta a Emergencias Cibernéticas 
+		de Colombia (Colcert), que hoy está dentro del Ministerio de Defensa 
+		Nacional, también se incorporará a la órbita de la agencia. Además, se 
+		crearán fiscalías especializadas en delitos informáticos y se brindará 
+		un entrenamiento específico a los jueces. Pero las tareas que 
+		corresponden al Estado son sólo una pata del plan. La otra está 
+		constituida por las nuevas responsabilidades que le cabrán a la sociedad 
+		civil.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">A partir de ahora, 
+		será obligatorio reportar incidentes que puedan derivar de delitos. Así 
+		se creará un sistema nacional de reporte y monitoreo de la 
+		ciberdelincuencia. Por otro lado, la agencia tendrá a su cargo el 
+		cuidado de toda la información sensible de la administración pública que 
+		está digitalizada, como la relativa a las entidades bancarias y a la 
+		recaudación de impuestos. Mejorar los mecanismos de protección de estas 
+		instancias será una de las prioridades.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">A partir de este plan, 
+		con el que Colombia se transformaría en pionera a nivel regional, el 
+		Gobierno aspira a ingresar al Convenio de Budapest, del que forman parte 
+		la Unión Europea, los Estados Unidos, Canadá y Japón, y que busca 
+		desarrollar un marco regulatorio internacional para la prevención y la 
+		lucha contra los delitos cibernéticos.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://www.infobae.com/2014/07/11/1579947-colombia-lanzo-un-inedito-plan-seguridad-contra-ciberataques">
+		  Infobae</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+ 
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Condenaron a presión a 8 iraníes por su actividad en Facebook</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/3facebook.jpg" width="131" height="99" align="absmiddle" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		La Justicia los halló culpables de publicar propagandas anti 
+		gubernamentales y comentarios &quot;contra la seguridad nacional&quot;. La penas 
+		que recibieron van de 8 a y 21 años de cárcel.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Los condenados eran 
+		administradores de páginas en Facebook en las que se publicaba 
+		&quot;propaganda contra el régimen&quot;, &quot;blasfemias&quot; e &quot;insultos a los jefes de 
+		los poderes estatales y al pueblo&quot;, según la Justicia iraní.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">En el proceso judicial 
+		también fueron acusados de participar en manifestaciones y de &quot;insultar 
+		los valores islámicos&quot;. El juicio que culminó este lunes había comenzado 
+		en abril.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Vale recordar que el 
+		presidente de Irán, Hasán Rohaní, había asumido al frente del gobierno 
+		en agosto de 2013, con la promesa de aumentar las libertades públicas y 
+		liberar el acceso a Facebook, entre otras.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Sin embargo, la 
+		oposición de los sectores más radicales -que entre otras instituciones 
+		controlan el Poder Judicial- no le permitió hacerlo.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Además de las penas de 
+		19 años y 91 días, y de 18 años y 91 días que recibieron dos de los ocho 
+		administradores, también fueron castigados con multas de cerca de 400 
+		dólares y 50 latigazos.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://m.minutouno.com/notas/329699-condenaron-presion-ocho-iranies-su-actividad-facebook">
+		  Minutouno</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="27"><hr /></td>
+  </tr>
+  <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	China califica a iOS 7 y al iPhone de amenazas a la seguridad nacional</font></font></h4></td>
+  </tr>
+  <tr>
+    <td height="223" align="left" valign="top"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/chinaiOS7.jpg" width="131" height="99" /></div>
+      </div>
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  La televisión estatal china advirtió a los propietarios de iPhone de Apple 
+	  que el dispositivo es una amenaza para la seguridad nacional debido a que 
+	  registra y almacena sus movimientos. La información ha sido citada por 
+	  Reuters, que refirió a una emisión por CCTV (China Central Television).</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">El segmento transmitido 
+	  por CCTV se refirió en particular a la función de iOS de 7 de &#8220;ubicaciones 
+	  frecuentes&#8221;, que registra los lugares donde ha estado el usuario y cuanto 
+	  tiempo ha permanecido en éstos. La funcionalidad está diseñada para 
+	  recordar lugares importantes con el fin de proporcionar información 
+	  preventiva, como la ruta hacia lugares frecuentados por el usuario o el 
+	  tiempo que le tomará llegar a su trabajo siguiendo distintas rutas.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">&#8220;De esa forma, Apple 
+	  puede conocer el domicilio del usuario y su paradero&#8221;, señaló CCTV, 
+	  siempre citada por Reuters, agregando que &#8220;incluso si esta función está 
+	  desactivada, la información seguirá siendo grabada&#8221;. CCTV continúa 
+	  señalando que &#8220;esta función permite obtener información como la profesión 
+	  del usuario, su lugar de trabajo, domicilio y así hacerse una idea general 
+	  de éste&#8221;.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Según la traducción de 
+	  Reuters, un investigador citado por CCTV habría señalado que: &#8220;Se trata de 
+	  datos muy sensibles&#8221; que incluso podrían revelar &#8220;secretos de Estado.&#8221;</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Por su parte, Apple 
+	  señala que la función de ubicaciones frecuentes de iOS, que es parte de 
+	  los servicios de localización del sistema operativo, está habilitada de 
+	  manera predeterminada, pero puede ser desactivada por el usuario. &#8220;Estos 
+	  datos son conservados únicamente en el dispositivo y no son enviados a 
+	  Apple sin el consentimiento del usuario&#8221;, afirma Apple en su sitio de 
+	  soporte.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">No es la primera vez que 
+	  CCTV, un medio de comunicación controlado por el gobierno de la República 
+	  Popular de China, critica a un gigante tecnológico estadounidense. En 
+	  junio pasado, el mismo canal de televisión señaló que Windows 8 permite a 
+	  Microsoft apoderarse de información personal, números telefónicos, listas 
+	  de contacto información bancaria de los usuarios.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#DDDDDD">
+    <td height="18"><div align="right">
+        <blockquote>
+          <p align="right"><font color="#626464" size="2" face="neo sans">
+		  Fuente: <a href="http://diarioti.com/china-califica-a-ios-7-y-al-iphone-de-amenazas-a-la-seguridad-nacional/81688">
+		  DiarioTI</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td width="600" height="25" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="el70" id="el70"></a><font color="#626464" size="4" face="neo sans">
+	Windows XP, ahora sin soporte para Java</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+      <div align="justify"><img src="/seguridad_informatica/images/no-java.png" width="110" height="100" align="absmiddle" /></div>
+    </div>    
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  Hace ya tres meses que Microsoft finalizó el soporte para Windows XP, 
+	  ahora por si fuera poco Oracle se suma a Microsoft y anuncia que cesa el 
+	  soporte de Java para esta plataforma.</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">Se espera que Oracle 
+	  libere sus próximas actualizaciones de seguridad trimestrales el próximo 
+	  15 de julio, sin embargo ha confirmado que este paquete no incluirá las 
+	  actualizaciones de Java para Windows XP. La compañía ha confirmado que los 
+	  usuarios de Windows XP no podrán instalar Java 8. Aunque en su aviso 
+	  advierte que los usuarios podrán seguir usando las actualizaciones de Java 
+	  7 &quot;bajo su propio riesgo&quot; justificando en que este sistema ya no está 
+	  soportado por Microsoft.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">&quot;A partir del 8 de abril 
+	  de 2014 Microsoft dejó de soportar Windows XP, por lo que ya no es una 
+	  plataforma soportada oficialmente. Los usuarios aun podrán seguir usando 
+	  las actualizaciones de Java 7 bajo su propio riesgo, pero el soporte solo 
+	  se proporcionará para las versiones de Windows Vista o posteriores&quot;.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Lo que podemos entender 
+	  de esto es que aunque las actualizaciones para Java 7 seguirán 
+	  disponibles, Oracle no garantiza el correcto funcionamiento de éstas en 
+	  XP. Estas actualizaciones no habrán sido comprobadas en Windows XP y nadie 
+	  puede garantizar los efectos que podrá tener su uso.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Aunque el cese de 
+	  soporte y las campañas de migración de Microsoft hacia sistemas más 
+	  modernos, han hecho que la cuota de usuarios de Windows XP disminuya las 
+	  estadísticas aun le sitúan como el segundo sistema de escritorio más 
+	  extendido (con un 25% de usuarios) por detrás de Windows 7 con 
+	  prácticamente la mitad del parque de sistemas.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Java siempre ha 
+	  significado una importante brecha en los sistemas, y en los últimos 
+	  tiempos se ha considerado como el punto de entrada más habitual para 
+	  cualquier tipo de troyano o infección. La combinación de un Windows XP sin 
+	  actualizaciones y un Java en la misma situación, no hace sino poner aun 
+	  más en riesgo a los usuarios de este tipo de sistemas. Cada vez más, la 
+	  seguridad en Windows XP puede ser considerada un deporte de riesgo.</font></p>
+   </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+      <blockquote>
+        <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://unaaldia.hispasec.com/2014/07/mas-problemas-para-windows-xp-ahora-sin.html">
+		Hispasec</a></font></p>
+      </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td height="983"><table width="600" height="949" border="0" align="left" bordercolor="#AAAAAA">
+      <tr bgcolor="#FFFFFF">
+        <th width="195" height="61" valign="middle" bgcolor="#626464" scope="col"><h5><font color="#EEEEEE" size="3" face="neo sans">
+		La opción &quot;Restablecer los datos de fábrica&quot; de Android no elimina todos 
+		los datos</font></h5></th>
+        <th width="193" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		El móvil chino Star N9500 venía con troyano de fábrica</font></h5></th>
+        <th width="198" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		La aplicación de Gmail en iOS no hace &quot;Certificate Pinning&quot;</font></h5></th>
+        </tr>
+      <tr bgcolor="#EEEEEE">
+        <td height="857" valign="top"><table width="174" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Un estudio desarrollado por AVAST ha demostrado que es posible 
+			recuperar datos de dispositivos Android después de que estos se 
+			hayan eliminado, incluso si se emplea la opción de &quot;Restablecer 
+			datos de fábrica&quot;. La firma de seguridad analizó 20 smartphones 
+			comprados en eBay cuyos propietarios habían realizado un reinicio a 
+			los datos de fábrica o un borrado de todos los datos de los 
+			dispositivos. A pesar de ello fue capaz de recuperar más de 40.000 
+			fotos (incluyendo fotos de desnudos), 750 correos y 250 contactos y 
+			la identidad completa de 4 de los anteriores propietarios.</font></p>
+	    <p align="left"><font color="#626464" size="2" face="neo sans">
+		Anteriormente ya se habían realizado demostraciones similares sobre 
+		computadoras para demostrar que no bastaba un borrado de los datos, ni 
+		el formateo del disco duro, para permitir la recuperación de gran parte 
+		del contenido anterior. Ahora se ha podido comprobar que esto también 
+		ocurre con Android. Según Jude McColgan, Presidente de Móviles en AVAST 
+		afirmó: &quot;Más de 80.000 teléfonos inteligentes de segunda mano están a la 
+		venta en eBay todos los días en los EE.UU. Junto con sus teléfonos, los 
+		consumidores no se dan cuenta que están vendiendo sus recuerdos y sus 
+		identidades. Las imágenes, correos electrónicos y otros documentos 
+		borrados de teléfonos pueden ser explotados para el robo de identidad, 
+		el chantaje o incluso con fines de acecho. La venta del teléfono usado 
+		es una buena manera de hacer un poco de dinero extra, pero 
+		potencialmente es una mala manera de proteger su privacidad&quot;. Esto viene 
+		a demostrar que para vender un móvil Android no basta con restaurar la 
+		configuración de fábrica, es necesario sobreescribir el contenido antes 
+		de ello.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>          
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Investigadores de la empresa G Data detectaron un troyano que venía 
+			instalado de fábrica en el móvil Star N9500, un clon de origen chino 
+			del Samsung Galaxy. El celular es popular por su bajo precio que 
+			varía entre 150 a 200 dólares, pero venía con un pequeño regalo 
+			oculto. Todo comenzó cuando clientes que utilizaban el antivirus de 
+			G Data comenzaron a reportar la detección de una amenaza, resultó 
+			que se trataba de un troyano llamado Android.Trojan.Uupay.D que se 
+			camuflaba como Google Play y venía instalado de fábrica. Como si 
+			esto fuera poco, una vez detectado tampoco se podía eliminar de 
+			forma sencilla porque formaba parte del firmware del dispositivo. De 
+			acuerdo a la información compartida por G Data, opera de forma 
+			oculta permitiendo tener un control total sobre el celular e incluso 
+			detectaron que estaba enviando datos a un servidor anónimo en China. 
+			Lo que muchos se preguntan es si el fabricante intencionalmente 
+			instaló el malware o se trató de un ciberdelincuente que logró 
+			introducirlo de alguna forma durante su producción.</font></p>
+	<p align="left"><font color="#626464" size="2" face="neo sans">Al buscar el 
+	modelo en Google, el primer resultado que aparecía era de Amazon, pero la 
+	publicación había sido eliminada y sólo estaba accesible desde la caché. 
+	Actualmente ya no se encuentra el Star N9500 en el portal y otras tiendas 
+	como eBay prohibieron su publicación para la venta. Hoy en día los troyanos 
+	en los móviles se están convirtiendo en un verdadero problema porque no hay 
+	que ser un experto para utilizarlos y tomar el control de un celular. Basta 
+	con tener acceso físico durante algunos minutos, seguir una simples 
+	instrucciones y listo... se obtienen las llamadas, fotos, mensajes, 
+	conversaciones de Whatsapp, incluso se puede activar el micrófono para 
+	grabar el sonido ambiente. Para evitar ser espiados básicamente hay que 
+	hacer 3 cosas: Instalar un antivirus, descargar sólo aplicaciones desde las 
+	tiendas oficiales y tener cuidado donde se deja el celular (Configurarle un 
+	código de bloqueo).</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			La app de Gmail para dispositivos iOS tiene una importante 
+			vulnerabilidad que pone en riesgo la comunicación, ya Google no 
+			verifica adecuadamente los certificados digitales con Certificate 
+			Pinning en ella, lo que permite que los usuarios puedan ser víctima 
+			de ataques de interceptación de comunicaciones, más conocidos como 
+			Man in the Middle (MitM). Avi Basán de la empresa Lacoon Mobile 
+			Security, ha comentado que la aplicación de Gmail para iOS no lleva 
+			a cabo como debería el denominado Certificate Pinning al establecer 
+			una conexión segura entre la aplicación móvil y los servicios web 
+			alojados en el back end.</font></p>
+              <p align="left"><font color="#626464" size="2" face="neo sans">Un 
+			  potencial atacante puede visualizar en texto plano los datos que 
+			  la aplicación maneja, por ejemplo, los correos electrónicos de la 
+			  víctima y robar las credenciales de usuario de su cuenta. El 
+			  proceso de Certificate Pinning está enfocado en evitar que un 
+			  usuario pueda ser víctima de un ataque de suplantación de 
+			  identidad del certificado SSL. ¿Cómo se logra esto? Las apps sólo 
+			  permiten la conexión SSL a sitios firmados con certificados 
+			  almacenados dentro de la misma aplicación, rechazando por lo tanto 
+			  cualquier otra conexión. Si un usuario malicioso intenta colar un 
+			  certificado emitido de manera fraudulenta se rechazará la 
+			  conexión, siempre que se utilice este proceso. La empresa Lacoon 
+			  informó de la vulnerabilidad a Google a finales de Febrero. Google 
+			  validó el problema y comunicó que lo habían solucionado. Este 
+			  hecho hizo de nuevo comprobar a Lacoon la vulnerabilidad y 
+			  observar que sigue siendo explotable en la aplicación de Gmail de 
+			  iOS. Finalmente para que el ataque tenga éxito, se debe conseguir 
+			  modificar el perfil de configuración del dispositivo iOS.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+
+        <p>&nbsp;</p>
+        </td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+  <tr>
+    <td height="18" bgcolor="#DDDDDD"><div align="center">
+      <p><font color="#005500" size="2" face="neo sans"> <a href="mailto:SegInfo@provart.com.ar">
+	  Comentarios</a> | <a href="mailto:SegInfo@provart.com.ar">Consultas </a>| <a href="Http://www.artprov.com.ar">
+	  Intranet</a> | <a href="Http://www.provinciart.com.ar">Web</a></font></p>
+    </div></td>
+  </tr>
+</table>
+<table width="606" height="78" border="0" align="center">
+  <tr>
+    <td height="12"><hr /></td>
+  </tr>
+  <tr>
+    <td height="47"><img src="/seguridad_informatica/images/Logo_Bottom.jpg" width="170" height="39" border="0" align="left" /><img src="/seguridad_informatica/images/P-Grupo.jpg" width="138" height="45" border="0" align="right" usemap="#Map2" /></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="-2,1,142,43" href="http://www.artprov.com.ar/" target="_blank" />
+</map>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="0,0,140,45" href="http://intranetgb/joomla/index.php" target="_blank" />
+</map></body>
+</html>

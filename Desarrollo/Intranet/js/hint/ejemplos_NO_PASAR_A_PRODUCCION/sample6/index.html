@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Tigra Hints Sample #6 - Controlling Existing Tags</title>
+
+	<!-- link Tigra Hints script file -->
+	<script language="JavaScript" src="tigra_hints.js"></script>
+
+</head>
+<body>
+<!-- at the beginning of the document's body configure and initialize the hint object -->
+<script language="JavaScript">
+
+var HINTS_CFG = {
+	'wise'       : true, // don't go off screen, don't overlap the object in the document
+	'margin'     : 10, // minimum allowed distance between the hint and the window edge (negative values accepted)
+	'gap'        : -10, // minimum allowed distance between the hint and the origin (negative values accepted)
+	'align'      : 'brtl', // align of the hint and the origin (by first letters origin's top|middle|bottom left|center|right to hint's top|middle|bottom left|center|right)
+	'css'        : '', // a style class name for all hints, applied to DIV element (see style section in the header of the document)
+	'show_delay' : 100, // a delay between initiating event (in this case it's click) and hint appearing
+	'hide_delay' : 0, // a delay between closing event (in this case it's click or form submission) and hint disappearing
+	'follow'     : false, // hint follows the mouse as it moves
+	'IEtrans'    : [true, true] // run transitions defined in the hint's style
+};
+
+var myHint = new THints (null, HINTS_CFG);
+</script>
+
+<!--
+	HTML code for the hint, make sure the hint has unique ID, it is positioned absolutely and initially invisible
+	Note: Generating the HTML for the hint inside of the document ensures the indexation of the text by the search engines
+-->
+<form action="index.html" method="post" name="subscribe" onsubmit="myHint.hide(); return true;"
+	id="subscrForm" style="position:absolute;z-index:1;visibility:hidden;width:250px;height:300px;padding:5px;background-color:#e0e0e0;border:1px solid gray;filter: revealTrans(TRANSITION=3,DURATION=.5) revealTrans(TRANSITION=2,DURATION=.5)">
+	<p align="right">[<a href="javascript:myHint.hide();">close</a>]</p>
+	<p align="center">form elements go here</p>
+</form>
+<!-- End of the HTML code for the hint -->
+
+<!-- pass ID of the existing element as the first parameter of the show(..) method -->
+<div onclick="myHint.show('subscrForm', this)" style="width: 200px; border: 1px solid #4682B4; padding: 20px; text-align: center; cursor: pointer;"> click to open the form </div>
+
+</body>
+</html>

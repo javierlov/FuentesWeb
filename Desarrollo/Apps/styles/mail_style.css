@@ -1,0 +1,121 @@
+﻿body {
+	font-family: Neo Sans;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom:5px;
+	scrollbar-face-color: #aaaaaa;  
+	scrollbar-highlight-color: #aaaaaa;  
+	scrollbar-shadow-color: #aaaaaa;  
+	scrollbar-3dlight-color: #eeeeee; 
+	scrollbar-arrow-color: #eeeeee;  
+	scrollbar-track-color: #e3e3e3;  
+	scrollbar-darkshadow-color: #ffffff; 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+	
+a:active {
+	text-decoration: none;
+}
+
+/* Estilo para el encabezado principal del mail */
+.HeaderTabla {
+	width:620;
+}
+
+.HeaderTabla TD {
+	background-color:#807F84;
+	color:#FFFFFF;
+	font-size:14pt;
+	padding-left: 5px;
+}
+
+.HeaderTablaImg {
+	width: 52px;
+	height: 49px;
+	background-position: center center;
+}
+
+/* Estilo para la tabla que contiene el resto del mail */
+.Tabla {
+	width:620;
+}
+
+/* Estilo para la celda que incluye el nombre del Usuario que solicita el pedido */
+.TDUsuSol {
+	background-color:#014C8D;
+	text-align:right;
+	color:#FFFFFF;
+	font-size:10pt;
+}
+
+/* Estilo para los distintos tipos de datos que contiene el mail */
+.ItemTitle {
+	width:200;
+	vertical-align:top;
+	text-align:right;
+	font-size:10pt;
+	color:#505050;
+}	
+
+/* Estilo para el contenido de los distintos tipos de datos que contiene el mail */
+.ItemConten {
+	width:622;
+	border-bottom-style: dotted; 
+	border-bottom-width: 1px; 
+	padding-left: 4px; 
+	padding-right: 4px;
+	font-size:10pt;
+	color:#807F84;
+	text-align: justify;
+}	
+
+/* Estilo para el boton que accede al detalle del pedido */
+.Submit {
+	background: url('../images/fnd.jpg');
+	font-family: Neo sans;
+	font-size: 10pt; 
+	padding-left: 5px; 
+	padding-right: 5px; 
+	height: 15px;	
+	background-color: #807F84;
+}
+
+.Submit a {
+	color: #FFFFFF; 
+}
+
+.Submit a:hover {
+	color: #000000; 
+}
+
+/* Estilo para viñeta */
+#viñeta {
+	color:#014C8D;
+	font-weight: bold;
+	font-size:10pt;
+}
+
+/* Estilo para celda usada como separador */
+.TD1 {
+	height:15;
+}
+
+/* Estilos para celdas del pie de pagina */
+.TD2 {
+	height:2;
+	background-color:#CCCCCC;
+}
+
+.TD3 {
+	height:2;
+	background-color:#807F84;
+}

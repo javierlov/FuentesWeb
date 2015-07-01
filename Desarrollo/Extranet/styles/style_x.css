@@ -1,0 +1,42 @@
+﻿.botonDescargar {background-image:url(/modules/formulario_establecimientos/images/boton_descargar.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.BotonInformacion {background-image:url(/images/lupa.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.btnAceptar {background-color:#666; background-image:url(/images/btn_aceptar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnCancelarChico {background-color:#666; background-image:url(/images/btn_cancelar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnEditar {background-color:#666; background-image:url(/images/edit16.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnExcel {background-image:url(/modules/usuarios_registrados/images/icoEXCEL.gif); border:0; cursor:pointer; height:21px; width:20px;}
+.btnExportar {background-image:url(/modules/usuarios_registrados/images/exportar_xls.jpg); border:0; cursor:pointer; height:15px; width:115px;}
+.btnFormulariosBlanco {background-image:url(/modules/usuarios_registrados/images/formularios_en_blanco.jpg); border:0; cursor:pointer; height:16px; width:176px;}
+.btnImprimirChico {background-color:#666; background-image:url(/images/btn_imprimir.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnLimpiar {background-image:url(/modules/usuarios_registrados/images/limpiar.jpg); border:0; cursor:pointer; height:15px; width:91px;}
+.btnLink {background-color:#666; background-image:url(/images/link.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnOk {background-color:#666; background-image:url(/images/btn_ok.png); border:none; cursor:pointer; height:15px; width:14px;}
+.btnPdf {background-color:#666; background-image:url(/images/pdf.png); border:none; cursor:pointer; height:16px; width:16px;}
+.BTNPDF {background-color:#666; background-image:url(/images/pdf.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnQuitar {background-color:#666; background-image:url(/images/delete16.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnReactivar {background-color:#666; background-image:url(/images/btn_reactivar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnRGRL {background-color:#666; background-image:url(/images/btn_rgrl.png); border:none; cursor:pointer; height:16px; width:16px;}
+.BTNRGRL {background-color:#666; background-image:url(/images/btn_rgrl.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnRGRLOk {background-color:#666; background-image:url(/images/btn_rgrl_ok.png); border:none; cursor:pointer; height:16px; width:16px;}
+.BTNRGRLOK {background-color:#666; background-image:url(/images/btn_rgrl_ok.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnSeleccionar {background-color:#666; background-image:url(/images/seleccionar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.datosGuardados {color:#6fb43f; font-family:Neo Sans; font-size:11pt;}
+.GridBaja {color:#b00; text-decoration:line-through;}
+.gridColAlignCenter {padding-right:4px; text-align:center;}
+.gridColAlignRight {padding-right:4px; text-align:right;}
+.GridColSeparator {background-color:#fff; width:1px;}
+.GridEmpty {background-image:url(/images/grid_not_found.gif); border:none; height:50px; width:237px;}
+.GridFirstColumn {background-color:#fff;}
+.GridFondoOnMouseOver:hover {background:#0f539c; cursor:default;}
+.GridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-width:1px; border-style:solid; color:white; font-family:Neo Sans; font-size:12px; height:20px;}
+.GridFooterFont {color:#fefefe; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.GridFooterFontSelected {color:#0f539c; cursor:default; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.GridHeader {background-color:#0f539c; color:#fff; font-family:Neo Sans; font-size:12px; height:16px; text-align:center; vertical-align:top;}
+.GridOrderAsc {background-image:url(/images/grid_asc.gif); border:none; height:15px; width:26px;}
+.GridOrderDesc {background-image:url(/images/grid_desc.gif); border:none; height:15px; width:26px;}
+.GridRow1 {background-color:#666; color:black; cursor:default;}
+.GridRow2 {background-color:#666; color:black; cursor:default;}
+.GridTable {border:0px solid; border-collapse:collapse; border-spacing:0px; padding:0px; width:680px;}
+.GridText {color:#fff; font-family:Neo Sans; font-size:10pt; padding-left:2px;}
+.GridTitle {color:#fefefe; font-family:Neo Sans; font-size:14px; font-weight:bold; text-align:center; text-decoration:none;}
+
+#estado {color:#f00; font-family:Neo Sans; font-size:14pt;}

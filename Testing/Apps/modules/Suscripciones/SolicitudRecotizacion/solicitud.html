@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{#SERVER#}styles/style.css" type="text/css" />
+	</head>
+	<body>
+		<table width="100%">
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td><h1><img src="{#SERVER#}images/logo_provart.jpg"><br>Solicitud de Permiso para pedir una Recotización</h1></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>Nº Solicitud</td>
+							<td>{#NUMEROSOLICITUD#}</td>
+						</tr>
+						<tr>
+							<td>CUIT</td>
+							<td>{#CUIT#}</td>
+						</tr>
+						<tr>
+							<td>Razón Social</td>
+							<td>{#RAZONSOCIAL#}</td>
+						</tr>
+						<tr>
+							<td>Fecha de Solicitud</td>
+							<td>{#FECHASOLICITUD#}</td>
+						</tr>
+						<tr>
+							<td>Usuario de Solicitud</td>
+							<td>{#USUARIOSOLICITUD#}</td>
+						</tr>
+						<tr>
+							<td>Observaciones</td>
+							<td>{#OBSERVACIONES#}</td>
+						</tr>
+						<tr>
+							<td align="center" background="{#SERVER#}images/fnd.jpg" class="Submit" colspan="2">
+								<a href="{#SERVER#}{#URL#}?TRANSACCION={#TRANSACCION#}&USUVAL=&USERNAME={#USERNAME#}">Haga clic aquí para contestar el pedido</a>
+							</td>
+						</tr>
+					<table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

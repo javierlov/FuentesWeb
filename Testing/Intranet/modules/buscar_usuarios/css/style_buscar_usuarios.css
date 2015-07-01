@@ -1,0 +1,47 @@
+#btnBuscar {
+	margin-left: 24px;
+}
+
+#divBotones {
+	height: 50px;
+}
+
+#divBuscarUsuarios {
+	background-color: #807F84;
+	margin-bottom: 8px; 
+	margin-left: 16px; 
+	padding: 4px; 
+	width: 746px;
+}
+
+#imgAyuda {
+	margin-right: 0px;
+}
+
+#imgTelefonico {
+	margin-right: 0px;
+}
+
+#imgPaginasDoradas {
+	margin-right: 0px;
+}
+
+#imgVigilancia {
+	margin-right: 0px;
+}
+
+#labelNombre {
+	margin-right: 4px;
+}
+
+#labelSector {
+	margin-left: 24px;
+	margin-right: 4px;
+}
+
+#Nombre {
+	top: 2px;
+}
+#Sector {
+	top: 2px;
+}

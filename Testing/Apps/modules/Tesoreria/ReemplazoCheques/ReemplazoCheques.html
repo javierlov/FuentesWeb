@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{#SERVER#}Styles/style.css" type="text/css" />
+	</head>
+	<body>
+		<table width="100%">
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td>
+								<h1>
+									<img src="{#SERVER#}images/logo_provart.jpg">
+									<br />
+									{#TITLE#}
+								</h1>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>Número de cheque</td>
+							<td>
+								{#CHEQUE#}
+								<!-- <input type="text" name="cheque" value="{#CHEQUE#}"> -->
+							</td>
+						</tr>
+						<tr>
+							<td>Beneficiario original</td>
+							<td>
+								{#BENEFICIARIO#}
+								<!-- <input type="text" name="cheque" value="{#BENEFICIARIO#}"> -->
+							</td>
+						</tr>
+						<tr>
+							<td>Monto</td>
+							<td>
+								{#MONTO#}
+								<!-- <input type="text" name="cheque" value="{#MONTO#}"> -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" background="{#SERVER#}images/fnd.jpg" class="Submit" colspan="2">
+								<br />
+								<a href="{#SERVER#}{#URL#}?TRANSACCION={#TRANSACCION#}&USUVAL=&USERNAME={#USERNAME#}">Haga clic aquí para realizar el cambio</a>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

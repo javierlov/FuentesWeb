@@ -1,0 +1,19 @@
+label {display:inline-block; text-align:right; width:140px;}
+
+#codigoInternoRRHH {width:72px;}
+#divCampos {position:relative;}
+#divErroresForm {display:none;}
+#foco {height:1px; width:1px;}
+#horarioAtencion {width:400px;}
+#imgFoto {border:3px solid #fff; height:auto; width:120px;}
+#imgFoto:hover {border:3px solid #0f539c;}
+#interno {width:400px;}
+#labelFoto {vertical-align:top;}
+#legajoBusqueda {width:72px;}
+#legajoRRHH {width:72px;}
+#mostrarEnIntranet {margin-left:4px;}
+#nombre {background-color:#ccc; width:60%;}
+#nombreBusqueda {width:60%;}
+#piso {width:24px;}
+#sector {width:84%;}
+#usuarioART {background-color:#ccc; width:60%;}

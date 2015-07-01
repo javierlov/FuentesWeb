@@ -1,0 +1,20 @@
+/*IE6 and below CSS hack. Width must be set to 100% in order for opaque title bar to render*/
+* html .drag-handle {width:100%;}
+
+.dhtmlwindow {background-color:white; border:2px solid black; position:absolute; visibility:hidden;}
+
+/*CSS for Content Display Area div*/
+.drag-contentarea {background-color:white; border-top:1px solid; color:black; height:150px; overflow:auto; padding:2px;}
+
+/*CSS for Drag Handle*/
+.drag-handle {-moz-opacity:1; background-color:#0f539c; color:white; cursor:move; filter:progid:DXImageTransform.Microsoft.alpha(opacity=100); font:bold 14px Neo Sans; opacity:1;
+						 overflow:hidden; padding:1px; text-indent:3px; width:auto;}
+
+/*CSS for controls (min, close etc) within Drag Handle*/
+.drag-handle .drag-controls {cursor:hand; cursor:pointer; position:absolute; right:1px; top:2px;}
+
+/*CSS for Resize Area itself*/
+.drag-resizearea {cursor:nw-resize; float:right; font-size:0; height:13px; width:13px;}
+
+/*CSS for Status Bar div (includes resizearea)*/
+.drag-statusarea {background-color:#f8f8f8; border-top:1px solid gray; height:13px;}

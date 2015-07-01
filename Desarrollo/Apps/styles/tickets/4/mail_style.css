@@ -1,0 +1,14 @@
+﻿/* Estilo para la celda que incluye el nombre del Usuario que solicita el pedido */
+.TDUsuSol {
+	background-color:#3CB900;
+	text-align:right;
+	color:#FFFFFF;
+	font-size:10pt;
+}
+
+/* Estilo para viñeta */
+#viñeta {
+	color:#3CB900;
+	font-weight: bold;
+	font-size:10pt;
+}

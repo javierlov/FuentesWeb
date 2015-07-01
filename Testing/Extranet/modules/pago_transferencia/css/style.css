@@ -1,0 +1,128 @@
+.btnDownload {
+	background-image: url(/modules/pago_transferencia/images/download.jpg);
+	border: none;
+	cursor: pointer;
+	height: 22px;
+	width: 22px;
+}
+
+.colDownload {
+	background-color: #fff;
+}
+
+.colFecha {
+	text-align: center;
+}
+
+.GridBaja {
+	color: #b00;
+	text-decoration: line-through;
+}
+
+.GridColSeparator {
+	background-color: #fff;
+	width: 1px;
+}
+
+.GridEmpty
+{
+  border: none;
+  background-image: url(/images/grid_not_found.gif);
+  height: 50px;
+  width: 237px;
+}
+
+.GridFirstColumn {
+	background-color: #fff;
+}
+
+.GridFondoOnMouseOver:hover {
+	background: #00A4E4;
+}
+
+.GridFooter {
+	background-color: #B8B8B8;
+	border-color: #B1B1B1;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	font-family: Neo Sans;
+	font-size: 12px;
+	height: 20px;
+}
+
+.GridFooterFont {
+	color: #FEFEFE;
+	font-family: Neo Sans;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridFooterFontSelected {
+	color: #00A4E4;
+	cursor: default;
+	font-family: Neo Sans;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridHeader {
+	background-color: #c0c0c0;
+	border-color: #807f84;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+}
+
+.GridOrderAsc
+{
+  border: none;
+  background-image: url(/images/grid_asc.gif);
+  height: 15px;
+  width: 26px;
+}
+
+.GridOrderDesc
+{
+  border: none;
+  background-image: url(/images/grid_desc.gif);
+  height: 15px;
+  width: 26px;
+}
+
+.GridRow1 {
+	background-color: #fff;
+	cursor: default;
+}
+
+.GridRow2 {
+	background-color: #fff;
+	cursor: default;
+}
+
+.GridTable {
+	border: 0px solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	width: 680px;
+}
+
+.GridText {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 8pt;
+	padding-left: 2px;
+}
+
+.GridTitle {
+	color: #fff;
+	font-family: Trebuchet MS;
+	font-size: 8pt;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+}

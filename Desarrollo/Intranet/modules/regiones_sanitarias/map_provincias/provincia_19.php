@@ -1,0 +1,1 @@
+<area coords="136, 2, 186, 16" href="javascript:selectProvincia(7)" shape="rect" title="Ir a la provincia de Chubut">

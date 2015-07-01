@@ -1,0 +1,7 @@
+.fondoOnMouseOver:hover {background-color:#0081dc; color:#fff; cursor:pointer;}
+.listaBordes {border-bottom:1px solid #fff; padding-left:25px; text-decoration:none;}
+.listaItems {}
+.listaItemsBold {font-weight:bold;}
+.listaSeparador {border-bottom-style:dotted; border-bottom-width:1px;}
+.listaTitulo {background:#0081dc; color:#fff; font-family:Arial Narrow; font-size:17px; font-weight:bold; padding-left:25px;}
+.tableLista {border-collapse:collapse; color:#575756; font-family:Arial; font-size:13px; position:relative; width:97.8%;}

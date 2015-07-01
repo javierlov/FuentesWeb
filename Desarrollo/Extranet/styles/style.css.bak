@@ -1,0 +1,69 @@
+﻿.botonDescargar {background-image:url(/modules/formulario_establecimientos/images/boton_descargar.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.BotonInformacion {background-image:url(/images/lupa.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.btnAceptar1 {background-color:#666; background-image:url(/images/btn_aceptar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnCancelarChico {background-color:#666; background-image:url(/images/btn_cancelar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnEditar {background-color:#666; background-image:url(/images/edit16.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnExcel {background-image:url(/modules/usuarios_registrados/images/icoEXCEL.gif); border:0; cursor:pointer; height:21px; width:20px;}
+.btnExportar {background-image:url(/modules/usuarios_registrados/images/exportar_xls.jpg); border:0; cursor:pointer; height:15px; width:115px;}
+.btnFormulariosBlanco {background-image:url(/modules/usuarios_registrados/images/formularios_en_blanco.jpg); border:0; cursor:pointer; height:16px; width:176px;}
+.btnImprimirChico {background-color:#666; background-image:url(/images/btn_imprimir.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnLimpiar {background-image:url(/modules/usuarios_registrados/images/limpiar.jpg); border:0; cursor:pointer; height:15px; width:91px;}
+.btnLink {background-color:#666; background-image:url(/images/link.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnOk {background-color:#666; background-image:url(/images/btn_ok.png); border:none; cursor:pointer; height:15px; width:14px;}
+.btnPdf {background-color:#666; background-image:url(/images/pdf.png); border:none; cursor:pointer; height:16px; width:16px;}
+.BTNPDF {background-color:#666; background-image:url(/images/pdf.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnQuitar {background-color:#666; background-image:url(/images/delete16.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnMas {background-color:#666; background-image:url(/images/add16.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnDeleteItem{background-color:#666; background-image:url(/images/estudios_juridicos/btn_delete.png);border:none; cursor:pointer; height:16px; width:16px;}
+.btnEditItem{background-color:#666; opacity:0.9; background-image:url(/images/estudios_juridicos/btn_edit.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnNuevoItem{background-color:#666; background-image:url(/images/estudios_juridicos/btn_Nuevo.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnBuscarItem{background-color:#666; opacity:0.9; background-image:url(/images/estudios_juridicos/btn_buscar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnReactivar {background-color:#666; background-image:url(/images/btn_reactivar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnRGRL {background-color:#666; background-image:url(/images/btn_rgrl.png); border:none; cursor:pointer; height:16px; width:16px;}
+.BTNRGRL {background-color:#666; background-image:url(/images/btn_rgrl.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnRGRLOk {background-color:#666; background-image:url(/images/btn_rgrl_ok.png); border:none; cursor:pointer; height:16px; width:16px;}
+.BTNRGRLOK {background-color:#666; background-image:url(/images/btn_rgrl_ok.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnSeleccionar {background-color:#666; background-image:url(/images/seleccionar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnNuevo {background-image:url(/modules/usuarios_registrados/images/nuevo.jpg); border:0; cursor:pointer; height:15px; width:91px;}
+
+.btnAceptar {background-image:url(/modules/usuarios_registrados/images/boton_aceptar.jpg); border:0; cursor:pointer; height:15px; width:91px;}
+.btnCancelar {background-image:url(/modules/usuarios_registrados/images/boton_cancelar.jpg); border:0; cursor:pointer; height:15px; width:91px;}
+
+.btnFinalizar {background-image:url(/modules/usuarios_registrados/images/boton_finalizar.jpg); border:0; cursor:pointer; height:15px; width:79px;}
+
+.datosGuardados {color:#6fb43f; font-family:Neo Sans; font-size:11pt;}
+.combo{width:200px;}
+.gridBaja {color:#b00; text-decoration:line-through;}
+.gridColAlignCenter {padding-right:4px; text-align:center;}
+.gridColAlignRight {padding-right:4px; text-align:right;}
+.gridColSeparator {background-color:#fff; width:1px;}
+.gridEmpty {background-image:url(/images/grid_not_found.gif); border:none; height:50px; width:237px;}
+.gridFirstColumn {background-color:#fff;}
+.gridFondoOnMouseOver:hover {background:#0f539c; cursor:default;}
+.gridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-width:1px; border-style:solid; color:white; font-family:Neo Sans; font-size:12px; height:20px;}
+.gridFooterFont {color:#fefefe; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.gridFooterFontSelected {color:#0f539c; cursor:default; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.gridHeader {background-color:#0f539c; color:#fff; font-family:Neo Sans; font-size:12px; height:16px; text-align:center; vertical-align:top;}
+.gridOrderAsc {background-image:url(/images/grid_asc.gif); border:none; height:15px; width:26px;}
+.gridOrderDesc {background-image:url(/images/grid_desc.gif); border:none; height:15px; width:26px;}
+.gridRow1 {background-color:#666; color:black; cursor:default;}
+.gridRow2 {background-color:#666; color:black; cursor:default;}
+.gridTable {border:0px solid; border-collapse:collapse; border-spacing:0px; padding:0px; width:680px;}
+.gridText {color:#fff; font-family:Neo Sans; font-size:10pt; padding-left:2px;}
+.gridTitle {color:#fefefe; font-family:Neo Sans; font-size:14px; font-weight:bold; text-align:center; text-decoration:none;}
+.gridTitle:hover {color:#97bae2; text-decoration:none;}
+
+.gridTextCenter {color:#fff; font-family:Neo Sans; font-size:8pt; padding-left:2px; text-align:center;}
+
+
+.gridFondoOnMouseOver:hover *[codigo^="cambiocolor"]{background-color:#0f539c; cursor:default;}
+
+#estado {color:#f00; font-family:Neo Sans; font-size:14pt;}
+
+.btnCarpeta{background-color: #666; background-image:url(/images/foldertransp1.png); border:none; cursor:pointer; height:16px; width:16px;}
+
+.btnElimTransp{background-color:#fff; background-image:url(/images/btn_delete_file.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnElimTransp:hover{background-color:#fff; background-image:url(/images/btn_delete_file_Select.png); border:none; cursor:pointer; height:16px; width:16px;}
+
+.btnCarpetaFdoBlanco{background-color:#fff; background-image:url(/images/foldertransp1.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnBase{border:none; cursor:pointer; height:auto; width:16px;}

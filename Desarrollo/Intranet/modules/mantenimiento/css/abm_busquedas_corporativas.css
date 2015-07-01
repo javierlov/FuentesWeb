@@ -1,0 +1,11 @@
+label {display:inline-block; text-align:right; width:100px;}
+
+#aVerArchivoBusquedaCorporativa {margin-left:16px;}
+#divCampos {position:relative;}
+#divErroresForm {display:none;}
+#foco {height:1px; width:1px;}
+#labelVigenciaHasta {margin-left:16px;}
+#labelVigenciaHastaBusqueda {margin-left:16px;}
+#numero {width:40px;}
+#puesto {width:60%;}
+#puestoBusqueda {width:60%;}

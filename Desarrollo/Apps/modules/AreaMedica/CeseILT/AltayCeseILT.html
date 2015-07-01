@@ -1,0 +1,20 @@
+<html><head><link rel="stylesheet" href="{#SERVER#}styles/mails.css" type="text/css" /></head>
+<body><table class="Width600 GrisOscuro" cellpadding="0"><tr><td width="5%"><img src="{#SERVER#}images/01.jpg"></td><td class="Title01" width="90%">{#TITLE#}</td><td width="5%"><img src="{#SERVER#}images/02.jpg"></td></tr></table>
+<table class="Width600 GrisClaro"><tr><td class="CS40 GrisClaro" colspan="2"></td></tr>
+{#ENCABEZADO#}
+<tr><td><table class="Width560 GrisOscuro" cellpadding="2" cellspacing="0">
+<tr><td class="ItTit">Nº de Siniestro <span id="ñ">&gt;</span></td><td class="ItDet">{#SINIESTRO#}</td></tr>
+<tr><td class="ItTit">CUIL <span id="ñ">&gt;</span></td><td class="ItDet">{#CUIL#}</td></tr>
+<tr><td class="ItTit">Empresa <span id="ñ">&gt;</span></td><td class="ItDet">{#EMPRESA#}</td></tr>
+<tr><td class="ItTit">Fecha de Accidente <span id="ñ">&gt;</span></td><td class="ItDet">{#FACCIDENTE#}</td></tr>
+<tr><td class="ItTit">Fecha de Inicio de ILT <span id="ñ">&gt;</span></td><td class="ItDet">{#FINICIOILT#}</td></tr>
+<tr><td class="ItTit">Fecha de Cese de ILT <span id="ñ">&gt;</span></td><td class="ItDet">{#FCESEILT#}</td></tr>
+<tr><td class="ItTit">Causa de Cese de ILT <span id="ñ">&gt;</span></td><td class="ItDet">transcurso de un (1) año desde la primera manifestación invalidante {#FCESEILT#}</td></tr>
+<tr><td class="ItTit"></td><td></td></tr></table></td></tr>
+<tr><td class="ContenMail01"><p>&nbsp;</p><p>{#SININCAPACIDAD#}</p>{#PARRAFO#}<p>Lo saluda atentamente,</p></td></tr>
+<tr><td class="ContenMail01"><b>{#FIRMANTE#}</b></td></tr>
+<tr><td class="ContenMail01"><b>{#GRUPOSINIESTRO#}</b></td></tr>
+<tr><td class="ContenMail01"><b>Provincia ART</b></td></tr>
+<tr><td class="CS40 GrisClaro"></td></tr></table>
+<table class="Width600 Celeste"><tr><td width="5%"><img src="{#SERVER#}images/03.jpg"></td><td width="90%"></td><td width="5%"><img src="{#SERVER#}images/04.jpg"></td></tr></table>
+</body></html>

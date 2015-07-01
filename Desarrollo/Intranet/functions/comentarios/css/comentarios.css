@@ -1,0 +1,14 @@
+.spanComentarioModerado {color:bbb;}
+
+#bComentador {color:#0f539c;}
+#comentario {height:76px; margin-top:16px; width:98%;}
+#divComentario {margin-top:8px;}
+#divComentarioLeft {float:left; width:48px;}
+#divComentarioRight {padding-left:48px; width:92%;}
+#divComentarios {padding-bottom:15px; padding-left:5px; padding-top:7px; text-align:left;}
+#divFechaComentario {color:#888; margin-top:2px;}
+#divSinComentarios {margin-top:16px;}
+#divTituloComentarios {background-color:#0f539c; color:#fff; font-size:11pt; font-weight:bold; padding-left:4px; text-align:left;}
+#iframeComentarios {border:none; margin-top:20px; width:98%;}
+#imgComentador {height:auto; max-width:40px;}
+#imgEliminarComentario {cursor:hand; vertical-align:-4px;}

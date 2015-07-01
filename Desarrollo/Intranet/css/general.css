@@ -1,0 +1,16 @@
+#divError {color:#f00; font-size:14px; margin-top:8px;}
+
+/* INICIO MENSAJE ERROR GENÉRICO */
+#divMsgError {display:none; height:100%; left:0; position:fixed; top:0; width:100%; z-index:320;}
+#divMsgErrorBoton {margin-top:8px; text-align:center;}
+#divMsgErrorFondo {background-color:rgba(34, 34, 34, .4); height:100%; position:relative; width:100%;}
+#divMsgErrorFormulario {background-color:#ffbaba; border:5px #fff ridge; left:50%; margin:-15% 0 0 -15%; padding:4px; position:absolute; text-align:left; top:50%; width:30%;}
+#divMsgErrorIcono {float:left; margin-bottom:4px; margin-right:8px;}
+/* FIN MENSAJE ERROR GENÉRICO */
+
+/* INICIO MENSAJE OK GENÉRICO */
+#divMsgOkBoton {margin-top:8px; text-align:center;}
+#divMsgOk {background-color:#dff2bf; border:5px #fff ridge; display:none; left:50%; margin:-15% 0 0 -15%; padding:4px; position:fixed; text-align:left; top:50%; width:30%;}
+#divMsgOkIcono {float:left; margin-bottom:4px; margin-right:8px;}
+#divMsgOkTexto {margin-top:8px;}
+/* FIN MENSAJE OK GENÉRICO */

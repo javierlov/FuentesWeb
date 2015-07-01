@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+
+	RewriteEngine On
+	RewriteRule ^archivo/([^/]*)$ /functions/get_file.php?fl=$1
+	RewriteRule ^archivo/([^/]*)/([a-z]*)$ /functions/get_file.php?fl=$1&md=$2
+	RewriteRule ^archivo/([^/]*)/([^/]*)/([a-z]*)$ /functions/get_file.php?fl=$1&ft=$2&ok=$3
+</IfModule>

@@ -1,0 +1,120 @@
+table {
+	background-color: #fcc;
+	border-collapse: collapse;
+	font-family: verdana;
+	font-size: x-small;
+	width: 100%;
+}
+
+td {
+	border: solid 1px thin #abc;
+	vertical-align: top;
+}
+
+#ano {
+	left: 80px;
+	position: absolute;
+	top: 8px;
+}
+
+#anoLabel {
+	left: 0;
+	position: relative;
+	top: -2px;
+}
+
+#detalle {
+	left: 80px;
+	position: absolute;
+	top: 56px;
+}
+
+#detalle1, #detalle2, #detalle3, #detalle4 {
+	display: none;
+	height: 100%;
+}
+
+#detalleLabel {
+	left: 0;
+	position: relative;
+	top: 6px;
+}
+
+#divGerencia {
+	display: none;
+}
+
+#evaluador {
+	background-color: #a8a;
+	font-family: verdana;
+	font-size: x-small;
+	margin-top: 40px;
+}
+
+#firstRow {
+	border-top: solid 3px #000;
+}
+
+#gerencia {
+	left: 80px;
+	position: absolute;
+	top: 104px;
+}
+
+#gerenciaLabel {
+	left: 0;
+	position: relative;
+	top: 16px;
+}
+
+#resultado {
+	background-color: #fbf;
+	margin-top: 16px;
+}
+
+#rowFooter {
+	background-color: #c87;
+}
+
+#rowTitle {
+	background-color: #ddd;
+}
+
+#subdetalle {
+	left: 80px;
+	position: absolute;
+	top: 80px;
+}
+
+#subdetalleLabel {
+	left: 0;
+	position: relative;
+	top: 12px;
+}
+
+#tema {
+	left: 80px;
+	position: absolute;
+	top: 32px;
+}
+
+#temaLabel {
+	left: 0;
+	position: relative;
+	top: 1px;
+}
+
+#tituloGerencia {
+	background-color: #cde;
+	color: #098;
+	font-family: verdana;
+	font-size: medium;
+}
+
+#tituloResultado {
+	background-color: #cde;
+	font-family: verdana;
+	font-size: large;
+	margin-top: 24px;
+	width: 100%;
+}

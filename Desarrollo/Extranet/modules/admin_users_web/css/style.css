@@ -1,0 +1,24 @@
+.btnLupa {background-image:url(/images/lupa.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.botones {margin-left:120px; margin-top:16px;}
+.colDownload {background-color:#fff;}
+.colFecha {text-align:center;}
+.gridBaja {color:#b00; text-decoration:line-through;}
+.gridColSeparator {background-color:#fff; width:1px;}
+.gridEmpty {border:none; background-image:url(/images/grid_not_found.gif); height:50px; width:237px;}
+.gridFirstColumn {background-color:#fff;}
+.gridFondoOnMouseOver:hover {background:#00a4e4;}
+.gridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-width:1px; border-style:solid; color:white; font-family:Neo Sans; font-size:12px; height:20px;}
+.gridFooterFont {color:#fefefe; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.gridFooterFontSelected {color:#00a4e4; cursor:default; font-family:Neo Sans; font-size:8pt; text-decoration:none;}
+.gridHeader {background-color:#c0c0c0; border-color:#807f84; border-style:solid; border-width:1px; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.gridOrderAsc {border:none; background-image:url(/images/grid_asc.gif); height:15px; width:26px;}
+.gridOrderDesc {border:none; background-image:url(/images/grid_desc.gif); height:15px; width:26px;}
+.gridRow1 {background-color:#fff; cursor:default;}
+.gridRow2 {background-color:#fff; cursor:default;}
+.gridTable {border:0px solid; border-collapse:collapse; border-spacing:0px; padding:0px; width:680px;}
+.gridText {color:#000; font-family:Neo Sans; font-size:8pt; padding-left:2px;}
+.gridTitle {color:#fff; font-family:Trebuchet MS; font-size:8pt; font-weight:700; text-align:center; text-decoration:none;}
+.table {margin-left:40px;}
+.title {color:#1ca3db; font-family:Neo Sans;}
+
+#btnVolver {margin-left:16px;}

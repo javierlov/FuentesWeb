@@ -1,0 +1,2 @@
+<area coords="178, 4, 240, 20" href="javascript:selectProvincia(15)" shape="rect" title="Ir a la provincia de Río Negro">
+<area coords="156, 376, 230, 394" href="javascript:selectProvincia(19)" shape="rect" title="Ir a la provincia de Santa Cruz">

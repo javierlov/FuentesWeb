@@ -1,0 +1,56 @@
+﻿http://extranet-desa.artprov.com.ar/modules/usuarios_registrados/clientes/RAR/RAR_funciones.php?funcion=BuscarTrabajadorJSON&CONTRATO=143138&CUILEMPRESA=20102665431&CUIT=27268426898
+http://extranet-desa.artprov.com.ar/modules/usuarios_registrados/clientes/RAR/RAR_funciones.php?funcion=BuscarTrabajadorJSON&CONTRATO=143138&CUILEMPRESA=20102665431&CUIT=20182361446
+
+
+/modules/usuarios_registrados/estudios_juridicos/JuiciosParteDemandada/EventosABMWebForm.php
+
+
+select count(*) from LEGALES.LTE_TIPOEVENTO 
+where TE_VISIBLEWEB = 'S' and TE_FECHABAJA is null 
+order by 2;
+
+SELECT count(*)
+             FROM legales.let_eventojuicioentramite ejt, legales.lte_tipoevento ev 
+            WHERE ejt.et_idtipoevento = ev.te_id 
+              AND ejt.et_fechabaja IS NULL 
+              AND te_visibleweb = 'S' 
+              AND ejt.et_idjuicioentramite =:NroJuicio 
+              ORDER BY et_fechaevento DESC  
+			  
+			  
+Array ( 
+[cambiarPassword] => 
+[fieldError] => 
+[msgError] => 
+[certificadoCobertura] => Array ( ) 
+[contrato] => 143138 
+[contratoVigente] => 1 
+[cuit] => 20102665431 
+[empresa] => GABIN ANGEL JORGE 
+[idEmpresa] => 131070 
+[idUsuario] => 11212 
+[isAdmin] => 
+[isAdminTotal] => 1 
+[isCliente] => 1 
+[login] => 1 
+[suss] => 1 
+[usuario] => pmarrone@provart.com.ar 
+[IDACTIVIDAD] => 764 
+[FormulariosNomina] => Array ( 
+[pageid] => 126 
+[id] => 946830 
+[NROESTABLECI] => 16 
+[CODIGOEWID] => 1211 
+[CODIGO] => CARGADA 
+[PHPSESSID] => 1oode64k63bv9u2dtf4al5bgi1 ) ) 		
+
+
+
+
+if ($this->underlineSelectedRow)
+				$classRow = "GridFondoOnMouseOver ";
+			$classRow.= ((($countRecords % 2) == 0)?$this->row2Style:$this->row1Style);
+			
+$this->code.= '<tr class="'.$classRow.'" style="height:'.$this->rowHeight.'px">';
+
+$this->code.= '</tr>';

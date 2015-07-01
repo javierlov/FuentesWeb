@@ -1,0 +1,68 @@
+﻿body, html {font-family: Verdana; scrollbar-face-color: #aaaaaa; scrollbar-highlight-color: #aaaaaa; scrollbar-shadow-color: #aaaaaa; scrollbar-3dlight-color: #eeeeee; scrollbar-arrow-color: #eeeeee; scrollbar-track-color: #e3e3e3; scrollbar-darkshadow-color: ffffff;	margin-top:0; margin-left: 10px; margin-right: 10px;}
+
+a {color: #676767; text-decoration: none;}
+a:hover {color: #00539B ; text-decoration: none;}
+a:active {color: #676767; text-decoration: none;}
+
+/* Estilos para notas */
+.FechaNotaPortada {font-size: 8pt; font-weight: bold; color: #676767; padding-left: 5px;}
+.TituloNotaPortada, .TituloNota, .SubtituloNota {font-size: 11pt; font-weight: bold; color: #00539B ;}
+.TituloNotaPortada, .TituloNota {font-size: 11pt;}
+.TituloNotaPortada {padding-left: 0px;}
+.SubtituloNota {font-size: 9pt;}
+.ContenidoNota {color: #676767; text-align:justify; vertical-align: top; font-size: 8.5pt; padding-right:7px; padding-left:15px;}
+.TxtCeleste {color: #00539B ;} 
+/* FIN */
+
+
+/* Estilos para Ver mas */
+.VerMas, .Link {font-size: 8pt; height: 20px; font-weight: bold;}
+.VerMas {text-align: right;}
+/* FIN */
+
+
+/* Estilos para Celdas Sepadores */
+.CS2 {height: 2px;}
+.CS3 {height: 3px;}
+.CS5 {height: 5px;}
+.CS10 {height: 10px;}
+.CS12 {height: 12px;}
+.CS15 {height: 15px;}
+.CS20 {height: 20px;}
+/* FIN */
+
+
+/* Otros */
+.Vinieta {color: #00539B; font-weight: bold;}
+.Epigrafe {width: 290px; margin-left: 70px;}
+.ItemMapaDelSitio {border-bottom-style: dotted; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; height:13px; color:#676767; font-size: 8pt; font-weight: 700;}
+.LineaHorizontal {border-bottom-style: dotted; border-bottom-width: 2px; border-color:#807F83; color: #fff; font-size: 6pt; padding-bottom: 1px; padding-left: 4px; padding-right: 4px; padding-top: 1px;}
+.BotonVolver {border:0px none; padding:0; background-color: #FFFFFF; width:60; height:18; color:#FFFFFF; cursor:pointer; font-family:Verdana; font-size:4; float:right;}
+/* FIN */
+
+
+/* SECCION AUTORIDADES */
+.TipoDeAutoridad {color: #676767; text-align:justify; vertical-align: top; font-size: 8.5pt; padding-right:7px; padding-left:15px; border-bottom:1px dotted #000000; padding-left:4px; padding-right:4px;}
+.TxtAutoridad {font-size:8pt; color:#000000; font-weight:bold;}
+.CeldaColor {background-color: #00539B; width:3px;}
+/* FIN */
+
+
+/* SECCION CONTACTENOS */
+.TableContactos {color: #676767; vertical-align: top; font-size: 8pt;}
+.ItemTableContactos {text-align: right;}
+.InputText {border: 1px solid #C0C0C0; padding-left: 4px; padding-right: 4px; padding-top: 1px; padding-bottom: 1px; width: 150px; font-size: 8pt;}
+.Submit {border:1px solid #747474; color:#FFFFFF; font-size:8pt; font-weight:bold; padding-left:4px; padding-right:4px; padding-top:1px; padding-bottom:1px; background-color:#BCBCBC; cursor: pointer;}
+/* FIN */
+
+
+/* SECCION DESCARGAS */
+.ItemDescargasBlanco {color: #676767; text-align:justify; vertical-align: top; font-size: 8.5pt; padding-right:7px; padding-left:15px; color: #676767; vertical-align: top; font-size: 8pt;}
+.ItemDescargasGris {background-color:#EAEAEA; color:#676767; text-align:justify; vertical-align: top; font-size: 8.5pt; padding-right:7px; padding-left:15px; color: #676767; vertical-align: top; font-size: 8pt;}
+/* FIN */
+
+
+/* SECCION SITIOS UTILES */
+.TxtSitiosUtiles {color: #676767; text-align:justify; vertical-align: top; font-size: 8.5pt; padding-right:7px; padding-left:15px; border-bottom-style: dotted; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; border-color:#666666;}
+.ImgSitiosUtiles {text-align:right; border-bottom-style: dotted; border-bottom-width: 1px; padding-left: 4px; padding-right: 4px; border-color:#666666;}
+/* FIN */

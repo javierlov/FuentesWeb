@@ -1,0 +1,33 @@
+body, html {
+	scrollbar-face-color: #aaaaaa;
+	scrollbar-highlight-color: #aaaaaa;
+	scrollbar-shadow-color: #aaaaaa;
+	scrollbar-3dlight-color: #eeeeee;
+	scrollbar-arrow-color: #eeeeee;
+	scrollbar-track-color: #e3e3e3;
+	scrollbar-darkshadow-color: ffffff;
+}
+
+.Titulo {
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #676767;
+}
+
+.TipoCeleste {
+	color: #00A3E0;
+}
+
+.Conten {
+	font-family: Verdana;
+	font-size: 8pt;
+	color: #676767;
+	vertical-align: top;
+}
+
+.Separador {
+	color: #807F84;
+	height: 1px;
+}
+

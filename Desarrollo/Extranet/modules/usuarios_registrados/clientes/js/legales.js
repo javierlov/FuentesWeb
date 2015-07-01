@@ -1,0 +1,1 @@
+function exportarGrilla() {	document.iframeProcesando.location.href = '/modules/usuarios_registrados/clientes/legales/exportar_grilla_a_excel.php';}

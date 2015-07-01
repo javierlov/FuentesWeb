@@ -1,0 +1,28 @@
+.btnAfiliacion {background-image:url(/modules/solicitud_cotizacion/images/icono.jpg); border:none; cursor:pointer; height:14px; width:16px;}
+.btnCarta {background-image:url(/modules/solicitud_cotizacion/images/sobre.png); border:none; cursor:pointer; height:7px; width:11px;}
+.btnPdf {background-color:#807f84; background-image:url(/modules/solicitud_cotizacion/images/pdf.jpg); border:none; cursor:pointer; height:16px; width:16px;}
+.btnSeleccionar {background-color:#666; background-image:url(/modules/solicitud_cotizacion/images/seleccionar.png); border:none; cursor:pointer; height:16px; width:16px;}
+.btnVer {background-image:url(/images/lupa.jpg); border:none; cursor:pointer; height:17px; width:15px;}
+.colAlignRight {padding-right:4px; text-align:right;}
+.colFecha {text-align:center; white-space:nowrap;}
+.gridBaja {color:#b00; text-decoration:line-through;}
+.gridColSeparator {background-color:#c0c0c0; width:1px;}
+.gridEmpty {background-image:url(/images/grid_not_found.gif); border:none; height:50px; width:237px;}
+.gridFirstColumn {background-color:#666;}
+.gridFondoOnMouseOver:hover {background:#0f539c;}
+.gridFooter {background-color:#b8b8b8; border-color:#b1b1b1; border-width:1px; border-style:solid; color:white; font-family:Verdana; font-size:12px; height:20px;}
+.gridFooterFont {color:#fefefe; font-family:Verdana; font-size:8pt; text-decoration:none;}
+.gridFooterFontSelected {color:#0f539c; cursor:default; font-family:Verdana; font-size:8pt; text-decoration:none;}
+.gridHeader {background-color:#0f539c; border-color:#c0c0c0; border-style:solid; border-width:1px; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.gridOrderAsc {background-image:url(/images/grid_asc.gif); border:none; height:15px; width:26px;}
+.gridOrderDesc {background-image:url(/images/grid_desc.gif); border:none; height:15px; width:26px;}
+.gridRow1 {background-color:#666; cursor:default;}
+.gridRow2 {background-color:#666; cursor:default;}
+.gridTable {border:1px solid #c0c0c0; border-collapse:collapse; border-spacing:0px; padding:0px; width:680px;}
+.GridTableCiiu {border:1px solid #c0c0c0; border-collapse:collapse; border-spacing:0px; padding:0px; width:584px;}
+.gridText {color:#fff; font-family:Verdana; font-size:8pt; padding-left:2px;}
+.gridTitle {border-color:#c0c0c0; color:#fff; font-family:Verdana; font-size:8pt; font-weight:700; text-align:center; text-decoration:none;}
+.gridTitle:hover {color:#97bae2; text-decoration:none;}
+
+#divGridEspera {background-color:#0f539c; cursor:wait; display:none; filter:alpha(opacity = 20); height:800px; left:0; opacity:.1; position:absolute; top:0; width:748px;}
+#divGridEsperaTexto {background-color:#fff; border:1px solid #808080; color:#000; cursor:wait; display:none; font-family:Trebuchet MS; left:240px; padding:5px; position:absolute; top:160px;}

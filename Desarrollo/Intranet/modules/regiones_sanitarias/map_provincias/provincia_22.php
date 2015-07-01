@@ -1,0 +1,1 @@
+<area coords="426, 426, 472, 440" href="javascript:selectProvincia(16)" shape="rect" title="Ir a la provincia de Salta">

@@ -1,0 +1,108 @@
+a.divNacimientosTextoLink {color:#fff; text-decoration:none;}
+a.linkItemNovedadesTexto {color:#004a92;}
+iframe {display:none;}
+table.tableCalendario {border-collapse:separate; border-spacing:0px; border-style:solid; border-width:0px; color:#fff; cursor:default; margin-left:7%; margin-right:7%; padding-bottom:16px; width:84%;}
+table.tableCalendario th {border-width:0px; padding-bottom:0px; text-align:center;}
+table.tableCalendario td {border-width:0px; padding-bottom:6px; text-align:center;}
+
+.divBannerBoton {background:transparent url(/modules/portada/slider/bullet.png) no-repeat 0 0; color:white; cursor:pointer; display:inline-block; font-size:0; height:11px; margin:0 6px; margin-top:4px; overflow:hidden; width:11px; zoom:1;}
+.divCalendarioDiaConEvento {color:#144291;}
+.divCalendarioDiaFeriado {color:#144291;}
+.divCalendarioDiaHoy {background-image:url('/modules/portada/images/circulo.png'); background-repeat:no-repeat; background-size:100% 80%;}
+.divCalendarioDiaOtroMes {color:#6ecbf0;}
+.divCumpleañosItem {color:#fff; font-size:12px; max-width:62%; padding-left:4px; text-decoration:none; vertical-align:top;}
+.divNacimientosBoton {background:transparent url(/modules/portada/slider/bullet2.png) no-repeat 0 0; color:white; cursor:pointer; display:inline-block; font-size:0; height:11px; margin:0 6px; margin-top:4px; overflow:hidden; width:11px; zoom:1;}
+.divNacimientosDatos {display:none; margin-top:-60px; position:relative;}
+.divNacimientosImagen {padding-left:20px;}
+.divNacimientosLeft {padding-bottom:16px; margin-left:20px; margin-right:16px; width:100%;}
+.divPeriodosItem {padding-left:20px;}
+.divPeriodosItem:hover {background-color:#f00; cursor:pointer;}
+.imgBanner {display:none; height:155px; max-width:100%; width:620px;}
+.imgBusquedasPostularme {margin-left:16px; position:relative; top:9px;}
+.imgBusquedasVerPefil {margin-left:16px; position:relative; top:6px;}
+.imgCumpleañosFlechas {cursor:pointer; height:22px; width:22px;}
+.noLinkItemNovedadesTexto {color:#575756; cursor:default;}
+.spanBusquedasTexto {position:relative; top:-4px;}
+.spanEncuestasCantidadVotos {display:none; margin-left:8px;}
+
+#divArteriaNoticias {cursor:pointer; margin-left:3.5%; margin-right:3.5%; margin-top:20px; position:relative; width:93%;}
+#divBanner {margin-top:20px; position:relative;}
+#divBannerBotonera {background-color:#00539b; bottom:4px; display:none; filter:alpha(opacity=50); left:8px; opacity:.5; position:absolute; text-align:right; width:94%;}
+#divBusquedaEmpleado {height:84px; position:relative; text-align:center;}
+#divBusquedaEmpleadoCampo {height:36px; left:5%; overflow:hidden; position:absolute; top:28px; width:90%; z-index:99;}
+#divBusquedaEmpleadoFondo {background-color:#00478f; height:36px; left:5%; overflow:hidden; position:absolute; top:28px; width:90.3%; z-index:99;}
+#divBusquedas {display:none; margin-top:20px; width:100%;}
+#divCalendario {position:relative; width:100%;}
+#divCalendarioFondo {background-color:#008acf; color:#317282; margin-left:5.2%; padding-bottom:4px; width:89.4%;}
+#divCalendarioTitulo {background:url(/modules/portada/images/calendario.png) no-repeat 0 0; background-size:100% 100%; color:#fff; font-size:17px; font-weight:bold; height:48px; margin:0 auto; padding-bottom:8px; padding-left:7%; padding-top:16px; text-align:left; width:85.9%;}
+#divCalendarioTituloSeparador {height:8px;}
+#divCalendarioTituloDias {background-color:#a9ddf5; color:#317282; font-weight:bold;}
+#divContenidoInBotonesAbajo {border-top:1px solid #d9d9d9; margin-top:24px; position:relative;}
+#divCumpleaños {background:url(/modules/portada/images/cumpleanos.jpg) no-repeat 0 0; background-size:100% 100%; display:none; height:100%; margin-left:3.5%; margin-right:3.5%; margin-top:20px; min-height:160px; position:relative; width:93%;}
+#divCumpleañosCalendario {float:left; margin-top:8px;}
+#divCumpleañosDatos {float:left; margin-bottom:16px; margin-left:16px; margin-top:16px; width:80%;}
+#divCumpleañosFlechas {text-align:center;}
+#divCumpleañosTitulo {color:#fff; cursor:default; font-size:13pt; font-weight:bold; margin-bottom:16px; margin-top:-4px;}
+#divCumpleañosVacio {color:#fff; cursor:default; font-size:9pt; font-weight:bold; margin-left:0px; margin-top:24px;}
+#divCumpleañosVolanta {color:#fff; cursor:default; font-size:11pt;}
+#divDescargables {text-align:center; width:100%;}
+#divEditar {cursor:pointer; display:none; position:absolute;}
+#divEncuesta {margin-left:3.5%; margin-right:3.5%; margin-top:20px; position:relative; width:93%;}
+#divEncuestaBottom {font-size:13px; padding-bottom:4px;}
+#divEncuestaBottomRight {float:right; margin-right:8px;}
+#divEncuestaCantidadVotos {margin-left:8px;}
+#divEncuestaFondo {background-color:#00be50; color:#fff; margin-left:1.4%; padding-bottom:4px; width:96.8%;}
+#divEncuestaGrande {cursor:pointer;}
+#divEncuestasContenidoValidacion {display:none; height:100%; left:0; position:absolute; text-align:center; top:40%; width:100%;}
+#divEncuestasFondoValidacion {background-color:#00539b; display:none; height:100%; left:0; opacity:.7; position:absolute; top:0; vertical-align:middle; width:100%;}
+#divEncuestasOpciones {font-size:13px; margin-bottom:8px; margin-left:4px;}
+#divEncuestaTitulo {font-size:13px; font-weight:bold; padding:8px; text-align:center;}
+#divEventos {background-color:#a9ddf5; font-size:12px; margin-bottom:8px; margin-left:8%; padding:4px; width:80%;}
+#divEventosTitulo {background-color:#a9ddf5; cursor:default; font-weight:bold; margin-bottom:2px; padding-left:2px;}
+#divExtranet {float:left;}
+#divFeriados {background-color:#a9ddf5; font-size:12px; margin-bottom:8px; margin-left:8%; padding:4px; width:80%;}
+#divFotoPersonal {display:none; margin-top:8px; position:absolute; z-index:99;}
+#divFotoPersonalFecha {background-color:#005a9e; color:#fff; font-weight:bold; padding-top:8px; text-align:center;}
+#divGrupoProvincia {float:right;}
+#divIngresos {display:none; margin-top:20px; width:100%;}
+#divItem1 {background-color:#fff; height:50px;}
+#divItem2 {background-color:#eaeaea; height:50px;}
+#divItemNovedadesFoto {float:left; margin-left:2px; margin-top:2px; z-index:200;}
+#divItemNovedadesTexto {float:left; font-size:14px; margin-left:4px; margin-top:10px;}
+#divNacimientos {margin-left:3.5%; margin-right:3.5%; margin-top:20px; position:relative; width:93%;}
+#divNacimientosBotonera {bottom:16px; display:none; left:8px; position:absolute; text-align:right; width:90%;}
+#divNacimientosFondo {background-color:#851e7f; color:#317282; margin-left:1.7%; padding-bottom:4px; width:96.5%;}
+#divNacimientosImagen {height:auto; width:90%;}
+#divNacimientosTexto {color:#fff; font-size:12px; margin-top:16px; width:84%;}
+#divNota {margin-left:8px; width:100%;}
+#divNoticiaImagen {float:left; width:136px;}
+#divPasesSector {display:none; margin-top:20px; width:100%;}
+#divPeriodos {background-color:#008bd1; border:1px solid #fff; color:#fff; display:none; font-family:KlavikaBoldImport; font-size:17px; font-weight:bold; margin-left:6%; padding:2px; padding-bottom:12px; padding-top:12px; position:absolute; top:-36px; width:160px;}
+#divSolicitudsistemas {text-align:center; width:100%;}
+#divTableCalendario {font-size:13px;}
+#divTextoArticulo {color:#575756; font-size:13px; width:100%;}
+#divTitulo {color:#004a92; cursor:pointer; font-family:Arial Narrow; font-weight:bold; font-size:17px;}
+#divTitulo:hover {color:#f00;}
+#divVolanta {color:#575756; font-size:13px;}
+#empleadoLista {color:#575756; height:20px; left:-0.6%; padding-left:10px; position:relative; top:4px; width:89%;}
+#imgArteriaNoticiasFondo {height:auto; max-width:100%;}
+#imgBusquedaEmpleadoFondo {height:auto; max-width:100%; z-index:-50px;}
+#imgEncuestaFondo {height:auto; max-width:100%;}
+#imgNacimientosFondo {height:auto; max-width:100%;}
+#imgDia {cursor:pointer;}
+#imgDescargables {height:auto; max-width:100%;}
+#imgEncuestasCerrarValidacion {cursor:pointer; position:absolute; right:0; top:0;}
+#imgExtranet {height:auto; max-width:100%;}
+#imgFotoPersonal {border:5px solid #005a9e; height:115px; width:117px;}
+#imgGrupoProvincia {height:auto; max-width:100%;}
+#imgItemNovedadesFoto {border:1px solid #000; height:45px; width:45px;}
+#imgNoticiaImagen {height:auto; width:120px;}
+#imgSolicitudSistemas {height:auto; max-width:100%;}
+#imgTituloNovedades {width:100%;}
+#itemEncuesta {vertical-align:-2px;}
+#spanAñoAnterior {cursor:pointer; font-weight:bold; margin-right:8px;}
+#spanAñoSiguiente {cursor:pointer; font-weight:bold; margin-left:8px;}
+#spanCalendarioPeriodo {cursor:default; position:relative; top:16px;}
+#spanEncuestasTextoValidacion {color:#fff; cursor:default; font-weight:bold; vertical-align:10px;}
+#spanMesAnterior {cursor:pointer; font-weight:bold; padding-left:4px; padding-right:4px;}
+#spanMesSiguiente {cursor:pointer; font-weight:bold; padding-left:4px; padding-right:4px;}

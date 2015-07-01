@@ -1,0 +1,37 @@
+﻿body {margin:0 auto; text-align:center;}
+
+.botonFecha {background-image:url(/images/boton_fecha.jpg); border:none; cursor:pointer; height:21px; vertical-align:-5px; width:32px;}
+.botonFechaDeshabilitado {background-image:url(/images/boton_fecha_deshabilitado.jpg); border:none; cursor:default; height:21px; width:32px;}
+
+#banner1HomePage {position:relative; top:27px;}
+#banner2HomePage {margin-left:10px; margin-right:10px; position:relative; top:27px;}
+#banner3HomePage {position:relative; top:27px;}
+#barraCelesteHomePage {height: 2px; left:24px; position:absolute; top:10px; width:958px;}
+#barraFooter {background-color:#807f83; height:2px; left:216px; position:absolute; top:0; width:767px;}
+#barraHomePage {height:25px; left:24px; position:absolute; top:118px; width:958px;}
+#btnContacto {left:744px; position:absolute; top:105px;}
+#btnHome {left:700px; position:absolute; top:102px;}
+#btnLogin {left:767px; position:absolute; top:12px;}
+#btnMapaSitio {left:722px; position:absolute; top:101px;}
+#cerrarSesion {cursor:pointer; position:relative;}
+#cerrarSesion:hover {background-color:#ddd; text-decoration:underline;}
+#divContent {height:435px; left:216px; overflow:auto; position:absolute; top:146px; width:766px; z-index:1;}
+#divContentIn {left:0; margin-bottom:5px; margin-left:10px; margin-right:2px; margin-top:2px; position:relative; top:0;}
+#divFooter {left:0; position:absolute; top:582px; width:992px;}
+#divHeader {left:0; position:absolute; top:0;}
+#divMenu {left:0; position:relative; top:150px; width:209px;}
+#divPrincipal {left:0; margin:0 auto; position:relative; text-align:left; top:0; width:992px;}
+#encabezadoHomePage {left:24px; position:absolute; top:12px;}
+#headerSesion {background:#ccc; color:#808082; font-family:Verdana; font-size:7pt; font-weight:bold; height:15px; left:767px; overflow:hidden; position:absolute; top:100px; white-space:nowrap; width:215px;}
+#imgContingencia {height:20px; left:764px; position:absolute; top:12px; width:20px;}
+#logos1Header {left:700px; position:absolute; top:118px;}
+#logos2Header {left:810px; position:absolute; top:118px;}
+#marquesinaHomePage {border:#999 3px solid; height:80px; position:absolute; right:0; top:342px; width:171px;}
+#menu {position:relative; left:24px; top:0;}
+#msgOk {background-color:#00539B; border:3px solid #000; color:#fff; left:200px; position:absolute; text-align:center; top:104px; width:400px;}
+#sesionInvalidData {color:#000; font-size:8pt;}
+#sesionInvalidMsg {color:#f00; font-size:12pt; font-weight:bold;}
+#telefonos {position:relative; left: 24px; top:0;}
+#tituloBarraHomePage {left:24px; position:absolute; top:118px;}
+#tituloMarquesina {position:absolute; right:0; top:324px;}
+#usuarioSesion {cursor:help; position:relative;}

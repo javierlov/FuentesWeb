@@ -1,0 +1,68 @@
+body {text-align:center;}
+hr {background-color:#0f539c; border:0; height:2px; margin-left:24px; margin-top:8px; width:368px;}
+
+.cargoAnterior {text-transform:uppercase; width:264px;}
+.carrera {width:304px;}
+.divTitulo {color:#0f539c; font-weight:bold; margin-top:8px;}
+.elemento {width:296px;}
+.elementoOculto {display:none;}
+.empresa {text-transform:uppercase; width:298px;}
+.escribeNivel {width:267px;}
+.fecha {width:80px;}
+.hablaNivel {width:276px;}
+.idioma {width:309px;}
+.institucion {width:290px;}
+.instituto {width:302px;}
+.labelHasta {margin-left:13px;}
+.leeNivel {width:288px;}
+.nivelEspecializacion {width:321px;}
+.nivelFormacion {width:321px;}
+.nombre {text-transform:uppercase; width:292px;}
+.nombreCurso {text-transform:uppercase; width:244px;}
+.tareas {height:50px; text-transform:uppercase; width:352px;}
+.tipo {width:325px;}
+.tipoCurso {width:269px;}
+.titulo {width:318px;}
+
+#calle {width:319px;}
+#captcha {width:128px;}
+#cp {width:67px;}
+#cv {width:351px;}
+#departamento {width:54px;}
+#departamentoTitulo {margin-left:2px;}
+#divDatosObligatorios {margin-bottom:8px; margin-left:30px; margin-top:16px;}
+#divEnviar {margin-left:331px; margin-top:16px;}
+#divErrores {display:none; margin-top:8px;}
+#divLinea {margin-left:30px; margin-top:8px;}
+#divLineaLink {color:#0f539c; margin-left:30px; margin-top:8px;}
+#divPrincipal {text-align:left; width:440px;}
+#email {width:314px;}
+#estadoCivil {width:282px;}
+#foco {height:1px; width:1px;}
+#foto {width:351px;}
+#guardadoOk {background:#0f539c; color:#fff; display:none; margin-left:30px; padding:4px; width:252px;}
+#imgCaptcha {margin-left:16px; vertical-align:-5px;}
+#imgHeader {width:100%;}
+#imgReloadCaptcha {cursor:hand; margin-left:4px; vertical-align:-4px;}
+#localidad {width:296px;}
+#manzana {width:41px;}
+#nacionalidad {width:276px;}
+#numeroCalle {width:59px;}
+#numeroDocumento {width:70px;}
+#pais {width:326px;}
+#paisNacimiento {width:243px;}
+#partido {width:309px;}
+#piso {width:54px;}
+#pisoTitulo {margin-left:2px;}
+#provincia {width:297px;}
+#quitarCurso {display:none; margin-left:162px;}
+#quitarEspecializacion {display:none; margin-left:108px;}
+#quitarEstudio {display:none; margin-left:152px;}
+#quitarExperienciaLaboral {display:none; margin-left:86px;}
+#quitarIdioma {display:none; margin-left:156px;}
+#remuneracion {width:201px;}
+#sector {width:41px;}
+#telefonoCelular {width:254px;}
+#telefonoFijo {width:275px;}
+#tipoDocumento {width:128px;}
+#torre {width:41px;}

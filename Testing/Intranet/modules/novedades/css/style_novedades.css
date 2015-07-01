@@ -1,0 +1,41 @@
+#navi {  
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navi li {
+	float: left;
+}
+
+#tableCenter {
+	float: left;
+	width: 34%;
+}
+
+#tableLeft {
+	float: left;
+	width: 33%;
+}
+
+#tableRight {
+	float: right;
+	width: 33%;
+}
+
+#tdItems {
+	cursor: default;
+	padding: 2px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+#tdTitulo {
+	background: #00A4E4;
+	color: #FFFFFF;
+	cursor: default;
+	font-family: Neo Sans;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px;
+}

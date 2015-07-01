@@ -1,0 +1,123 @@
+CREATE TABLE `_mapa` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tipo` int(11) NOT NULL COMMENT '0: Casa de Repuestos / 1: Taller',
+  `nombre` varchar(255) NOT NULL,
+  `lat` float(9,6) NOT NULL,
+  `lng` float(9,6) NOT NULL,
+  `direccion` varchar(255) DEFAULT NULL,
+  `telefonos` varchar(255) DEFAULT NULL,
+  `info_extra` varchar(255) DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=latin1 PACK_KEYS=0;
+
+
+
+
+
+
+/* Data for the '_mapa' table  (Records 1 - 26) */
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (1, 1, 'Onel Lenisa', -34.63784, -58.486881, 'Avenida Olivera 215, Ciudad Autónoma de Buenos Aires', '', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (2, 1, 'Rias Baixas', -34.648033, -58.507191, 'Av. Emilio Castro 6059, Ciudad Autónoma de Buenos Aires', NULL, NULL, NULL);
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (3, 1, 'Claudio Gulello', -34.652599, -58.531658, 'Av. Diaz Vélez 1462, Ciudadela, Buenos Aires', NULL, NULL, NULL);
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (4, 1, 'Euro Motors', -34.621773, -58.425716, 'Avenida Independencia 4240, Ciudad Autónoma de Buenos Aires', NULL, NULL, NULL);
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (5, 1, 'Euro Check', -34.594196, -58.504162, 'Av San Martín 6315, Ciudad Autónoma de Buenos Aires', NULL, NULL, NULL);
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (6, 1, 'Auto Expert', -34.596748, -58.425537, 'Avenida Córdoba 4151, Ciudad Autónoma de Buenos Aires', NULL, NULL, NULL);
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (7, 7, 'Lobatto e Hijos', -34.645523, -58.431629, 'Avenida Del Barco Centenera 2349, Ciudad Autónoma de Buenos Aires', '', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (8, 7, 'Fiat San Remo', -34.651932, -58.515327, 'Avenida Emilio Castro 6794, Ciudad Autónoma de Buenos Aires', '4686-2167 / 4687-0209', '', 'http://www.foroalfaromeo.com/index.php?/topic/4075-san-remo-repuestos');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (9, 7, 'Fiat Luro', -34.62756, -58.50732, 'Avenida Lope de Vega 1301, Ciudad Autónoma de Buenos Aires', '4567-2642', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (10, 7, 'Repuestos Urquiza', -34.573994, -58.498234, 'Avenida Congreso 5786, Ciudad Autónoma de Buenos Aires', '4571-4728 /', 'Web: www.rurquiza.com.ar / Correo: rurquiza@rurquiza.com.ar', 'http://www.foroalfaromeo.com/index.php?/topic/174-repuestos-urquiza-villa-urquiza-buenos-aires');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (11, 7, 'Autopartes Independencia', -34.621357, -58.421532, 'Avenida Independencia 3962, Ciudad Autónoma de Buenos Aires', '4932-5340', '', 'http://www.foroalfaromeo.com/index.php?/topic/199-repuestos-independencia-capital-federal-buenos-aires');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (12, 4, 'MasterShine', -34.630581, -58.52533, 'Gallardo 674, Ciudad Autónoma de Buenos Aires', NULL, NULL, NULL);
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (13, 7, 'Fiat Potenza', -34.63261, -58.425488, 'Avenida La Plata 1519, Ciudad Autónoma de Buenos Aires', '4923-1671', '', 'http://www.foroalfaromeo.com/index.php?/topic/1459-fiat-potenza-caballito-buenos-aires');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (14, 7, 'Warnes Fiat y Toyota', -34.597488, -58.456539, 'Avenida Warnes 1455, Ciudad Autónoma de Buenos Aires', '', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (15, 7, 'Fiat Peugeot Nazca', -34.611805, -58.519547, 'Bermúdez 3126, Ciudad Autónoma de Buenos Aires', '', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (16, 7, 'Fiat Kar', -34.600849, -58.453102, 'Avenida Juan B. Justo 3402, Ciudad Autónoma de Buenos Aires', '', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (17, 7, 'Mazzitelli', -34.63818, -58.50452, 'Avenida Rivadavia 10000, Ciudad Autónoma de Buenos Aires', '4635-1150', 'Web: www.mazzitelli.com Correo: alfa@mazzitelli.com', 'http://www.foroalfaromeo.com/index.php?/topic/172-mazzitelli-villa-luro-buenos-aires/');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (18, 7, 'Imola', -34.598881, -58.45229, 'Avenida Warnes 1140, Ciudad Autónoma de Buenos Aires', '', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (19, 7, 'Ricambi', -34.596851, -58.454067, 'Avenida Dorrego 173, Ciudad Autónoma de Buenos Aires', '', '', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (20, 7, 'Fiat Modena', -34.483925, -58.504051, 'Avenida Santa Fe 1267, Martínez, Buenos Aires', '4792-5005', 'Correo: fmodena@fibertel.com.ar', 'http://www.foroalfaromeo.com/index.php?/topic/1702-fiat-modena-martinez-buenos-aires/');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (21, 2, 'SR Neumáticos + Mecánica', -34.622387, -58.386684, 'Avenida San Juan 1463, Ciudad Autónoma de Buenos Aires', '4304-0500 / 4305-4205', 'Web: www.srneumaticos.com.ar Correo: srneumaticos@yahoo.com.ar', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (22, 7, 'Lamperti', -34.600422, -58.45166, 'Avenida Dr. Honorio Pueyrredón 1863, Ciudad Autónoma de Buenos Aires', '(5411) 4854-0642', 'Web: www.casalamperti.com.ar', 'http://www.foroalfaromeo.com/index.php?/topic/6622-casa-lamperti');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (24, 7, 'Accesorios Baglivo', -34.909382, -57.978497, 'Avenida 32 1068, La Plata, Buenos Aires', '', 'Horario: de 8 a 12 y de 15.30 a 18', 'http://www.foroalfaromeo.com/index.php?/topic/9399-accesorios-baglivo-en-la-plata');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (25, 1, 'Taller Yebra', -34.588703, -58.480129, 'Barzana 1233, Ciudad Autónoma de Buenos Aires', ' 4521-5753', 'Roberto', 'http://www.foroalfaromeo.com/index.php?/topic/14997-taller-yebra-parque-chas-ciudad-autonoma-de-buenos-aires');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (26, 5, 'Alfa Romeo Argentina', -34.577099, -58.411102, 'Avenida del Libertador 3096, Ciudad Autónoma de Buenos Aires', '4803-3221', 'Centro Milano', '');
+
+INSERT INTO "_mapa"
+  ("id", "tipo", "nombre", "lat", "lng", "direccion", "telefonos", "info_extra", "url")
+VALUES (27, 5, 'Alfa Romeo Argentina', -34.517391, -58.475594, 'Av del Libertador Gral. San Martín 1730, Vicente López, Buenos Aires', '5544-0900', 'Centro Milano', '');

@@ -1,0 +1,15 @@
+﻿body {font-family:Verdana; margin-bottom:0px; margin-left:0px; margin-right:7px; margin-top:0px; scrollbar-3dlight-color:#eee; scrollbar-arrow-color:#eee; scrollbar-darkshadow-color:#fff;
+		 scrollbar-face-color:#aaa; scrollbar-highlight-color:#aaa; scrollbar-shadow-color:#aaa; scrollbar-track-color:#e3e3e3;}
+
+.BoxNoticias1 {clear:both; padding-top:5px; width:100%;}
+.BoxNoticias2 {float:left; margin-right:4px; position:relative; top:4px;}
+.BoxNoticias3 {padding-left:5px; padding-top:7px;}
+.Cuerpo {color:#676767; cursor:default; font-size:8.5pt; margin-bottom:0px; margin-top:0px;}
+.InputText {background-color:#fff; border:1px solid #808080; color:#808080; font-size:8pt; padding-bottom:0px; padding-left:4px; padding-right:4px; padding-top:0px;}
+.LineaHorizontal {border-bottom-style:dotted; border-bottom-width:2px; border-color:#807f83; color:#fff; font-size:6pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.LineaVertical {border-color:#676767; border-left-style:dotted; border-left-width:2px; padding-left:4px; padding-right:4px;}
+.MargenesContenidos {margin-bottom:5px; margin-left:10px; margin-right:2px; margin-top:0px;}
+.MarqueeNoticias {background-color:#f4f4f4; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.Pie {color:#676767; font-size:7pt; padding-top:2px;}
+.Titular {color:#00539B; cursor:default; font-size:10pt; font-weight:bold; margin-bottom:0px; margin-top:0px;}
+.Volanta {color:#676767; cursor:default; font-size:8pt; font-weight:bold; margin-bottom:0px; margin-top:0px;}

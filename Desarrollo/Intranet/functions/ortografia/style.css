@@ -1,0 +1,45 @@
+.phpwc_div {
+	background: #fafefe;
+	border: 2px solid green;
+	display: none;
+	font: 14px monospace;
+	height: 16px;
+	overflow: auto;
+	padding: 2;
+	width: 16px;
+}
+
+.phpwc_error {
+	background: #ff5151;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.phpwc_img {
+	border: 0;
+	cursor: pointer;
+	padding: 3;
+}
+
+.phpwc_ok {
+	border: 1px;
+}
+
+.phpwc_sugerencia {
+	cursor: pointer;
+}
+
+.phpwc_sugerencias {
+	background: #fff;
+	border: 2px solid red;
+	font: 14px monospace;
+	padding: 0 0 0 5px;
+	position: absolute;
+	visibility: hidden;
+	width: 170px;
+	z-index: 1000;
+}
+
+.phpwc_textarea {
+	font: 14px monospace;
+}

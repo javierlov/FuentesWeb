@@ -1,0 +1,6 @@
+#cuerpoPlantilla {display:none;}
+#divCuerpoPlantilla {background-color:#b3ac93; padding-bottom:8px; padding-left:16px; padding-top:8px; text-align:left;}
+#divNombrePlantilla {background-color:#dff2bf; border:5px #fff ridge; display:none; height:40px; left:50%; margin-left:-22%; position:fixed; text-align:center; top:70%; width:44%; z-index:200;}
+#imgPlantillaOk {display:none; margin-left:8px; vertical-align:-3px;}
+#labelNombrePlantilla {position:relative; text-align:left; top:-12px; width:56px;}
+#nombrePlantilla {position:relative; top:-14px; width:320px;}

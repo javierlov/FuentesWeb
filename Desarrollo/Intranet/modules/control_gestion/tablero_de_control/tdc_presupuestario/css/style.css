@@ -1,0 +1,200 @@
+﻿body {
+	scrollbar-face-color: #aaaaaa;  
+	scrollbar-highlight-color: #aaaaaa;  
+	scrollbar-shadow-color: #aaaaaa;  
+	scrollbar-3dlight-color: #eeeeee; 
+	scrollbar-arrow-color: #eeeeee;  
+	scrollbar-track-color: #e3e3e3;  
+	scrollbar-darkshadow-color: ffffff; 
+	margin-top: 3px;
+}
+
+.detalle {
+	vertical-align: bottom;
+	text-align: right;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #054698;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00ADEF;
+}
+	
+a:active {
+	color: #00ADEF;
+}
+
+.Titular {
+	background-color: #00539B;
+	font-family: Arial;
+	font-size: 18pt;
+	color: #FFFFFF;
+}	
+
+.SubTitulo {
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #5C5C5C;
+	text-align: center;
+	border-bottom-style: solid; 
+	border-bottom-width: 2px; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px;
+}
+
+
+.LatIzqTitular {
+	width:45;
+	height:70;
+	background: url('../images/LatIzqTitular.gif') no-repeat;
+}
+
+.LatDerTitular {
+	width:190;
+	height:70;
+	background: url('../images/modulosART.gif') no-repeat;
+}
+
+
+/** Estilos para el menu */
+.CornerIzqMenu {
+	width:40;
+	height:60;
+	background: url('../images/menu/CornerIzqMenu.gif') no-repeat;
+}
+
+.CornerDerMenu {
+	width:40;
+	height:60;
+	background: url('../images/menu/CornerDerMenu.gif') no-repeat;
+}
+
+.OpcionesMenu {
+	text-align: center;
+	font-family: Arial;
+	font-size: 10pt;
+	padding-top: 5;
+	padding-left: 20;
+	padding-right: 20;
+	background: url('../images/menu/fndMenu.gif') repeat;
+}
+
+/** FIN Estilos para el menu */
+
+
+/** Estilos para el SubMenu */
+.subMenu  {
+	width:110;
+	height:25;
+	background: url('../images/submenu/btnSubMenu.gif') no-repeat;
+	text-align: center;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.subMenu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.subMenu a:hover {
+	color: #000000;
+}
+	
+.subMenu a:active {
+	color: #00ADEF;
+}
+/** FIN Estilos para el SubMenu */
+
+
+/** Estilos para la Tabla */
+
+.encabezadoTabla {
+	padding-left: 10px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #054698;
+	text-transform: uppercase;
+}
+	
+.CornerIzqTabla {
+	width:20;
+	height:24;
+	background: url('../images/tabla/CornerIzqTabla.gif') no-repeat;
+}
+
+.CornerInfIzqTabla {
+	width:20;
+	height:10;
+	background: url('../images/tabla/CornerInfIzqTabla.gif') no-repeat;
+
+}
+
+.CornerInfDerTabla {
+	width:20;
+	height:10;
+	background: url('../images/tabla/CornerInfDerTabla.gif') no-repeat;
+}
+
+.CornerDerTabla {
+	width:20;
+	height:24;
+	background: url('../images/tabla/CornerDerTabla.gif') no-repeat;
+}
+
+.LateralIzqTabla {
+	width:20;
+	height:20;
+	background: url('../images/tabla/LateralIzqTabla.gif') no-repeat;
+}
+
+.LateralDerTabla {
+	width:20;
+	background: url('../images/tabla/LateralDerTabla.gif') no-repeat;
+}
+
+.TituloTabla, .TituloTablaAlignRight {
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 8pt;
+	padding-top: 3;
+	background: url('../images/tabla/fndTitular.gif') repeat;
+}
+
+.TituloTablaAlignRight {
+	text-align: right;
+}
+
+.TxtTabla, .TxtTablaAlignRight {
+	font-family: Arial;
+	font-size: 8pt;
+	border-bottom-style: solid; 
+	border-color: #BCBCBC;
+	border-bottom-width: 1px; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px		
+}
+
+.TxtTablaAlignRight {
+	text-align: right;
+}
+
+.PieTabla {
+	width:5;
+	height:10;
+	background: url('../images/tabla/PieTabla.gif');
+}
+/** FIN Estilos para la Tabla */

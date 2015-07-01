@@ -1,0 +1,87 @@
+﻿/** {margin:0; padding:0;}
+html, body {background-color:#fff;}*/
+
+a:active {text-decoration:none;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#0f539c; text-decoration:underline;}
+body {font-family:Verdana; margin-left:0px; margin-right:5px; margin-top:0px; scrollbar-3dlight-color:#eee; scrollbar-arrow-color:#eee; scrollbar-darkshadow-color:#fff;
+		 scrollbar-face-color:#aaa; scrollbar-highlight-color:#aaa; scrollbar-track-color:#e3e3e3; scrollbar-shadow-color:#aaa;}
+hr {border:0; border-bottom:2px dotted #666; height:4px; margin-bottom:8px;}
+input {background-color:#fff; border:1px solid #808080; color:#676767; font-family:Trebuchet MS; font-size:8pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+select {border:1px solid #808080; color:#676767; font-family:Trebuchet MS; font-size:8pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+textarea {background-color:#fff; border:1px solid #808080; color:#676767; font-family:Trebuchet MS; font-size:8pt; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+
+.btnCelesteGrande {background-color:#95c7ec; border:1px solid #808080; color:#fff; cursor:hand; font-family:Verdana; font-size:8pt; font-weight:bold; padding-bottom:8px; padding-top:8px; width:200px;}
+.ContenidoSeccion {color:#676767; font-size:8pt; padding-left:12px; padding-right:12px;}
+.input2 {border-left:1px solid #fff; border-right:1px solid #fff; border-top:1px solid #fff; color:#000080; font-size:12px;}
+.inputNumber {text-align:right;}
+.inputNumber2 {background-color:#fff; border-bottom:1px solid #808080; border-left:1px solid #fff; border-right:1px solid #fff; border-top:1px solid #fff; color:#000080; font-size:12px;
+							padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px; text-align:right;}
+.linkSubrayado {color:#00539b; text-decoration:underline;}
+.select2{color:#000080;}
+.SubtituloSeccion {color:#676767; font-size:8pt; font-weight:700; padding-left:12px;}
+.SubtituloSeccionAzul {color:#0f539c; font-size:8pt; font-weight:bold; padding-left:12px;}
+.Text {color:#42719c; font-size:14pt; font-weight:bold;}
+.Text5 {font-size:10pt;}
+.TituloNotaPortada {color:#0f539c; font-size:11pt; font-weight:700; padding-left:12px;}
+.TituloSeccion {border-bottom:2px dotted #676767; color:#00539b; font-size:11pt; font-weight:700; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.TituloTablaCeleste {background-color:#00539b; border-bottom-style:solid; border-bottom-width:1px; border-left:1px solid #c0c0c0; border-right-style:solid; border-right-width:1px;
+										border-top-style:solid; border-top-width:1px; color:#fff; font-weight:bold; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px;}
+.TituloVerMas {color:#00539b; font-size:9pt; padding-left:12px; width:85%;}
+.VolantaNotaPortada {border-bottom:2px dotted #676767; color:#877f87; font-size:9pt; font-weight:700; margin-bottom:0; margin-top:0; padding-bottom:1px; padding-left:4px; padding-right:4px;
+										padding-top:1px;}
+
+/*---- INICIO Botones Formularios ----*/
+.btnActualizar {background-image:url(/images/botones_formularios/boton_actualizar.jpg); border:0px; cursor:pointer; height:15px; width:83px;}
+.btnAdminEst3ro {background-image:url(/images/botones_formularios/boton_admin_est_3ero.jpg); border:0px; cursor:pointer; height:15px; width:113px;}
+.btnAgregar {background-image:url(/images/botones_formularios/boton_agregar.jpg); border:0px; cursor:pointer; height:15px; width:63px;}
+.btnAgregarEstablecimiento {background-image:url(/images/botones_formularios/boton_agregar_estableciemiento.jpg); border:0px; cursor:pointer; height:15px; width:182px;}
+.btnAgregarTelefono {background-image:url(/images/botones_formularios/boton_agregar_telefono.jpg); border:0px; cursor:pointer; height:15px; width:132px;}
+.btnAlta {background-image:url(/images/botones_formularios/boton_alta.jpg); border:0px; cursor:pointer; height:15px; width:37px;}
+.btnAltaMultiplesEstablecimientos {background-image:url(/images/botones_formularios/boton_alta_multiples_establecimientos.jpg); border:0px; cursor:pointer; height:15px; width:235px;}
+.btnAnular {background-image:url(/images/botones_formularios/boton_anular.jpg); border:0px; cursor:pointer; height:15px; width:58px;}
+.btnAplicar {background-image:url(/images/botones_formularios/boton_aplicar.jpg); border:0px; cursor:pointer; height:15px; width:59px;}
+.btnBorrar {background-image:url(/images/botones_formularios/boton_borrar.jpg); border:0px; cursor:pointer; height:15px; width:50px;}
+.btnBuscar {background-image:url(/images/botones_formularios/boton_buscar.jpg); border:0px; cursor:pointer; height:15px; width:53px;}
+.btnCalcular {background-image:url(/images/botones_formularios/boton_calcular.jpg); border:0px; cursor:pointer; height:15px; width:67px;}
+.btnCambiar {background-image:url(/images/botones_formularios/boton_cambiar.jpg); border:0px; cursor:pointer; height:15px; width:61px;}
+.btnCancelar {background-image:url(/images/botones_formularios/boton_cancelar.jpg); border:0px; cursor:pointer; height:15px; width:69px;}
+.btnCargar {background-image:url(/images/botones_formularios/boton_cargar.jpg); border:none; cursor:pointer; height:15px; width:78px;}
+.btnCarta {background-image:url(/images/botones_formularios/boton_carta.jpg); border:0px; cursor:pointer; height:15px; width:47px;}
+.btnDarDeBaja {background-image:url(/images/botones_formularios/boton_dar_de_baja.jpg); border:none; cursor:pointer; height:15px; width:83px;}
+.btnEnviar {background-color:#807f84; background-image:url(/images/botones_formularios/boton_enviar.jpg); border:none; cursor:pointer; height:15px; width:50px;}
+.btnGrabar {background-image:url(/images/botones_formularios/boton_grabar.jpg); border:0px; cursor:pointer; height:15px; width:91px;}
+.btnGuardar {background-image:url(/images/botones_formularios/boton_guardar.jpg); border:0; cursor:pointer; height:15px; width:73px;}
+.btnImprimir {background-image:url(/images/botones_formularios/boton_imprimir.jpg); border:0; cursor:pointer; height:15px; width:91px;}
+.btnIngresar {background-image:url(/images/botones_formularios/boton_ingresar.jpg); border:none; cursor:pointer; height:15px; width:65px;}
+.btnLupa {background-color:#666; background-image:url(/images/lupa.gif); border:none; cursor:pointer; height:26px; width:31px;}
+.btnNuevaCotizacion {background-image:url(/images/botones_formularios/boton_nueva_cotizacion.jpg); border:0; cursor:pointer; height:15px; width:129px;}
+.btnObtenerCotizacion {background-image:url(/images/botones_formularios/boton_obtener_cotizacion.jpg); border:0; cursor:pointer; height:15px; width:141px;}
+.btnOperarAhora {background-image:url(/images/botones_formularios/boton_operar_ahora.jpg); border:0; cursor:pointer; height:15px; width:130px;}
+.btnOtrosFormularios {background-image:url(/images/botones_formularios/boton_otros_formularios.jpg); border:0; cursor:pointer; height:15px; width:130px;}
+.btnPoliza {background-image:url(/images/botones_formularios/boton_poliza.jpg); border:none; cursor:pointer; height:15px; width:55px;}
+.btnRecalcularPolizaRC {background-image:url(/images/botones_formularios/boton_recalcular_poliza_rc.jpg); border:none; cursor:pointer; height:15px; width:154px;}
+.btnReImpresion {background-image:url(/images/botones_formularios/boton_re_impresion.jpg); border:none; cursor:pointer; height:15px; width:95px;}
+.btnReImprimirSolicitudAfiliacion {background-image:url(/images/botones_formularios/boton_reimprimir_solicitud_de_afiliacion.jpg); border:none; cursor:pointer; height:15px; width:242px;}
+.btnReintentarImpresion {background-image:url(/images/botones_formularios/boton_reintentar_impresion.jpg); border:none; cursor:pointer; height:15px; width:158px;}
+.btnSolicitarAfiliacion {background-image:url(/images/botones_formularios/boton_solicitar_afiliacion.jpg); border:0px; cursor:pointer; height:15px; width:143px;}
+.btnVerEjemplo {background-image:url(/images/botones_formularios/boton_ver_ejemplo.jpg); border:none; cursor:pointer; height:15px; width:87px;}
+.btnVolver {background-image:url(/images/botones_formularios/boton_volver.jpg); border:0px none; cursor:pointer; float:right; height:17px; margin-right:8px; padding:0; width:60px;}
+/*---- FIN Botones Formularios ----*/
+
+/*---- INICIO Estilos RGRL ----*/
+.Fecha {border-bottom-style:solid; border-bottom-width:1px; border-color:#bcbcbc; padding-bottom:1px; padding-left:4px; padding-right:4px; padding-top:1px; text-align:center; width:106px;}
+.item {border-left-style:solid; border-left-width:1px; border-color:#bcbcbc; border-right-style:solid; border-right-width:1px; font-size:8pt; padding-bottom:3px; padding-left:4px;
+			padding-right:4px; padding-top:3px; text-align:left;}
+.pieTabla {border-bottom-style:solid; border-bottom-width:1px; border-color:#bcbcbc; border-left-style:solid; border-left-width:1px; border-right-style:solid; border-right-width:1px;
+					color:#fff; font-size:1pt;}
+.Pregunta {border-bottom-style:solid; border-bottom-width:1px; border-color:#bcbcbc; border-right-style:solid; border-right-width:1px; font-size:8pt; padding-bottom:1px; padding-left:4px;
+					padding-right:4px; padding-top:1px; text-align:center; width:35px;}
+.TituloFndCeleste {background-color:#00539b; color:#fff; font-size:8pt; font-weight:bold; text-align:left;}
+.TituloFndGris {background-color:#818085; color:#fff; font-size:8pt; text-align:left;}
+.TituloFndGrisNegrita {background-color:#818085; color:#fff; font-size:8pt; font-weight:bold; text-align:center;}
+.TituloGris {color:#818085; font-size:10pt; font-weight:bold; text-align:left;}
+.TxtPregunta {border-bottom-style:solid; border-bottom-width:1px; border-color:#bcbcbc; border-right-style:solid; border-right-width:1px; font-size:8pt; padding-bottom:1px;
+						 padding-left:4px; padding-right:4px; padding-top:1px; text-align:left;}
+/*---- FIN Estilos RGRL ----*/

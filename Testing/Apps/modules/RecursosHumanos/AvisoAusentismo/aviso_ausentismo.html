@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{#SERVER#}styles/mails.css" type="text/css" />
+	</head>
+	<body>
+		<table class="Width600 GrisOscuro" cellpadding="0">
+			<tr>
+				<td width="5%"><img src="{#SERVER#}images/01.jpg"></td>
+				<td class="Title01" width="90%">{#TITLE#}</td>
+				<td width="5%"><img src="{#SERVER#}images/02.jpg"></td>
+			</tr>
+		</table>
+		<table class="Width600 GrisClaro">
+			<tr>
+				<td>
+					<table class="Width560 GrisOscuro" cellpadding="2" cellspacing="0">
+						<tr><td class="CS40 GrisClaro" colspan="2"></td></tr>
+						<tr><td class="ItTit">Empleado ausente {#Ñ#}</td><td class="ItDet">{#EMPLEADO_AUSENTE#}</td></tr>
+						<tr><td class="ItTit">Motivo {#Ñ#}</td><td class="ItDet">{#MOTIVO#}</td></tr>
+						<tr><td class="ItTit">Reportado por {#Ñ#}</td><td class="ItDet">{#REPORTADO_POR#}</td></tr>
+						<tr><td class="ItTit">Observaciones {#Ñ#}</td><td class="ItDet">{#OBSERVACIONES#}</td></tr>
+						<tr class="CS40 GrisClaro"><td colspan="2"></td></tr>
+						<tr class="GrisClaro">
+							<td></td>
+							<td>
+								<table cellpadding=0 cellspacing=0>
+									<tr>
+										<td class=Submit background="{#SERVER#}/images/fnd.jpg">
+											<a href="{#SERVER#}{#URL#}?TRANSACCION={#TRANSACCION#}&USUVAL=&USERNAME={#USERNAME#}">Haga click aquí para indicar si hay que enviar médico o no</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr><td class="CS40 GrisClaro" colspan="2"></td></tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table class="Width600 Celeste">
+			<tr>
+				<td width="5%"><img src="{#SERVER#}images/03.jpg"></td>
+				<td width="90%"></td>
+				<td width="5%"><img src="{#SERVER#}images/04.jpg"></td>
+			</tr>
+		</table>
+	</body>
+</html>

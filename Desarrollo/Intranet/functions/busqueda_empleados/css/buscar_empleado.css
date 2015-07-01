@@ -1,0 +1,6 @@
+.divItemEmpleado1 {background-color:#dadada; cursor:pointer; padding-left:10px;}
+.divItemEmpleado1:hover {background-color:#888;}
+.divItemEmpleado2 {background-color:#f6f6f6; cursor:pointer; padding-left:10px;}
+.divItemEmpleado2:hover {background-color:#888;}
+
+#divBusquedaListaEmpleados {background-color:#eee; border:1px solid #000; color:#575756; display:none; left:97px; padding:2px; position:absolute; width:400px;}

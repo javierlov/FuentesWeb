@@ -1,0 +1,388 @@
+﻿BODY {
+    leftmargin: "0";
+    topmargin: "0";
+    marginwidth: "0";
+    marginheight: "0";
+    scrollbar-face-color: #aaaaaa;  
+	scrollbar-highlight-color: #aaaaaa;  
+	scrollbar-shadow-color: #aaaaaa;  
+	scrollbar-3dlight-color: #eeeeee; 
+	scrollbar-arrow-color: #eeeeee;  
+	scrollbar-track-color: #e3e3e3;  
+	scrollbar-darkshadow-color: #ffffff;
+}
+
+.celdaTituloEJ {
+	font-family: Verdana;
+	font-size: 8pt;
+	color="#FFFFFF";
+	}
+
+.celdaFondoTituloEJ{
+	BACKGROUND-COLOR:"#808080"; 
+	text-align:"left";
+	.colspan:"4"; 		
+}	
+
+.celdatexto{
+  font-size: 14pt;
+ color=#ffff00;
+}
+	
+.body_border {
+	border-right: 0px solid; 
+	border-left: 0px solid; 
+	border-top: 0px solid; 
+	border-bottom: 0px solid; 
+	
+	padding-left: 0px; 
+	padding-right: 0px; 
+	padding-top: 0px; 
+	padding-bottom: 0px;
+	border-color: #CCCCCC:
+}
+
+.bordeGris_freetext {
+	BORDER-RIGHT: 1px solid; 
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 4px; 
+	PADDING-BOTTOM: 1px; 
+	BORDER-LEFT: 1px solid; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: 1px solid;	
+}
+
+.error {
+	font-family: Verdana;
+	font-size: 8pt;
+	color: #C40000; 
+}
+
+.tableHeader {
+    BACKGROUND-COLOR: #446D8C;
+	BORDER-BOTTOM: grey 1px solid;
+    BORDER-LEFT: grey 1px solid;
+    BORDER-RIGHT: grey 1px solid;
+    BORDER-TOP: grey 1px solid;
+	COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 7pt;
+    MARGIN: 0.01cm;
+}
+
+.innerTable {
+    BACKGROUND-COLOR: lightgrey;
+/*    BORDER-BOTTOM: indigo double;
+    BORDER-LEFT: indigo double;
+    BORDER-RIGHT: indigo double;
+    BORDER-TOP: indigo double;
+*/  COLOR: #2C4480;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+}
+
+.innerTable TD {
+/*    BORDER-BOTTOM: red 0.1cm inset;
+    BORDER-RIGHT: red 0.01cm inset
+*/}
+
+.borderTable {
+    BORDER-LEFT: #3f3f3f thin groove;
+    BORDER-RIGHT: #3f3f3f thin groove;
+}
+
+.title_NegroFndGrisClaro {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 7pt;
+	background-color: #cccccc;
+	height: 20;
+}
+
+.title_BlancoFndGrisOscuro {
+	font-family: Verdana;
+	font-size: 8pt; 
+	font-weight: bold; 
+	color: #ffffff;
+	background-color: #808080;
+	height: 20;
+}
+
+.item_grisClaroFndBlanco {
+	font-family: Verdana;
+	font-size: 8pt;
+	color: #808080;
+	margin-right: 18pt; 		
+}
+
+.item_grisClaro {
+	font-family: Verdana;
+	color: #808080;
+	font-size: 8pt;
+	background-color: #e7e7e7;
+	padding: 2pt;
+}
+
+.valor_azulOscuro {
+	font-size: 8pt;
+	font-family: Arial;
+	color: #150185;
+}
+
+.paginado_links {
+    COLOR: #00539B;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none;
+   	font-weight: bold;
+}
+
+.TDGrisOscuro_pie_pagina {
+	background-color: #877f87;
+	height: 2;
+}
+
+.TDGrisClaro_pie_pagina {
+	background-color: #e7e7ef;
+	height: 6;
+}
+
+.volver_link {
+	font-family: Verdana; 
+	color: #00539B; 
+	font-size: 7pt; 
+	font-weight: bold; 
+	text-decoration: none;
+}
+
+.enable_link_home {
+	font-family: Verdana; 
+	color: #877F87; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	text-decoration: none;
+}
+
+.disable_link_home {
+	font-family: Verdana; 
+	color: #877F87; 
+	font-size: 8pt; 
+	text-decoration: none;
+}
+
+.input_text {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	border: 1px solid #999999;
+	color: #808080;
+	padding:2px;
+	/*
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	*/
+	background-color: #FFFFFF;
+	width:200px;
+	BEHAVIOR: url(../Behaviors/input_text.htc);
+}
+
+.input_textUpper {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	text-transform: uppercase;
+	border: 1px solid #999999;
+	color: #808080;
+	padding:2px;
+	/*
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	*/
+	background-color: #FFFFFF;
+	width:200px;
+	BEHAVIOR: url(../Behaviors/input_text.htc);
+}
+.input_text_form {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	border: 1px solid #999999;
+	color: #808080;
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+	width:150px;
+	BEHAVIOR: url(../Behaviors/input_text.htc);
+}
+
+.text_area {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	border: 1px solid #999999;
+	color: #808080;
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+	height:95%;
+	width:95%;
+	BEHAVIOR: url(../Behaviors/input_text.htc);
+}
+
+
+.combo {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	border: 1px solid #999999;
+	color: #808080;
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+	width:325px;
+	BEHAVIOR: url(../Behaviors/input_text.htc);
+}
+
+.combo_form {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	border: 1px solid #999999;
+	color: #808080;
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+	width:400px;
+	BEHAVIOR: url(../Behaviors/input_text.htc);
+}
+
+.radio_button {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	color: #808080;
+}
+
+
+
+.input_text_right {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	border: 1px solid #999999;
+	color: #808080;
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+	text-align:right;
+}
+
+
+.text {
+    BEHAVIOR: url(../Behaviors/invalidChar.htc);
+	COLOR: #676767;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    LINE-HEIGHT: 14px
+}
+
+.submit {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	color: #808080; 
+	font-weight: bold; 
+	border: 1px solid #808080; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;
+}
+
+.dateFormat {
+    FONT-SIZE: 9px;
+    BEHAVIOR: url(../Behaviors/date.htc);
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-VARIANT: normal
+}
+
+.timeFormat {
+	 behavior: url(../Behaviors/time.htc);
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+	MAXLENGTH:10;
+}
+
+.numerico {
+	font-family: Verdana; 
+	font-size: 8pt; 
+	color: #808080; 
+	border: 1px solid #999999; 
+	padding-left: 4px; 
+	padding-right: 4px; 
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	background-color: #FFFFFF;   
+    BEHAVIOR: url(../Behaviors/numeric.htc);
+}
+
+.fmtnumerico {
+    FONT-SIZE: 9px;
+    BEHAVIOR: url(../Behaviors/fmtnumeric.htc);
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-VARIANT: normal;
+}
+
+.fmtnum3dec {
+    FONT-SIZE: 9px;
+    BEHAVIOR: url(../Behaviors/fmtnum3dec.htc);
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-VARIANT: normal;
+}
+
+.nrodoc {
+    FONT-SIZE: 9px;
+    BEHAVIOR: url(../Behaviors/docum.htc);
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-VARIANT: normal;
+}
+
+.cuit {
+    FONT-SIZE: 9px;
+    BEHAVIOR: url(../Behaviors/numeric.htc) url(../Behaviors/cuit.htc);
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-VARIANT: normal;
+}
+
+.linksBar {
+    COLOR: #00539B;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10px;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    LINE-HEIGHT: 14px;
+    MARGIN-LEFT: 0px;
+    TEXT-DECORATION: none;
+}
+
+.linksBar:hover {
+    COLOR: #00539B;
+    FONT-SIZE: 10px;
+    TEXT-DECORATION: underline;
+}

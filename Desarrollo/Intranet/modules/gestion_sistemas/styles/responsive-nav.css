@@ -1,0 +1,348 @@
+/*! responsive-nav.js 1.0.32 by @viljamis */
+.TextoBoton{
+	position:relative;
+	float: left;
+	border:0px solid;
+	font:normal 12px Neo Sans;
+	padding:5px 2px 2px 1px;
+	text-align:left;
+	width:70%;
+	min-height:41px;
+}
+
+.ContenedorIndex{
+	position:relative;
+	float: center;
+	padding:15px 5px 5px 5px;
+	text-align:left;
+	width:auto;
+	height:auto;
+	min-height:400px;
+}
+
+.itemSeleccionado{
+	background: #f4421a;
+}
+/*
+.itemlist:hover{
+	opacity:.85;
+	color:#000; 	
+}
+*/
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse li {
+  width: 80%;
+  display: block;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.imagen_format{	width:25px;	float:left;}
+  
+.centrar {	text-align: left;}
+
+.tablaInicio{width:100%;}
+.columna1{display:none;}
+.columna2{width:100%;}
+.columna3{display:none;}
+  
+.formatoControlGeneral{
+	background-color: #ccc; 
+	border: 1px solid #808080; 
+	color: #000; 
+	font-family: Neo Sans; 
+	font-size: 10pt; 
+	margin-right:8px;	
+} 
+
+.formatoBotonGeneral{
+	background-color: #808080; 	
+	border: 1px solid #333; 
+	color: #fff; 
+	cursor: pointer; 
+	font-family: Neo Sans; 
+	font-size: 8pt;
+}
+
+.div-collapse,
+.div-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.div-collapse,
+.div-collapse ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.div-collapse li {
+  float: left;
+  width: 100%;
+}
+
+.div-collapse a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  *background: #f4422a;
+  background-color: #818085;
+  border-bottom: 1px solid white;
+  padding: 0.7em 1em;
+  float: left;
+}
+
+.div-collapse ul ul a {
+  background: #ca3716;
+  padding-left: 2em;
+}
+
+.div-collapse.opened {
+  max-height: 9999px;
+}
+.div-TextoBoton{
+	position:relative;	
+	float: left;
+	border:0px solid;	
+	font:bold 14px Neo Sans; 		
+	padding:5px 2px 2px 15px;
+	text-align:left; 
+	width:70%;
+}
+
+
+.FormLabelBlanco {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 16px;
+	font-weight:normal;		
+	text-align:left;
+	padding:2px;
+}
+
+.TextoInfo{		
+	/*font:normal 12px Neo Sans;*/	
+	color: #000;
+	font: 16px Tahoma;
+	font-weight: bold;	
+	text-align: left; 	
+	width: 764px;
+	float: left;	
+	margin:10px;	
+}
+
+.TextoGrilla{			
+	color: #000; 
+	text-align:left; 	
+}
+
+.CheckGrilla{color: #000; padding:1px 2px;	text-align:center; width:100px;	}
+/******************** BOTONES ************************************/
+.btnEditar {background-image:url(/modules/gestion_sistemas/images/boton_editarA.png); border:none; cursor:pointer; height:16px; width:50px; margin:2px 2px; }
+.btnEliminar {background-image:url(/modules/gestion_sistemas/images/boton_eliminarA.png); border:none; cursor:pointer; height:16px; width:69px; margin:2px 2px; }
+
+.btnAltaPermiso{background-color:#666; background-image:url(/modules/gestion_sistemas/images/boton_aplicar.jpg);   border:none; cursor:pointer; height:15px; width:59px; opacity:0.9; padding:0px 0px; margin:2px 2px; }
+
+.btnBorrar{background-color:#666; background-image:url(/modules/gestion_sistemas/images/boton_borrar.jpg);   border:none; cursor:pointer; height:15px; width:50px; opacity:0.9; padding:0px 0px; margin:2px 2px; background-repeat:norepeat;}
+
+
+.btnBorrar:hover {border-style: solid; border-width:1pt; border-color:#818085; }		
+.btnEditar:hover {border-style: solid; border-width:1pt; border-color:#818085; }
+.btnEliminar:hover {border-style: solid; border-width:1pt; border-color:#818085; }		
+.btnAltaPermiso:hover {border-style: solid; border-width:1pt; border-color:#818085; }		
+
+.btnAltaPermiso1{background:#808080;
+background: -webkit-linear-gradient(silver, #808080); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(silver, #808080); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(silver, #808080); /* For Firefox 3.6 to 15 */
+background: linear-gradient(silver, #808080); /* Standard syntax */
+			border:0; 
+			cursor:pointer; 
+			height:22px; 
+			width:125px;
+			font-family: NeoSansImport; 
+			font-size:13px; 
+			color:white;													
+			vertical-align: sub;
+			text-transform:uppercase;
+			text-align:cener;
+			box-shadow: 3px 3px 2px #aaa; 		
+			padding-top:10px; 			
+			}
+			
+.btnAltaPermiso1:hover {background:#818085;
+background: -webkit-linear-gradient(silver, #818085); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(silver, #818085); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(silver, #818085); /* For Firefox 3.6 to 15 */
+background: linear-gradient(silver, #818085); /* Standard syntax */
+border-style: solid;								
+border-width:1pt; 
+border-color:#818085; }			
+
+.error {
+	font:bold 9px Neo Sans; 	
+	color: #C40000; 
+}
+/* -----------------  -----------------  ----------------- */
+.contenedor-etiquetas{	background:#000;	width:450px;	color: #000; 	}
+.contenedor-etiquetas:hover{background:#818080; color:#fff; }
+
+.contenedor-principal div
+{
+	float:left;
+	border:2px solid gray;
+	background:#DDDDDD;
+	width:120px;
+	margin:10px;
+	text-align:center;
+}
+
+/* -----------------  -----------------  ----------------- */
+.wrapperMenu{width:100%; height:auto; padding:0px 0px 10px 0px;  position:relative;}
+.bodywrapper{width:100%; height:960px; .min-height:auto;
+	/*Fondo de pantalla	*/
+/*
+	background-size: 100% 100%; 
+	background-image:url(/modules/gestion_sistemas/images/FondoLosAlercesR.jpg);   
+	background-repeat:norepeat;
+	border:none; 				
+	filter: alpha(opacity=1);	
+	-moz-opacity: 0.6;	
+	opacity: 0.1;					
+	
+					}
+.wrapperPage1{width:100%; min-height:90%; 
+*/
+}
+.wrapperPage{width:auto; height:auto; }
+.wrapperPage1{width:auto; min-height:auto; }
+
+/* -----------------  -----------------  ----------------- */
+.formGeneric750{
+	/*margin:0 auto;*/
+	margin:12px 0px; 
+	padding:10px 0px;
+	width:760px; 
+	height:auto;
+}
+
+.formGeneric550{
+	width:600px;
+	margin:0 auto;
+	padding:10px;
+	font-size:12px; 
+}
+
+.numTicket{width:80px; text-align:left; margin-left:10px;}
+.numTicketTxt{width:50px;}
+/* -----------------  -----------------  ----------------- */
+
+@media screen and (min-width: 750px) {
+  .bodywrapper{width:auto; min-height:960px;}
+  .wrapperPage1{width:auto; min-height:90%; }
+  .wrapperPage{width:auto; height:auto; }
+  .wrapperMenu{border-bottom: 0px dotted gray; height:100px; }
+  
+  .formGeneric750{margin:2px 0px; padding:10px 0px; width:740px; height:auto;}
+	
+  
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  
+  .TextoBoton{
+	position:relative;
+	display:block;	
+	top:10px;
+	border:0px solid;
+	font:normal 12px Neo Sans; 	
+	padding:1px 2px 2px 1px;
+	text-align:center; 
+	width:100%;
+	height:61px;	
+  }  
+	
+  
+  .imagen_format{	width:35px;  }  
+  .centrar {	text-align: center;	display: inline-block;  }
+  .tablaInicio{text-align:center; width:764px; }
+  .columna1{width:10%; text-align:right; display:block;}
+  .columna2{width:80%;}
+  .columna3{width:10%; text-align:right; display:block;}
+
+}
+
+/*
+*/
+
+/* -----------------  -----------------  ----------------- */
+/* 
+@media screen and (min-width: 1200px) {
+	
+	.formGeneric750{ margin:12px 10px; padding:10px 0px; width:770px; height:auto;}
+	
+	.wrapperMenu{border-bottom:0px; 
+					border-top: 0px solid gray; 					
+					display:block; 
+					width:100%; 
+					height:50px; }
+	
+	.bodywrapper:{ background-color:none; }
+	
+	.wrapperPage{   width:1200px; 
+					#height:100%;  
+					overflow-x:hidden; overflow-y:auto;
+					min-height:90%; 
+					text-align:center; 
+					margin:20px auto 0 auto; 
+					border: 0px solid gray; 
+					box-shadow: 10px 10px 35px #889;					
+					background-color:#f1f1f1; 
+					border-radius: 4px;
+					padding:10px;					
+					}		
+	
+}
+
+*/
+	

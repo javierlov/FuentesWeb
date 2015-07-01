@@ -1,0 +1,520 @@
+﻿body {
+	font-family: Neo Sans;
+	font-size: 8pt;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	scrollbar-3dlight-color: #eee;
+	scrollbar-arrow-color: #eee;
+	scrollbar-darkshadow-color: #fff;
+	scrollbar-face-color: #aaa;
+	scrollbar-highlight-color: #aaa;
+	scrollbar-track-color: #E3E3E3;
+	scrollbar-shadow-color: #aaa;
+}
+
+.BordeCeldaGris {
+	border-color: #C0C0C0;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.BordeCeldaGrisFondoCeleste {
+	background-color: #00539B;
+	border-color: #C0C0C0;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.BordeCeldaGrisFondoGris {
+	background-color: #807F84;
+	border-color: #807F84;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.BotonBlanco {
+	background-color: #fff;
+	border: 1px solid #808080;
+	color: #808080;
+	cursor: pointer;
+	font-family: Neo Sans;
+	font-size: 8pt;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+}
+
+.BotonFecha
+{
+  border: none;
+  background-image: url(/Images/boton_fecha.jpg);
+  cursor: pointer;
+  height: 21px;
+  width: 32px;
+}
+
+.BotonGrabar
+{
+	background-color: #fff;
+	border: 1px solid #808080;
+	color: #808080;
+	cursor: pointer;
+	float: left;
+	font-family: Neo Sans;
+	font-size: 8pt;
+	font-weight: bold;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+}
+
+
+.BotonGris {
+	border: 1px solid #808080;
+	background-color: #ccc;
+	color: #727272;
+	cursor:pointer;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+}
+
+.BotonInformacion
+{
+  border: none;
+  background-image: url(/Images/lupa.jpg);
+  cursor: pointer;
+  height: 17px;
+  width: 15px;
+}
+
+.Combo {
+	background-color: #fff;
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 9pt;
+}
+
+.CuerpoArticulo {
+	color: #807F83;
+	font-family: Neo Sans;
+	text-align: left;
+	vertical-align: top;
+	font-size: 9pt;
+}
+
+.DateText {
+	color: #201A84;
+	font-family: Neo Sans;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.FondoOnMouseOver:hover {
+	background: #00539B;
+}
+
+.FormError {
+	font-family: Neo Sans;
+	color: #f00;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.FormInputText {
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+}
+
+.FormInputTextDate {
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 9pt;
+	width: 96px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+}
+
+.FormLabelAzul {
+	color: #00539B;
+	font-family: Neo Sans;
+	font-size: 10pt;
+}
+
+.FormLabelAzul12 {
+	color: #00539B;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	font-weight: bold;	
+}
+
+.FormLabelAzul16 {
+	color: #369;
+	font-family: Neo Sans;
+	font-size: 16px;
+	font-weight: bold;	
+}
+
+.FormLabelAzulCabecera {
+	color: #807f84;
+	font-family: Neo Sans;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.FormLabelAzulOscuro14Negrita {
+	color: #00539B;
+	font-family: Neo Sans;
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+.FormLabelBlanco {
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 11pt;
+	font-weight:bold;		
+}
+
+.FormLabelBlanco10 {
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 11pt;		
+}
+
+.FormLabelBlanco11 {
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 10pt;		
+}
+
+.FormLabelBlanco12 {
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 11pt;
+	font-weight: bold;		
+}
+
+.FormLabelBlancoGrande {
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 14px;
+	font-weight: bold;		
+}
+
+.FormLabelGris {
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.FormLabelGris10 {
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 10pt;
+}
+
+.FormLabelGris10Negrita {
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.FormLabelGrisChico {
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 12px;
+}
+
+.FormLabelGrisSinNegrita11 {
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 11px;
+}
+
+.FormLabelNegro10 {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.FormLabelNegroChico {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.FormLabelNeg {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 10px;
+}
+
+.FormLabelNegroSinNegrita11 {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 11px;
+}
+
+.FormLabelNegroSinNegrita12 {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 12px;
+}
+
+.FormLabelRojo {
+	color: #f00;
+	font-family: Neo Sans;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.FormTextArea {
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 9pt;
+}
+
+.GridBaja {
+	color: #b00;
+	text-decoration: line-through;
+}
+
+.GridColSeparator {
+	background-color: #fff;
+	width: 1px;
+}
+
+.GridEmpty
+{
+  border: none;
+  background-image: url(/images/grid_not_found.gif);
+  height: 50px;
+  width: 237px;
+}
+
+.GridFirstColumn {
+	background-color: #fff;
+}
+
+.GridFondoOnMouseOver:hover {
+	background: #00539B;
+}
+
+.GridFooter {
+	background-color: #B8B8B8;
+	border-color: #B1B1B1;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	font-family: Neo Sans;
+	font-size: 12px;
+	height: 20px;
+}
+
+.GridFooterFont {
+	color: #FEFEFE;
+	font-family: Neo Sans;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridFooterFontSelected {
+	color: #00539B;
+	cursor: default;
+	font-family: Neo Sans;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridHeader {
+	background-color: #00539B;
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 12px;
+	height: 16px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.GridOrderAsc
+{
+  border: none;
+  background-image: url(/images/grid_asc.gif);
+  height: 15px;
+  width: 26px;
+}
+
+.GridOrderDesc
+{
+  border: none;
+  background-image: url(/images/grid_desc.gif);
+  height: 15px;
+  width: 26px;
+}
+
+.GridRow1 {
+	background-color: #807F84;
+	color: black;
+	cursor: default;
+}
+
+.GridRow2 {
+	background-color: #807F84;
+	color: black;
+	cursor: default;
+}
+
+.GridTable {
+	border: 0px solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	width: 770px;
+}
+
+.GridText {
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 10pt;
+	padding-left: 2px;
+}
+
+.GridTitle {
+	color: #FEFEFE;
+	font-family: Neo Sans;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.LineaHorizontal {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.LineaHorizontalBlanca {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #fff;
+}
+
+.LineaHorizontalBlanca {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #fff;
+}
+
+.LineaHorizontalPunteada {
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+
+.Mensaje {
+	color: #E6820A;
+	font-family: Neo Sans;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.PhtoGalleryImage {
+	background-color: #00539B;
+	border: 2px solid;
+	border-color: #00539B;
+}
+
+.PhotoGalleryTitle {
+	background-color: #00539B;
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 18px;
+	font-weight: bold;
+	height: 44px;
+	padding-left: 32px;
+	text-align: left;
+	width: 750px;
+}
+
+.Recuadro {
+	background-color: #807F84;
+	border-color: #C0C0C0;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+
+.LineaGris {
+	border-bottom: 1px solid #727272;
+	text-align: left;
+}
+
+.TituloArticulo {
+	color: #00539B;
+	font-family: Neo Sans;
+	font-weight: bold;
+	font-size: 13pt;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.TituloArticulo:hover {
+	background: #ccc;
+}
+
+.TituloHeader {
+	color: #fff;
+	font-family: Neo Sans;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.TituloHeaderGris {
+	color: #8C8C8C;
+	font-family: Neo Sans;
+	font-size: 10px;
+}
+
+.TituloHeaderNegro {
+	color: #000;
+	font-family: Neo Sans;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.VolantaArticulo {
+	color: #807F83;
+	font-family: Neo Sans;
+	font-size: 11pt;
+	vertical-align: bottom;
+}

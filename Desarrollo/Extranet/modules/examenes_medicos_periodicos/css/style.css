@@ -1,0 +1,324 @@
+* {
+	margin: 2px;
+	padding: 0;
+}
+
+html, body {
+	background-color: #fff;
+	height: 100%;
+	width: 100%;
+}
+
+#aclaracionGrilla {
+	font-weight: bold;
+}
+
+#calleConstituido {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 400px;
+}
+
+#calleLegal {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 400px;
+}
+
+#callePostal {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 400px;
+}
+
+#celdaGrilla {
+	background-color: #fff;
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 11px;
+}
+
+#codigoBarras {
+	left: 8px;
+	position: relative;
+	top: -4px;
+}
+
+#datosEmpresa {
+	font-family: Neo Sans;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#divAclaracionGrilla {
+	font-family: Neo Sans;
+	font-size: 11px;
+	left: 8px;
+	position: relative;
+	top: -104px;
+}
+
+#divContactos {
+	left: 0;
+	position: relative;
+	top: -96px;
+}
+
+#divContent {
+	border: solid 1px #000;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#divDatosEmpresa {
+	border: solid 1px #000;
+	position: relative;
+}
+
+#divDomicilioConstituido {
+	border: solid 1px #000;
+	left: 500px;
+	position: relative;
+	top: -100px;
+	width: 494px;
+}
+
+#divDomicilioLegal {
+	border: solid 1px #000;
+	left: 0;
+	position: relative;
+	top: 8px;
+	width: 494px;
+}
+
+#divDomicilioPostal {
+	border: solid 1px #000;
+	left: 0;
+	position: relative;
+	top: -12px;
+	width: 494px;
+}
+
+#divEmail {
+	border: solid 1px #000;
+	left: 0;
+	position: relative;
+	top: -92px;
+	width: 494px;
+}
+
+#divEmail2 {
+	border: solid 1px #000;
+	left: 500px;
+	position: relative;
+	top: -115px;
+	width: 494px;
+}
+
+#divEmailPie {
+	border-top: 1px solid #000;
+	font-family: Neo Sans;
+	font-size: 12px;
+	left: 328px;
+	position: relative;
+	top: -18px;
+	width: 240px;
+}
+
+#divEstablecimientos {
+	left: 0;
+	position: relative;
+	top: -104px;
+}
+
+#divFirma {
+	border-top: 1px solid #000;
+	font-family: Neo Sans;
+	font-size: 12px;
+	left: 696px;
+	position: relative;
+	top: -36px;
+	width: 280px;
+}
+
+#divInfo {
+	border: solid 1px #000;
+	left: 500px;
+	position: relative;
+	top: -80px;
+	width: 494px;
+}
+
+#divLugarFecha {
+	border-top: 1px solid #000;
+	font-family: Neo Sans;
+	font-size: 12px;
+	left: 8px;
+	position: relative;
+	top: 0;
+	width: 200px;
+}
+
+#divNota {
+	font-family: Neo Sans;
+	font-size: 11px;
+	padding-left: 24px;
+	position: relative;
+	top: -96px;
+	font-weight: bold;
+}
+
+#divPie {
+	font-family: Neo Sans;
+	font-size: 11px;
+	left: 0px;
+	position: relative;
+	top: -18px;
+}
+
+#divTituloDatos {
+	font-family: Neo Sans;
+	font-size: 12px;
+	position: relative;
+	top: 8px;
+}
+
+#lbDatosEmpresa {
+	font-family: Neo Sans;
+	font-size: 12px;
+}
+
+#lbDatosNuevos {
+	left: 360px;
+	position: relative;
+}
+
+#lbDatosVigentes {
+	left: 40px;
+	position: relative;
+}
+
+#lbDomicilioTitulo {
+	background-color: #000;
+	color: #fff;
+	display: block;
+	font-family: Neo Sans;
+	font-size: 15px;
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+
+#lbGeneral {
+	font-family: Neo Sans;
+	font-size: 10px;
+	margin: 0;
+	text-decoration: underline;
+}
+
+#localidadConstituido {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 200px;
+}
+
+#localidadLegal {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 200px;
+}
+
+#localidadPostal {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 200px;
+}
+
+#logo {
+	height: 38px;
+	left: 144px;
+	position: relative;
+	top: 0;
+	width: 111px;
+}
+
+#provinciaConstituido {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 200px;
+}
+
+#provinciaLegal {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 200px;
+}
+
+#provinciaPostal {
+	overflow: hidden;
+	text-overflow: ellipsis-word;
+	white-space: nowrap;
+	width: 200px;
+}
+
+#tableContactos {
+	background-color: #000;
+	border-collapse: collapse;
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 12px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 0;
+	width: 994px;
+}
+
+#tableEstablecimientos {
+	background-color: #000;
+	border-collapse: collapse;
+	color: #fff;
+	font-family: Neo Sans;
+	font-size: 12px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+/*	table-layout: fixed;*/
+	top: 0;
+	width: 994px;
+}
+
+#titulo {
+	font-family: Neo Sans;
+	font-size: 16px;
+	left: 96px;
+	position: relative;
+	top: -16px;
+}
+
+#tituloContactos {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 14px;
+}
+
+#tituloEstablecimientos {
+	color: #000;
+	font-family: Neo Sans;
+	font-size: 14px;
+}
+
+.txtGeneral {
+	font-family: Neo Sans;
+	font-size: 10px;
+}

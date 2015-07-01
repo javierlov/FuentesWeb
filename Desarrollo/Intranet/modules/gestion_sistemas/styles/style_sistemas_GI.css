@@ -1,0 +1,421 @@
+button:disabled {
+    background: #dddddd;
+	color:#fff;
+}
+
+/* dock - top */
+.GIdock {
+	position: relative;
+	height: 50px;
+	text-align: center;
+	left: -10px;	
+}
+.GIdock-container {
+	position: absolute;
+	height: 50px;
+	background: url(../images/background.gif);
+	padding-left: 20px;
+}
+a.GIdock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold;
+}
+.GIdock-item img {
+	border: none;
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.GIdock-item span {
+	display: none; 
+	padding-left: 20px;
+}
+
+/* Grid Style */
+
+.GIgridColSeparator {
+	background-color: #B1B1B1;
+	width: 1px;
+}
+
+.GIgridFooter {
+	background-color: #808080;
+	border-color: #B1B1B1;
+	border-width: 0px;
+	border-style: solid;
+	color: white;
+	font-size: 12px;
+	height: 20px;
+}
+
+.GIgridFooterFont {
+	color: #FEFEFE;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GIgridFooterFontSelected {
+	color: #173273;
+	font-size: 13pt;
+	font-weight: 500;
+	text-decoration: 300;
+	text-transform:uppercase;
+	padding: 0px 2px;
+}
+
+.GIgridHeader {
+	background-color: #808080;
+	color: #FFFFFF;
+	font-size: 8px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.GIgridRow1 {
+	background-color: #CCCCCC;
+	color: black;
+	cursor: default;
+}
+
+.GIgridRow2 {
+	background-color: #DDDDDD;
+	color: black;
+	cursor: default;
+}
+
+
+.GIgridRow1:hover {
+	background: #66CCFF;
+}
+.GIgridRow2:hover {
+	background: #66CCFF;
+}
+
+.GIgridTable {	
+	text-align:left;
+	border: 0px solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	width: 750px;	
+}
+
+.GIgIdivMenu {background-color:#ececec; float:left; font-family:Arial Narrow; height:100%; width:19.44%;}
+
+.GIContenedorIndex{				
+	width: 100%;		
+	height:100%; 
+	min-height:400px;
+	display:inline; 
+	float: left; 
+	margin:0 auto;
+}
+
+.GICheckbox{	
+	clip: rect(0 0 0 0);
+	height: 25px;
+	width: 25px;
+	margin: 1px;
+	padding: 0;
+	border: 0;
+}
+
+.GIgridText {
+	color: #000000;
+	font-size: 10pt;
+	/*font-family:Arial;*/
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.GIgridTitle {
+	color: #FEFEFE;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.GIgridEmpty
+{
+  border: none;
+  background-image: url(/Images/grid_not_foundGris.png);
+  height: 50px;
+  width: 237px;
+  background-repeat: no-repeat;
+}
+
+.GIBtnTicket
+{
+  border: none;
+  background-image: url(/Images/lupa.jpg);  
+  cursor: pointer;
+  height: 17px;
+  width: 15px;
+}
+
+.GIBtnAutorizar
+{
+  border: none;
+  background-image: url(../Images/accept24.png);
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+
+.GIBtnAddRemove{
+	position:absolute;
+	clear:both;
+	font: 11px;
+	height:22px;
+	line-height:22px;
+	background:#666666 url(../images/background.gif);
+	text-align:center;
+	color:#FFFFFF;
+	margin-top:2px;
+	margin-left:10px;
+	width:80px;
+}
+
+.GIBtnAction{
+	clear:both;	
+	font: normal 12px Neo Sans;
+	height:31px;
+	line-height:31px;
+	background:#666666 url(../images/background.gif);
+	text-align:center;
+	color:#FFFFFF;
+	margin-top:0px;
+	margin-left:0px;
+	width:120px;
+}
+
+.GIBtnAction:hover{	
+	color:#000; 
+}
+
+.GIBtnAddRemove:hover{	
+	color:#000; 
+}
+
+.GIAttach0{
+  position:absolute;
+  padding-left:-34px;
+  width:58px;
+}
+.GIAttach1{
+  position:absolute;
+  padding-left:140px;
+  width:222px;
+  height:24px;
+}
+.GIAttach2{
+  position:absolute;
+  padding-top:-4px;
+  padding-left:238px;
+  width:10px;
+}
+
+/* Estilos para los mails del sistema */
+
+td.GIMail_input{
+  font: 11px;
+  border:solid 1px #BBBBBB;
+}
+
+td.GIMail_label{
+	float:left;
+	font: 11px;
+	font-weight: bold;
+}
+
+button.GIBtnFecha
+{
+  border: none;
+  background-image: url(/Images/boton_fecha.jpg);
+  cursor: hand;
+  height: 21px;
+  width: 32px;
+}
+
+button.GIBtnMail{
+	clear:both;
+	font: 11px;
+	height:31px;
+	line-height:31px;
+	cursor: pointer;
+	background:#666666 url(../images/background.gif);
+	text-align:center;
+	color:#FFFFFF;
+	width:290px;
+}
+
+H2.GIH2_mail
+{
+	BACKGROUND-COLOR: #AAAAAA; /*#0033A6;*/
+	BORDER-BOTTOM: #7A7E80 6px solid;
+	COLOR: #000000;
+	FONT-SIZE: 120%;
+	FONT-WEIGHT: normal;
+}
+
+H2.GIH2_body
+{
+	border-bottom: #7A7E80 0px solid;
+	color: #000000;
+	font-size: 80%;
+	font-weight: normal;
+}
+
+.GISpacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.GIFormGeneric{
+	margin:0 auto;
+	padding:10px;
+}	
+
+/* ----------- stylized ----------- */
+/*
+	Estos estilos estan definidos en  \\ntwebart3\www$\Intranet\styles\style_sistemas.css
+	
+	#stylized{
+		border:solid 2px #CCCCCC; 
+		background: #DDDDDD;    
+	}
+	#stylized h1 {
+		font: 14px Neo Sans;
+		font-weight:bold;
+		margin-bottom:8px;
+	}
+	#stylized p{
+		font: 12px Neo Sans;
+		color:#666666;
+		margin-bottom:20px;
+		border-bottom:solid 1px #BBBBBB;
+		padding-bottom:10px;
+	}
+	#stylized  label{
+		display:block;
+		font: 12px Neo Sans;
+		font-weight:bold;
+		text-align:right;
+		width:140px;
+		float:left;
+	}
+  #stylized .error_label{
+		display:block;
+		font: 11px Neo Sans;
+		font-weight:bold;
+		text-align:right;
+		width:340px;
+		float:left;
+	}
+	#stylized .GIMsg_label{
+		position: relative;
+		color:#DB9164;
+		display:block;
+		font: 13px Neo Sans;
+		font-weight:bold;
+		text-align:left;
+		width:340px;
+		float:right;
+	}
+  #stylized .GILabelTitulo{
+		color:black;
+		display:block;
+		font: 12px Neo Sans;
+		font-weight:bold;
+		text-align:right;
+		width:160px;
+  }
+  #stylized .GISmall{
+		color:#666666;
+		display:block;
+		font: 11px Neo Sans;
+		font-weight:normal;
+		text-align:right;
+		width:160px;
+	}
+	#stylized input{
+		float:left;
+		font: 11px Neo Sans;
+		padding:4px 2px;
+		border:solid 1px #BBBBBB;
+		width:234px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized select{
+		color:#000000;
+		float:left;
+		font: 11px Neo Sans;
+		padding:4px 2px;
+		border:solid 1px; 
+		width:240px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized dato{
+		color:#000000;
+		float:left;
+		font: 11px Neo Sans;
+		padding:4px 2px;
+		border:solid 1px; 
+		width:240px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized textarea{
+		float:left;
+		font: 11px Neo Sans;
+		padding:4px 2px;
+		border:solid 1px #BBBBBB;
+		width:233px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized fileName{
+		float:left;
+		font: 11px Neo Sans;
+		padding:4px 2px;
+		border:solid 1px #BBBBBB;
+		margin:2px 0 20px 10px;
+		margin-top:-22px;
+		margin-left:150px;
+		width:236px;
+  }
+  */
+.GIContenidosTabla {
+	display: table;
+	height:1%;		
+}
+.GIContenidosFila{
+	display: table-row;
+	border: 1px solid #fff;	
+}
+.GIContenidosColumna{
+	display: table-cell;
+	color:#000;
+	border: 0pt solid white;
+	padding:0px;
+	margin:0px;
+	opacity:1.0;		
+}  
+
+.GIAlineaText{
+	width:auto; 
+	height:auto; 	
+	text-align:left; 
+	margin-left:10px; 	
+	border: 1px solid #808080;
+}
+
+.GICombo {
+	background-color: #fff;
+	border: 1px solid #808080;
+	color: #808080;
+	font-family: Neo Sans;
+	font-size: 9pt;
+}

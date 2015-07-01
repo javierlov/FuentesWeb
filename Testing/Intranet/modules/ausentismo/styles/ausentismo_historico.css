@@ -1,0 +1,68 @@
+.AusentismoGridEmpty {
+  background-image: url(/Images/grid_not_found.gif);
+  border: none;
+  height: 50px;
+  width: 240px;
+}
+
+.AusentismoGridFooter {
+	background-color: #807F84;
+	border-color: #B1B1B1;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	font-family: Neo Sans;
+	font-size: 12px;
+	height: 20px;
+}
+
+.AusentismoGridHeader {
+	background-color: #807F84;
+	color: #FFFFFF;
+	font-family: Neo Sans;
+	font-size: 10px;
+	font-weight: bold;		
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.AusentismoGridRow1 {
+	background-color: #F2F2F2;
+	color: black;
+	cursor: default;
+}
+
+.AusentismoGridRow2 {
+	background-color: #EFEFEF;
+	color: black;
+	cursor: default;
+}
+
+.AusentismoGridTable {
+	border: 0px solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.AusentismoGridText {
+	color: #000000;
+	font-family: Neo Sans;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.AusentismoGridTitle {
+	background-color: #807F84;
+	color: #FFFFFF;
+	font-family: Neo Sans;
+	font-size: 10px;
+	font-weight: bold;		
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: center;
+	text-decoration: none;
+}

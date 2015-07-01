@@ -1,0 +1,39 @@
+<html>
+	<head><link rel="stylesheet" href="{#SERVER#}styles/style.css" type="text/css" /></head>
+	<body>
+		<table width="100%">
+			<tr>
+				<td>
+					<table width="100%">
+						<tr><td><h1><img src="{#SERVER#}images/logo_provart.jpg"><br>{#TITLE#}</h1></td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr><td><b>Contrato</b></td><td><b>{#CONTRATO#}</b></td></tr>
+						<tr><td><b>Nombre</b></td><td><b>{#NOMBRE#}</b></td></tr>
+						<tr><td><b>Estado</b></td><td><b>{#ESTADO#}</b></td></tr>
+						<tr><td><b>Plan</b></td><td><b>{#PLAN#}</b></td></tr>
+						<tr><td>Gestor</td><td>{#GESTOR#}</td></tr>
+						<tr><td>Cantidad de Contratos</td><td>{#CANTCONTRATOS#}</td></tr>
+						<tr><td>Deuda Nominal Financiada</td><td>${#DEUDA#}</td></tr>
+						<tr><td>Cuotas Adeudadas</td><td>{#CUOTADEUDA#}</td></tr>
+						<tr><td>Interés por Mora</td><td>${#INTMORA#}</td></tr>
+						<tr><td>Cuotas Financiación</td><td>{#CUOTAFINANC#}</td></tr>
+						<tr><td>Interés por Financiación</td><td>${#INTFINANC#}</td></tr>
+						<tr><td>Anticipo</td><td>{#ANTICIPO#}%</td></tr>
+						<tr><td>Quita Interés por Mora</td><td>{#QUITAINTMORA#}%</td></tr>
+						<tr><td>Quita Interés por Financiación</td><td>{#QUITAINTFINANC#}%</td></tr>
+						<tr>
+							<td align="center" background="{#SERVER#}images/fnd.jpg" class="Submit" colspan="2">
+								<a href="{#SERVER#}{#URL#}?TRANSACCION={#TRANSACCION#}&USUVAL=&USERNAME={#USERNAME#}">Haga clic aquí para contestar el pedido</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

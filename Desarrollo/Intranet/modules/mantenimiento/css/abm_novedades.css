@@ -1,0 +1,10 @@
+label {display:inline-block; text-align:right; width:108px;}
+
+#divCampos {position:relative;}
+#divErroresForm {display:none;}
+#empleadoLista {width:400px;}
+#foco {height:1px; width:1px;}
+#labelVigenciaHasta {margin-left:16px;}
+#labelVigenciaHastaBusqueda {margin-left:16px;}
+#sectorDesde {width:84%;}
+#sectorHasta {width:84%;}

@@ -1,0 +1,577 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>..:: Provincia A.R.T. - Boletín Seguridad Informática ::..</title>
+<style type="text/css">
+<!--
+#imgizq {	margin: 0 5px 5px 0px;
+	border: 0px solid #CCCCCC;
+	padding: 6px;
+	float: left;
+}
+#fuente {	font-size: 10px;
+	margin: 0px 0px 10px 0px;
+}
+#imgder {
+	border: 0 solid #CCCCCC;
+	padding: 6px;
+	float: right;
+	clear: none;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#nota {
+	text-align: center;
+	background-color: #DDDDDD;
+	border-left-width: 5px;
+	border-top-width: 0px;
+	padding: 6px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-left: 0px;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#DDDDDD" link="#0087C4" vlink="#0087C4" alink="#626464">
+<table width="635" height="87" border="0" align="center">
+  <tr></tr>
+  <tr>
+    <th scope="col"><img src="/seguridad_informatica/images/Banner_top.jpg" width="619" height="84" /></th>
+  </tr>
+</table>
+<table width="606" align="center" bordercolor="#DDDDDD">
+  <tr>
+    <td height="63" valign="top"><p><span style="width: 714px; height: 27px"> <a target="_blank" href="http://www.provinciart.com.ar/"> <img src="/seguridad_informatica/images/P-Art.jpg" width="142" height="44" border="0" align="right" usemap="#Map" /></a></span></p>      
+      <p><span style="width: 714px; height: 27px; word-spacing: normal;"><font face="Verdana" size="2" color="#444444"><strong><font color="#626464" face="neo sans">
+	  Boletín de Seguridad Informática</font></strong><font color="#626464" face="neo sans">&nbsp;</font></font><font face="Verdana" size="1" color="#626464"> <br />
+    <font face="neo sans">10 de diciembre de 2014</font></font></span></p></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	La tarjeta de coordenadas: una muerte anunciada</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/coord.jpg" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Hoy en día, las entidades bancarias que ofrecen sus productos y 
+		servicios por internet usan diferentes técnicas de autenticación (para 
+		identificar a sus clientes) y autorización (para llevar a cabo distintas 
+		operaciones). Ya quedaron atrás modelos de autenticación de un único 
+		factor, dando paso al proceso de autenticación fuerte, que requiere de 
+		la combinación de dos o más elementos.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Estos elementos se 
+		suelen categorizar como:</font></p>
+        <p><font color="#626464" size="2" face="neo sans"><b>Conocimiento</b>: 
+		Algo que el usuario conoce, como una contraseña o un código PIN.</font></p>
+        <p><font color="#626464" size="2" face="neo sans"><b>Posesión</b>: Algo 
+		que el usuario tiene, como un token, smartcard, o teléfono móvil/SIM.</font></p>
+        <p><font color="#626464" size="2" face="neo sans"><b>Inherencia</b>: 
+		Algo que el usuario es, o sea, una característica biométrica como la 
+		huella digital.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Habitualmente el 
+		sector bancario utiliza un modelo de autenticación basado en riesgo, 
+		utilizando generalmente dos de estos niveles para permitir el acceso a 
+		sus servicios online.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Lamentablemente, la 
+		falta de usabilidad de algunos métodos de autenticación provoca malas 
+		prácticas, y bajo esas circunstancias, paradójicamente el aplicar mayor 
+		seguridad resulta ser contraproducente (por ejemplo, cuando por no 
+		disponer de la tarjeta de coordenadas del banco cuando se necesita, el 
+		usuario opta por escanearla o fotocopiarla).</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Es curioso, pero el 
+		concepto de autenticación fuerte no ha tenido una definición oficial 
+		hasta que el European Forum on the Security of Retail Payments, SecuRe 
+		Pay, publicó en enero de 2013 una guía exhaustiva con recomendaciones 
+		para la lucha y prevención del fraude en medios de pago. En ella se 
+		definían, entre otros, los criterios mínimos que deben cumplirse en un 
+		proceso de autenticación fuerte. Su implementación debe llevarse a cabo 
+		antes del 1 de febrero de 2015, según indicaciones del Banco Central 
+		Europeo.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">El Banco central 
+		Europeo resalta la necesidad de que el inicio de los pagos en internet 
+		así como el acceso a datos relativos al pago sean protegidos con 
+		autenticación fuerte.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Luego de un análisis 
+		de si los mecanismos más habituales implementados por la banca y medios 
+		de pago cumplen los criterios mínimos establecidos, se puede concluir 
+		que la tarjeta de coordenadas como elemento que prueba la autenticidad 
+		del usuario ha quedado obsoleta, y sin embargo, es uno de los más 
+		extendidos en la banca online. Teniendo en cuenta las indicaciones del 
+		Banco Central Europeo al respecto, las Entidades Financieras que 
+		actualmente trabajen con tarjeta de coordenadas deberán evolucionar a 
+		otros modelos.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://blog.elevenpaths.com/2014/11/la-tarjeta-de-coordenadas-una-muerte.html">
+		  ElevenPath</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	En 2015, BYOD se transformará en BYOI ó Traiga su Propia Identidad</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/byoi.jpg" width="131" height="99" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		Los expertos de seguridad de Unisys pronostican desafíos aún más grandes 
+		de ciberseguridad el próximo año conforme continúa el crecimiento en el 
+		uso de dispositivos y aplicaciones móviles en el lugar de trabajo. Este 
+		panorama se suma al incremento en el uso comercial de Internet de las 
+		Cosas, lo que podría desbordar la capacidad de las organizaciones para 
+		proteger sus datos críticos.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">&#8220;En 2015 la tendencia 
+		se transformará de BYOD (traiga su propio dispositivo) a BYOID (traiga 
+		su propia identidad)&#8221;, dijo Terry Hartmann, vicepresidente de soluciones 
+		de seguridad y aplicaciones de industria de Unisys. &#8220;Los consumidores 
+		necesitan un dispositivo de acceso central que les pertenezca y esté 
+		asociado con su identidad única&#8221;.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">&#8220;Dado que la mayoría 
+		de los consumidores ya cuentan con dicho dispositivo, la autenticación 
+		se trasladará del back end hacia el front end de transacciones &#8211; el 
+		dispositivo del consumidor&#8221;, añadió Hartmann. &#8220;Cada vez más las 
+		identidades de usuarios serán autenticadas mediante códigos de ID, 
+		direcciones IP y herramientas como lectores biométricos incorporados en 
+		smartphones. Mientras tanto, el back end servirá como un ecosistema para 
+		la evaluación de riesgos&#8221;.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Conforme los 
+		dispositivos móviles son utilizados para las aplicaciones del Internet 
+		de las Cosas como en controles remotos de aparatos del hogar, 
+		dispositivos de monitoreo de salud y llaves de casa y habitaciones de 
+		hotel, la necesidad de verificar las identidades de usuarios de 
+		dispositivos móviles llegarán a ser más urgentes que nunca.</font></p>
+        <p><font color="#626464" size="2" face="neo sans"><b>Brindando seguridad 
+		a redes e infraestructura convergentes</b>. &#8220;Con el creciente uso de 
+		servicios de infraestructura en la nube y el surgimiento de cómputo 
+		basado en fabric-computing, para los profesionales de la seguridad será 
+		cada vez más difícil segregar el tráfico de red empleando tecnología de 
+		firewall tradicional&#8221;, destacó Frymier. Conforme las plataformas de 
+		cómputo proliferen, los datos que habían sido anteriormente separados y 
+		particionados entre infraestructura física convergerán en la nube, 
+		haciendo más difícil para los profesionales de seguridad aislar y 
+		proteger sus datos y sistemas más críticos. Las comunidades cifradas de 
+		interés pueden ayudar a abordar este problema.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">&#8220;Los problemas de 
+		ciberseguridad continuarán existiendo porque la tecnología cambia a una 
+		tasa más rápida que la velocidad en que las organizaciones pueden 
+		implementar medidas de seguridad&#8221;, dijo Frymier. &#8220;Siempre que el ritmo 
+		de la innovación tecnológica continúe así, se presentarán 
+		descubrimientos de vulnerabilidades no muy gratos como en Heartbleed, 
+		ShellShock y el empecinamiento de &#8220;patch Tuesday&#8221;.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">En ese contexto, Pablo 
+		Chamorro, Vicepresidente de Ventas de Unisys para Latinoamérica, afirmó 
+		que los desafíos para el 2015 implican que la ciberseguridad debe 
+		ocuparse de todas estas tendencias interrelacionadas, &#8220;repensando los 
+		enfoques tradicionales de seguridad cibernética para la protección de 
+		activos de misión crítica&#8221;. &#8220;Para hacer frente al escenario cada vez más 
+		sofisticado de los ciberdelincuentes, es imprescindible un nuevo marco 
+		estratégico que se ocupe de todos estos puntos disruptivos del entorno 
+		TI, en una sociedad que cada día es más abierta y orientada a la red&#8221;, 
+		agregó Chamorro.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://diarioti.com/en-2015-byod-se-transformara-en-byoi-o-traiga-su-propia-identidad/84746">
+		  DiarioTI</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+ 
+  <tr bordercolor="#DDDDDD">
+    <td height="23"><hr /></td>
+  </tr>
+
+ <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Google reemplaza el CAPTCHA con un nuevo sistema antispam basado en imágenes</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgizq">
+        <div align="justify"><img src="/seguridad_informatica/images/antispam.png" width="131" height="99" align="absmiddle" /></div>
+      </div>
+        <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+		El sistema CAPTCHA y ReCaptcha (creado por el científico y profesor en 
+		Ciencias de la Computación Luis Von Ahn) han sido muy útiles para 
+		proteger a los sitios webs del ataque automatizado de mensajes no 
+		deseados, mejor conocidos como spam. Sin embargo, en algunas ocasiones 
+		los códigos utilizados se presentaban ilegibles o difíciles de descifrar 
+		para los humanos.</font></font></strong></p>
+        <p><font color="#626464" size="2" face="neo sans">Google, la propietaria 
+		de reCAPTCHA desde 2009, lleva un tiempo buscando una solución al 
+		problema de los CAPTCHAs: algo que siga siendo efectivo para quitar a 
+		los bots automáticos de en medio y que no moleste tanto al usuario 
+		(especialmente en el móvil). Y parece ser que lo mejor que ha encontrado 
+		es: no preguntar.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Para que los sitios 
+		tengan una modalidad más amigable para comprobar si el acceso lo realiza 
+		una red automatizada de spam o un humano, Google acaba de presentar la 
+		evolución de este sistema, denominado &quot;No CAPTCHA reCAPTCHA&quot;.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Su funcionamiento es 
+		muy simple, y requiere que el usuario demuestre que no es un robot. El 
+		renovado sistema de comprobación de Google muestra una serie de imágenes 
+		que deberán ser agrupados por coincidencia, una tarea sencilla para los 
+		humanos, pero compleja para las máquinas. A su vez, Google asegura que 
+		este método es más sencillo (video) de ser utilizado por los usuarios, 
+		en especial desde dispositivos móviles, y mostró algunos ejemplos con la 
+		imagen de un pavo y un gato.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">En alguna web ya se 
+		puede encontrar este nuevo tipo de CAPTCHA, en el que sólo tenéis que 
+		hacer un clic para demostrar que no sois un robot. Así de sencillo, 
+		aunque por detrás la cosa tiene más miga. Y lo mejor es que, a pesar de 
+		lo que se nos pueda venir a la cabeza, no afecta a nuestra privacidad.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">Lo que hace Google es 
+		ver cómo interactúa el usuario con el control de captcha, y usando 
+		técnicas de análisis de riesgo, decidirá si es un humano o no. Si no es 
+		capaz de dar un resultado concreto con la suficiente seguridad sí 
+		veremos el CAPTCHA - quizás más simplificado de lo normal - para dar más 
+		datos al sistema de análisis. En móviles, por ejemplo, mostrarán más 
+		acertijos con imágenes (por ejemplo, seleccionando todas las fotos con 
+		gatos) que son fáciles de resolver y además mucho más accesibles.</font></p>
+        <p><font color="#626464" size="2" face="neo sans">De momento parece que 
+		les está funcionando bien. En Wordpress o Humble Bundle lo han 
+		implantado ya, con un 60% y 80% del tráfico que ha pasado el reto sólo 
+		pulsando un botón. No dicen, eso sí, si la cantidad de spam ha aumentado 
+		o no.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+        <blockquote>
+          <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://www.lanacion.com.ar/1749129-google-planea-reemplazar-al-captcha-con-un-nuevo-sistema-anti-spam-basado-en-imagenes">
+		  La Nación</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="27"><hr /></td>
+  </tr>
+  <tr>
+    <td height="31" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="nuevoataque" id="nuevoataque"></a><font color="#626464" size="4" face="neo sans">
+	Regin: una plataforma maliciosa capaz de espiar a las redes GSM</font></font></h4></td>
+  </tr>
+  <tr>
+    <td height="223" align="left" valign="top"><div id="imgder">
+        <div align="justify"><img src="/seguridad_informatica/images/regin.jpg" width="131" height="99" align="absmiddle" /></div>
+      </div>
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  Investigadores descubren la primera plataforma de ataque cibernético 
+	  conocida para penetrar y controlar las redes GSM, además de otras tareas 
+	  &#8220;estándar&#8221; de ciberespionaje. Los atacantes detrás de esta plataforma han 
+	  puesto en peligro las redes informáticas en al menos 14 países alrededor 
+	  del mundo, incluyendo Brasil.</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">- Las principales 
+	  víctimas de este actor son: los operadores de telecomunicaciones, 
+	  gobiernos, instituciones financieras, organizaciones de investigación, 
+	  organismos políticos multinacionales e individuos involucrados en la 
+	  investigación matemática / criptográfica avanzada.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">- Las víctimas de este 
+	  actor se han encontrado en Argelia, Afganistán, Bélgica, Brasil, Fiji, 
+	  Alemania, Irán, India, Indonesia, Kiribati, Malasia, Pakistán, Siria y 
+	  Rusia.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">- La plataforma de Regin 
+	  se compone de múltiples herramientas maliciosas capaces de poner en 
+	  peligro a toda la red de una organización atacada. La plataforma Regin 
+	  utiliza un método de comunicación increíblemente complejo entre las redes 
+	  infectadas y servidores de comando y control, lo que permite el control 
+	  remoto y la transmisión de datos de forma oculta.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">- Un módulo de Regin en 
+	  particular es capaz de monitorear las estaciones base de controladores 
+	  GSM, recopilando datos sobre los celulares GSM y la infraestructura de 
+	  red.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">- En el transcurso de un 
+	  solo mes en abril de 2008 los atacantes recopilaron credenciales 
+	  administrativas que les permitían manipular una red GSM de un país del 
+	  Medio Oriente.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">- Algunas de las 
+	  primeras muestras de Regin parecen haber sido creadas desde el 2003.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Como resultado, el 
+	  estudio encontró que Regin no es sólo un programa malicioso, sino una 
+	  plataforma &#8211; un paquete de software, que consiste de varios módulos, 
+	  capaces de infectar a toda la red de las organizaciones blanco para tomar 
+	  el control completo de manera remota de todos los niveles posibles. El 
+	  objetivo de Regin es la compilación de datos confidenciales de las redes 
+	  atacadas y la realización de varios otros tipos de ataques.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">La característica más 
+	  original e interesante de la plataforma Regin es su capacidad de atacar a 
+	  las redes GSM. De acuerdo con un registro de actividad de un Controlador 
+	  de Estación Base GSM obtenido por los investigadores de Kaspersky Lab 
+	  durante la investigación, los atacantes fueron capaces de obtener las 
+	  credenciales que les permitan controlar los celulares GSM en la red de un 
+	  operador de celular grande. Esto significa que podrían haber tenido acceso 
+	  a información sobre las llamadas que son procesadas por un celular en 
+	  particular, redirigir estas llamadas a otros celulares, activar celulares 
+	  vecinos y realizar otras actividades ofensivas. En la actualidad, los 
+	  atacantes detrás de Regin son los únicos que se sabe han sido capaces de 
+	  realizar este tipo de operaciones.</font></p>
+     </td>
+  </tr>
+  <tr bgcolor="#DDDDDD">
+    <td height="18"><div align="right">
+        <blockquote>
+          <p align="right"><font color="#626464" size="2" face="neo sans">
+		  Fuente: <a href="http://diarioti.com/regin-una-plataforma-maliciosa-capaz-de-espiar-a-las-redes-gsm/84635">
+		  DiarioTI</a></font></p>
+        </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td width="600" height="25" bgcolor="#DDDDDD"><h4><font color="#626464" size="4" face="neo sans"><a name="el70" id="el70"></a><font color="#626464" size="4" face="neo sans">
+	Operación Cleaver: Irán detrás de ataques informáticos a 16 países</font></font></h4></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="215" align="left" valign="top" bgcolor="#DDDDDD"><div id="imgder">
+      <div align="justify"><img src="/seguridad_informatica/images/cleaver.png" width="110" height="100" align="absmiddle" /></div>
+    </div>    
+      <p><strong><font color="#626464" size="2" face="neo sans"><font face="neo sans">
+	  La compañía Cylance ha publicado un completo informe en el que detalla 
+	  como desde al menos 2012 un grupo iraní ha estado atacando, se ha 
+	  establecido de forma permanente y ha llegado a extraer información 
+	  altamente sensible de redes de agencias gubernamentales y de compañías de 
+	  infraestructuras críticas (transporte, comunicaciones energía&#8230;) de los 
+	  siguientes países: Canadá, China, Inglaterra, Francia, Alemania, India, 
+	  Israel, Kuwait, México, Pakistán, Qatar, Arabia Saudí, Corea del Sur, 
+	  Turquía, Emiratos Árabes Unidos y los Estados Unidos.</font></font></strong></p>
+      <p><font color="#626464" size="2" face="neo sans">Bautizado como 
+	  &quot;Operación Cleaver&quot; debido a que la cadena &quot;cleaver&quot; aparece en múltiples 
+	  piezas de software empleadas en los ataques (especialmente en diferentes 
+	  rutas y directorios).</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Todo indica a que Irán 
+	  se ha tomado la revancha, podemos recordar como durante los años 2009 a 
+	  2012 fue víctima de diferentes campañas de sabotaje industrial y espionaje 
+	  como Stuxnet, Duqu o Flame. Estas muestras de malware se centraron en el 
+	  programa nuclear iraní, y operaciones de petróleo y gas. Según Cylance, el 
+	  grupo de atacantes trabajaban desde Teheran (Irán) aunque se han 
+	  identificado miembros auxiliares en otras localizaciones como Países 
+	  Bajos, Canadá y el Reino Unido.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Los objetivos incluían 
+	  instalaciones militares, gobiernos, servicios públicos, aerolíneas, 
+	  aeropuertos, hospitales, empresas químicas y aeroespaciales. También 
+	  compañías petroleras, de gas, de energía, de transporte, de 
+	  telecomunicaciones y de tecnología. Durante los dos últimos años, Cylance 
+	  confirma que ha recogido más de 8 GB de información, que incluyen más de 
+	  80.000 archivos de datos extraídos, herramientas, registros de las 
+	  víctimas y datos de reconocimiento altamente sensibles.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Para realizar los 
+	  ataques el grupo aprovechó con éxito tanto herramientas disponibles 
+	  públicamente como otras personalizadas (en algunos casos la 
+	  personalización pasaba por modificar el nombre del autor). Aunque 
+	  evidentemente los métodos empleados han sido eficaces, tanto por haber 
+	  logrado sus objetivos como por haber permanecido ocultos durante tanto 
+	  tiempo, tampoco hay muchas novedades detrás de ellos (inyecciones SQL, 
+	  campañas de spear phishing o uso de exploits públicos).</font></p>
+      <p><font color="#626464" size="2" face="neo sans">La campaña de Cleaver 
+	  usa una variedad de métodos en múltiples etapas de ataques. El objetivo 
+	  inicial era lograr la intrusión en la red atacada y conseguir la ejecución 
+	  de código arbitrario. Para este compromiso se emplearon principalmente 
+	  técnicas de inyección SQL y campañas de spear-phishing.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Después se trataba de 
+	  lograr una elevación de privilegios, lo que permitía a los atacantes 
+	  conseguir acceso a zonas restringidas del sistema, así como atacar otros 
+	  sistemas de la red. Igualmente tampoco se empleaban técnicas novedosas, 
+	  según Cylance han encontrado varios exploits públicos conocidos. PrivEsc 
+	  un exploit compilado que explota la vulnerabilidad con CVE-2010-0232 sobre 
+	  sistemas Windows sin actualizar, NetC (Net Crawler), un exploit en Python 
+	  para aprovechar la vulnerabilidad MS08-067, Jasus y hasta el conocido Cain 
+	  &amp; Abel.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Para la extracción de 
+	  datos el informe enumera diferentes servidores FTP anónimos. También se 
+	  describe el uso de NetCat (también empleado como Shell inversa), que 
+	  posteriormente fue reemplazado por una utilidad desarrollada por el equipo 
+	  de Operación Cleaver que opera de forma similar a NetCat. También se ha 
+	  usado PLink (utilidad incluida en la suite SSH PuTTY) y hasta el uso de 
+	  correo mediante servidores SMTP con el relay abierto.</font></p>
+      <p><font color="#626464" size="2" face="neo sans">Para mantenerse en los 
+	  sistemas atacados principalmente se utilizaron diferentes versiones de 
+	  TinyZBot, una puerta trasera desarrollada en C#. Según indica el informe 
+	  esta muestra de malware es el mayor desarrollo realizado por la 
+	  organización (y aun así no fue desarrollada completamente por Cleaver). En 
+	  el propio informe, con el objetivo de prevenir y detectar infecciones de 
+	  esta amenaza, se comparten los IOCs (Indicators of Compromise) 
+	  descubiertos durante la investigación. Estos incluyen dominios, 
+	  direcciones de correo, direcciones IP, exclusiones mutuas, nombres de 
+	  servicios instalados, MD5 y SHA-256 de cientos de muestras y firmas YARA.</font></p>
+   </td>
+  </tr>
+  <tr bgcolor="#BBBBBB">
+    <td height="18" bgcolor="#DDDDDD"><div align="right">
+      <blockquote>
+        <p><font color="#626464" size="2" face="neo sans">Fuente: <a href="http://unaaldia.hispasec.com/2014/12/operacion-cleaver-iran-detras-de.html">
+		Hispasec</a></font></p>
+      </blockquote>
+    </div></td>
+  </tr>
+
+
+  <tr>
+    <td height="23"><hr /></td>
+  </tr>
+  <tr>
+    <td height="983"><table width="600" height="949" border="0" align="left" bordercolor="#AAAAAA">
+      <tr bgcolor="#FFFFFF">
+        <th width="195" height="61" valign="middle" bgcolor="#626464" scope="col"><h5><font color="#EEEEEE" size="3" face="neo sans">
+		¿Qué se robó de Sony?</font></h5></th>
+        <th width="193" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		El &quot;texto de la muerte&quot; para los usuarios de WhatsApp en Android</font></h5></th>
+        <th width="198" valign="middle" bgcolor="#626464" scope="col"><h5 align="center"><font color="#EEEEEE" size="3" face="neo sans">
+		Detectada una nueva oleada de virus en un archivo adjunto</font></h5></th>
+        </tr>
+      <tr bgcolor="#EEEEEE">
+        <td height="857" valign="top"><table width="174" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Se siguen viendo las consecuencias del ataque a la redes interna de 
+			Sony Pictures Entertainment. Luego de filtrarse algunas películas, 
+			ahora según confirma el NYT, el robo información consistió en 
+			&quot;decenas de terabytes&quot; de datos internos de Sony: información 
+			personal de trabajadores de la empresa (número de seguridad social, 
+			datos de nacimiento, etc.), contraseñas, salarios, datos de altos 
+			ejecutivos, comentarios de rendimiento laboral, planes de marketing, 
+			información financiera y mucho más. De a poco, la información está 
+			siendo publicada y algunos archivos aparentemente también están 
+			siendo negociados en redes Torrent, entre ellos un archivo Excel que 
+			incluye nombres, ubicación, ID de empleados, nombre de usuarios de 
+			la red, salarios base y fechas de nacimiento de 6.800 personas.</font></p>
+	    <p align="left"><font color="#626464" size="2" face="neo sans">La lista 
+		de los documentos presuntamente robados han sido analizados en Ars 
+		Technica e Ian Thomson, informa que algunos servidores Web de Sony 
+		PlayStation fueron utilizados para distribuir el archivo de datos 
+		potencialmente sensibles de Sony Pictures Entertainment en la red 
+		BitTorrent. Algunos afirman que los atacantes han ganado el control de 
+		cuenta de Amazon de Sony o bien que la empresa podría haber publicado 
+		deliberadamente un archivo grande en una Honeypot para atrapar a los 
+		ladrones de datos. Hay indicios de que la última teoría es la correcta. 
+		Como se las arreglaron los atacantes para llevar adelante este trabajo 
+		todavía se desconoce, pero el FBI compartió algunos detalles sobre un 
+		malware utilizado en varios ataques a otras grandes empresas 
+		estadounidenses.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>          
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Si hace tiempo hablamos del descubrimiento de un &quot;texto de la 
+			muerte&quot; en Apple hoy hablamos de algo similar para WhatsApp. Dos 
+			investigadores indios de tan sólo 17 años han reportado que existe 
+			una vulnerabilidad en WhatsApp que permite que la aplicación se 
+			detenga por completo al intentar leer un sólo mensaje de 2000 
+			caracteres especiales y tan sólo 2 KB de tamaño.</font></p>
+	<p align="left"><font color="#626464" size="2" face="neo sans">La 
+	vulnerabilidad ha sido probada y funciona correctamente en la mayoría de las 
+	versiones de Android y de WhatsApp incluyendo la 2.11.431 y 2.11.432. Sin 
+	embargo todavía no se ha probado en iOS y Windows no parece ser vulnerable. 
+	Esto podría provocar que se extienda como una pesada broma la moda de 
+	bloquear WhatsApp a otras personas, cuyo modo de recuperar el uso de la 
+	misma sería borrando la conversación y el historial de chat con quien 
+	estábamos conversando. Imaginensé que ocurrirría si este mensaje se envía a 
+	un grupo...</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+          <p align="left">&nbsp;</p>          </td>
+        <td valign="top"><table width="172" height="289" border="0" align="center">
+          <tr>
+            <th height="285" scope="col"><p align="left"><font color="#626464" size="2" face="neo sans">
+			Alertan de una nueva amenaza de spam. En las últimas semanas se ha 
+			detectado una oleada de correos electrónicos portadores de virus. El 
+			correo tiene la apariencia de un fax que llega al usuario, como 
+			archivo adjunto. Estos virus en forma de fichero adjunto de tipo exe 
+			(ejecutable) llegan incluidos dentro de un archivo comprimido (zip), 
+			un tipo de fichero de uso habitual. Otra versión puede llegar a la 
+			bandeja de entrada como un enlace web situado en el cuerpo del 
+			mensaje del correo que, al hacer clic, lleva a sitios web no seguros 
+			o contaminados con virus.</font></p>
+              <p align="left"><font color="#626464" size="2" face="neo sans">La 
+			  mayoría de sitios web que se están utilizando para esta acción aún 
+			  se encuentran contaminados y contienen paquetes de tipo zip, listo 
+			  para ser descargados con nombres como &#8220;fax_message2511_pdf11.zip&#8220;. 
+			  Este tipo de virus suele despistar a muchos de los antivirus 
+			  disponibles en el mercado, ya que no todos analizan el contenido 
+			  de estos archivos comprimidos. Este ataque masivo supone más de 
+			  5.000 correos por segundo, por lo que se trata de un ataque más 
+			  potente y peligroso que los típicos ataques de virus. Desde 
+			  antispameurope señalan &#8220;se ha podido detectar esta amenaza porque 
+			  sus sistemas disponen de varios motores antivirus, que analizan 
+			  todos los archivos hasta su raíz, siempre que no estén cifrados. 
+			  De este modo se ha detectado que se trataba de un fichero zip con 
+			  contenido malicioso&#8220;.</font></p>
+              <p align="left">&nbsp;</p></th>
+          </tr>
+        </table>
+
+
+        <p>&nbsp;</p>
+        </td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+  <tr>
+    <td height="18" bgcolor="#DDDDDD"><div align="center">
+      <p><font color="#005500" size="2" face="neo sans"> <a href="mailto:SegInfo@provart.com.ar">
+	  Comentarios</a> | <a href="mailto:SegInfo@provart.com.ar">Consultas </a>| <a href="Http://www.artprov.com.ar">
+	  Intranet</a> | <a href="Http://www.provinciart.com.ar">Web</a></font></p>
+    </div></td>
+  </tr>
+</table>
+<table width="606" height="78" border="0" align="center">
+  <tr>
+    <td height="12"><hr /></td>
+  </tr>
+  <tr>
+    <td height="47"><img src="/seguridad_informatica/images/Logo_Bottom.jpg" width="170" height="39" border="0" align="left" /><img src="/seguridad_informatica/images/P-Grupo.jpg" width="138" height="45" border="0" align="right" usemap="#Map2" /></td>
+  </tr>
+  <tr>
+    <td height="11"><hr /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="-2,1,142,43" href="http://www.artprov.com.ar/" target="_blank" />
+</map>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="0,0,140,45" href="http://intranetgb/joomla/index.php" target="_blank" />
+</map></body>
+</html>

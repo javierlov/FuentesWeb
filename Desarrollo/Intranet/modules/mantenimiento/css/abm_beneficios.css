@@ -1,0 +1,23 @@
+label {display:inline-block; text-align:right; width:52px;}
+
+#divErroresForm {display:none;}
+#foco {height:1px; width:1px;}
+#htmlVisible {cursor:pointer; display:none; height:120px; width:480px;}
+#nombre {width:64%;}
+#nombreBusqueda {width:64%;}
+
+/* INICIO HTML */
+#btnEnviar {margin-left:0px; vertical-align:-4px;}
+#divHtml {background-color:#eee; border:1px solid #00539b; display:none; height:100%; left:50%; margin-left:-40%; position:fixed; text-align:center; top:0; width:80%; z-index:100;}
+#divHtmlGuardar {margin-right:20px; text-align:right;}
+#divHtmlImagenes {border:1px solid #00f;; margin-bottom:16px; padding:2px; text-align:left;}
+#divHtmlRutaImagenes {background-color:#ffe1c4; margin-top:8px;}
+#divFondo {background-color:#00539b; display:none; filter:alpha(opacity=40); height:100%; left:0px; opacity:.4; position:fixed; top:0px; width:100%; z-index:99;}
+#imagen {width:448px;}
+#imgCerrarVentanaHtml {cursor:hand; position:absolute; right:0; top:0;}
+#imgGuardandoHtml {display:none;}
+#imgSubidaOk {display:none; margin-left:8px; vertical-align:-4px;}
+#imgSubiendoImagen {display:none; margin-left:8px; vertical-align:-4px;}
+#labelSubirImagen {margin-left:4px;}
+#tituloHtml {color:#f00; text-align:center; width:100%;}
+/* FIN HTML */

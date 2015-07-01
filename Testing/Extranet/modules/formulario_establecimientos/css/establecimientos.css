@@ -1,0 +1,146 @@
+.GridBaja {
+	color: #b00;
+	text-decoration: line-through;
+}
+
+.GridColSeparator {
+	background-color: #ffffff;
+	width: 1px;
+}
+
+.GridEmpty
+{
+  border: none;
+  background-image: url(/images/grid_not_found.gif);
+  height: 50px;
+  width: 237px;
+}
+
+.GridFirstColumn {
+	background-color: #ffffff;
+	width: 40px;
+}
+
+.GridFondoOnMouseOver:hover {
+	background: #00A4E4;
+}
+
+.GridFooter {
+	background-color: #b8b8b8;
+	border-color: #b1b1b1;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	font-family: Trebuchet MS;
+	font-size: 8pt;
+	height: 20px;
+}
+
+.GridFooterFont {
+	color: #FEFEFE;
+	font-family: Trebuchet MS;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridFooterFontSelected {
+	color: #00A4E4;
+	cursor: default;
+	font-family: Trebuchet MS;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.GridHeader {
+	background-color: #00A4E4;
+	color: #ffffff;
+	font-family: Trebuchet MS;
+	font-size: 8pt;
+	height: 16px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.GridOrderAsc
+{
+  border: none;
+  background-image: url(/images/grid_asc.gif);
+  height: 15px;
+  width: 26px;
+}
+
+.GridOrderDesc
+{
+  border: none;
+  background-image: url(/images/grid_desc.gif);
+  height: 15px;
+  width: 26px;
+}
+
+.GridRow1 {
+	background-color: #807F84;
+	color: black;
+	cursor: default;
+}
+
+.GridRow2 {
+	background-color: #807F84;
+	color: black;
+	cursor: default;
+}
+
+.GridTable {
+	border: 0px solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	width: 680px;
+}
+
+.GridText {
+	color: #ffffff;
+	font-family: Trebuchet MS;
+	font-size: 8pt;
+	padding-left: 2px;
+	text-align: center;
+}
+
+.GridTitle {
+	color: #FEFEFE;
+	font-family: Trebuchet MS;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.botonDescargar {
+	background-image: url(/images/pdf_download.jpg);
+	border: none;
+	cursor: pointer;
+	height: 17px;
+	width: 14px;
+}
+
+.classToHideLastPartOfTheFooter {
+	background-color: #fff;
+	left: 1px;
+	position: relative;
+	width: 21px;
+}
+
+.classToHideLastPartOfTheFooter {
+	background-color: #fff;
+	bottom: -1px;
+	font-size: 0pt;
+	height: 11px;
+	left: 2px;
+	margin-right: -1px;
+	margin-top: -2px;
+	position: relative;
+	width: 34px;
+}
+
+.colStatus {
+	text-align: left;
+}
